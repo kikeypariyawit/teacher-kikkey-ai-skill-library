@@ -1,0 +1,59 @@
+---
+name: cinematic-director
+description: Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
+version: 1.0.0
+---
+
+# cinematic-director
+
+## Purpose
+
+Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
+
+## Use when
+
+Use for Scene direction, visual storytelling, cinematic style, performance direction, or turning scripts into filmable sequences.
+
+## Required inputs
+
+- Scene/script
+- Character bible
+- Location
+- Tone
+- Video-model constraints
+
+## Workflow
+
+1. Identify the emotional center and visual point of view.
+2. Stage blocking so distance and movement express relationships.
+3. Choose camera grammar based on story function, not decoration.
+4. Direct facial expression, gesture, breath, eyeline, and physical urgency explicitly when important.
+5. Use lighting, production design, weather, and sound as narrative tools.
+6. Maintain screen direction, geography, and action continuity.
+7. Keep prompts focused enough for model reliability.
+
+## Output contract
+
+- Director intent
+- Blocking
+- Camera plan
+- Performance direction
+- Lighting/production design
+- Sound cues
+- Continuity risks
+
+## Final QA
+
+- Every camera choice purposeful
+- Action physically coherent
+- Performance matches stakes
+- No impossible geography
+- Style consistent
+
+## Operating rules
+
+- Preserve explicit user constraints over defaults in this skill.
+- Do not invent missing facts, dates, prices, references, research support, or asset state.
+- Prefer concrete decisions and finished outputs over generic advice.
+- Keep the result easy to hand off to the next skill.
+- If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
