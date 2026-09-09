@@ -42,7 +42,7 @@ For the series define:
 - **Setup/payoff ledger** — important reveals must be supported before payoff
 - **Relationship engine** — attraction, trust, resentment, dependency, rivalry, debt, power, or misunderstanding must evolve through decisions and consequences
 
-## Episode workflow
+## Workflow
 
 1. **Canon lock**
    - inherit the prior episode's final physical, emotional, relational, and information state
