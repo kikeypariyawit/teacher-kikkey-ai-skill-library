@@ -1,7 +1,7 @@
 ---
 name: character-architect
 description: Build original, production-ready fictional characters with distinctive psychology, visual identity, behavior, voice, and long-term arc.
-version: 1.3.0
+version: 2.0.0
 ---
 
 # character-architect
@@ -62,3 +62,9 @@ For every principal include want, need, wound, lie/belief, secret, moral boundar
 - Prefer concrete decisions and finished outputs over generic advice.
 - Keep the result easy to hand off to the next skill.
 - If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+
+## Cinematic production extension
+
+Read [story-performance.md](../ai-drama-episode-producer/references/story-performance.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Separate identity, approved looks and changing emotional/knowledge state. Differentiate cast through silhouette, gesture, voice and behavior. A makeover must preserve facial identity. Record reference filenames and approval evidence; a prose description cannot verify an unavailable approved face.

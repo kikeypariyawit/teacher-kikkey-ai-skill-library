@@ -1,3 +1,10 @@
+# 2.0.0 — Cinematic AI Drama production
+
+- Upgrade eight drama skills and add five producer references covering story/cast, prestige direction, model adapters, continuity/delivery and evidence-based QA.
+- Add Thai dialogue support, performance timing, edit/sound plans and precise shot/frame/asset mapping.
+- Preserve final-approval mode, existing canon and the no-video-upload requirement for planning.
+- Remove example approval claims from the episode-status template.
+
 # Changelog
 
 ## 1.3.0 — 2026-09-09

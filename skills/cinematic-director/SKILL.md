@@ -1,7 +1,7 @@
 ---
 name: cinematic-director
 description: Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
-version: 1.3.0
+version: 2.0.0
 ---
 
 # cinematic-director
@@ -61,3 +61,9 @@ Read [cinematic-production.md](references/cinematic-production.md) for ambitious
 - Prefer concrete decisions and finished outputs over generic advice.
 - Keep the result easy to hand off to the next skill.
 - If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+
+## Cinematic production extension
+
+Read [prestige-direction.md](../ai-drama-episode-producer/references/prestige-direction.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Translate a “100-million production” request into a coherent look bible, repeatable location geometry, authored design, motivated lighting, directed performance and selective spectacle. Deliver camera/blocking plans, scale-construction alternatives, an edit map and sound cues. Treat the phrase as an artistic target, not a factual budget or spending authorization.

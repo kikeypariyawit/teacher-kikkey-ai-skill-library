@@ -1,7 +1,7 @@
 ---
 name: episode-qa
 description: Perform rigorous pre-generation and post-generation QA on AI-drama episodes, repair critical issues, and return a clear generation or release verdict without unnecessary stage-gating.
-version: 2.1.0
+version: 2.2.0
 ---
 
 # episode-qa
@@ -184,3 +184,9 @@ Use ผ่าน / ต้องแก้ / ยังไม่ตรวจ with s
 - Do not rewrite strong material unnecessarily.
 - Prefer a corrected final deliverable over a long list of generic notes.
 - If external visual review is impossible because media was not supplied, finish pre-generation QA and state that post-generation review remains optional.
+
+## Cinematic production extension
+
+Read [quality-rubric.md](../ai-drama-episode-producer/references/quality-rubric.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Apply hard failures before scores. Never award visual PASS to unavailable media or allow a high average score to hide missing prompts, contradictory canon or unverified model claims. Audit actual runtime math, shot/frame mapping, sound/edit plan and packaging. Give observations with shot IDs and repair the smallest affected scope.

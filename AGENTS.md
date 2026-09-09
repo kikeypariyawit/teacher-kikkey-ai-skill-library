@@ -92,3 +92,6 @@ Use the narrowest single specialist skill or short chain needed; do not invoke t
 7. For recurring drama, preserve approved canon and stable shot IDs across revisions whenever possible.
 8. For pre-generation QA, inspect the plan that exists; never block completion by asking for a video that has not been generated yet.
 9. For monetization, use assumptions and ranges; never promise earnings.
+
+## Cinematic production standard
+For prestige / cinematic / โปรดักชัน 100 ล้าน briefs, load the producer's bundled prestige-direction reference for production design, location geometry, performance, camera/light, edit and sound. Use model capability evidence before tool-specific controls. Treat the requested budget as an artistic aspiration, not spending authorization. Skill handoffs do not require parallel agents. Preserve existing smallest-chain routing.

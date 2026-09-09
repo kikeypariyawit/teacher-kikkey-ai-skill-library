@@ -1,7 +1,7 @@
 ---
 name: continuity-supervisor
 description: Maintain character, wardrobe, prop, location, timeline, screen-direction, and story-state continuity across AI-generated episodes and shots.
-version: 1.3.0
+version: 2.0.0
 ---
 
 # continuity-supervisor
@@ -59,3 +59,9 @@ Check first/last-frame feasibility and the match between previous exit and next 
 - Prefer concrete decisions and finished outputs over generic advice.
 - Keep the result easy to hand off to the next skill.
 - If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+
+## Cinematic production extension
+
+Read [continuity-delivery.md](../ai-drama-episode-producer/references/continuity-delivery.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Generated assets are optional for planning. Record source and target state per shot, including hand/prop ownership, geometry, character knowledge and relationship change. Keep draft events separate from approved canon. Track dependencies for local revisions. Planning checks must not be reported as visual inspection of unseen media.

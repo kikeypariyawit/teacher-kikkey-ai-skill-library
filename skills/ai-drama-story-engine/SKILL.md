@@ -1,7 +1,7 @@
 ---
 name: ai-drama-story-engine
 description: Design bingeable short-form AI drama with causal episode structure, character-driven escalation, visual storytelling, setup/payoff, retention beats, twists, cliffhangers, and continuity-aware handoffs.
-version: 2.1.0
+version: 2.2.0
 ---
 
 # ai-drama-story-engine
@@ -159,3 +159,9 @@ Give the antagonist a defensible worldview, private cost and active tactic. Esca
 - Preserve approved characters and prior canon unless the user changes them.
 - Keep the output easy to hand off to character, dialogue, cinematic, shot-planning, continuity, and QA skills.
 - If an external action needs an unavailable tool or permission, complete every possible upstream story step and state the blocked action clearly.
+
+## Cinematic production extension
+
+Read [story-performance.md](../ai-drama-episode-producer/references/story-performance.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Use the series pressure system and scene decision chain from the reference. For a grand production brief, make each signature sequence cause a consequential character choice and hand its scale requirements to direction. Track planted evidence and who knows it. Adapt retention beats to emotion; avoid mechanical escalation or a guaranteed-viral claim.

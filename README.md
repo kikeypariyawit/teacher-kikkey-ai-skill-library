@@ -1,4 +1,4 @@
-# Teacher Kikkey AI Skill Library v1.3
+# Teacher Kikkey AI Skill Library v2.0
 
 A curated **21-skill Agent Skills library** for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
 
@@ -111,3 +111,9 @@ Start with `ai-drama-episode-producer` for a complete episode. Supporting craft 
 Example: “ใช้ ai-drama-episode-producer ทำ EP ต่อจาก canon เดิม ให้ภาพและการแสดงแบบ cinematic production 100 ล้าน มีบท ฉาก แสง เสียง และ prompt รายช็อต เลือก start/end frame เท่าที่จำเป็น ตรวจแผนทั้งหมดก่อนส่ง”
 
 Saving this repository does not itself install its skills in every chat product; use the product's supported skill mechanism or explicitly supply the relevant source files. Existing project canon remains in each project's own files.
+
+## Cinematic AI Drama upgrade
+
+The eight drama skills now cover prestige production design, differentiated cast and performance, Thai/English dialogue timing, location geometry, selective spectacle, edit and sound, evidence-based model adapters, and traceable start/end-frame delivery. The producer includes five self-contained references, so it can operate when specialist skills are not separately installed. “100-million production” describes the creative target; actual media quality is judged only from available outputs.
+
+Use: `ใช้ ai-drama-episode-producer ทำตอนถัดไปให้จบแบบ cinematic ฟอร์มใหญ่ รักษา canon เดิม พร้อมบท storyboard master shot ภาพและ prompts ตามที่ขอ แผนตัดต่อเสียง และ QA รอ Final Approve`

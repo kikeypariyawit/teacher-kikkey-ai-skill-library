@@ -15,7 +15,7 @@
 ## 2. Episode pipeline
 | Episode | Story | Script | Character state | Storyboard | Master shots | Frames | Video prompts | Continuity | QA | Final approval |
 |---|---|---|---|---|---|---|---|---|---|---|
-| EP01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | APPROVED |
+| EP01 | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT REQUESTED |
 | EP02 | | | | | | | | | | |
 
 Use: `NOT STARTED` / `IN PROGRESS` / `READY` / `APPROVED` / `REVISE`
@@ -32,7 +32,7 @@ Use: `NOT STARTED` / `IN PROGRESS` / `READY` / `APPROVED` / `REVISE`
 ## 4. Approved assets — do not regenerate unless requested
 | Asset ID | Type | Character / scene | Description | File / reference | Approved state |
 |---|---|---|---|---|---|
-| | Character face | | | | LOCKED |
+| | Character face | | | | NOT REVIEWED |
 
 ## 5. Assets still needed
 | Asset ID | Scene/Shot | Asset type | Generation route | Start frame? | End frame? | Status |

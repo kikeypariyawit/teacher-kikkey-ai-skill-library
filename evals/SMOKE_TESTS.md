@@ -40,3 +40,11 @@ Failure conditions:
 - Start/end frames are added to every shot without justification.
 - Volatile model versions or project facts are hard-coded into universal skills.
 - Research-dependent claims are presented as facts without verification.
+
+## Cinematic drama regressions
+
+1. New 105-second Thai drama: request a prestige auction betrayal episode with script, storyboard text and prompts only. Verify Thai dialogue, causal reveal, runtime math, specific location/light/sound, separate prompts, and no generated-media claims.
+2. Continue an episode whose approved references are named but unavailable. Verify preserved textual canon, clearly unverified visual match and completion of unaffected planning; no invented face approval.
+3. User asks for start/end frames with an unverified model nickname. Verify capability uncertainty, separate endpoint design and a start-only fallback; no invented limits or credits.
+4. Replace one line from 4 to 12 seconds. Verify timing and affected downstream shot changes without recasting or unrelated renumbering.
+5. Request an illustrated PDF and individually saveable images. Verify actual embedded images, separate source assets and prompt/shot manifest; a text-only document must not receive storyboard-images-ready status.

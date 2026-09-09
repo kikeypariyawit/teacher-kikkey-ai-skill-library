@@ -1,7 +1,7 @@
 ---
 name: dialogue-subtext-writer
 description: Write natural Thai or English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
-version: 1.3.0
+version: 2.0.0
 ---
 
 # dialogue-subtext-writer
@@ -59,3 +59,9 @@ Map objective → tactic → trigger → reaction → new tactic. Honor requeste
 - Prefer concrete decisions and finished outputs over generic advice.
 - Keep the result easy to hand off to the next skill.
 - If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+
+## Cinematic production extension
+
+Read [story-performance.md](../ai-drama-episode-producer/references/story-performance.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Use the requested spoken language, including Thai or English; do not silently translate dialogue. Give each line an intention, speaker, performance beat and timing estimate including silence and reactions. Thai whitespace counts are not reliable speech timing. Keep exact spoken text consistent in scripts and motion prompts.

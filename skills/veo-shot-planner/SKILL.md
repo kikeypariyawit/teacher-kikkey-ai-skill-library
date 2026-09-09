@@ -1,7 +1,7 @@
 ---
 name: veo-shot-planner
 description: Engineer generation-ready AI-video shots, choose start/end-frame strategy, route still/keyframe versus motion generation, and produce continuity-safe prompt packs with fallbacks.
-version: 2.1.0
+version: 2.2.0
 ---
 
 # veo-shot-planner
@@ -190,3 +190,9 @@ Each final prompt must bind actual references and expand relevant identity/locat
 - Prefer finished prompt packs over generic prompt-writing advice.
 - Reuse approved frames and character references rather than recreating them without reason.
 - If a requested external generation action is unavailable, finish all planning and prompt assets and state only the blocked action.
+
+## Cinematic production extension
+
+Read [shot-prompts.md](../ai-drama-episode-producer/references/shot-prompts.md) for this pass. If used separately, keep this reference available with the producer bundle.
+
+Verify the exact provider, model and interface before claiming frame, duration, reference or audio support. If unavailable, mark routing PROVISIONAL and give a compatible fallback. Include edit in/out, generated versus used duration, reference filenames, separate complete start/end/motion prompts and state handoff per shot. Do not infer capability from model nicknames.

@@ -1,7 +1,7 @@
 ---
 name: ai-drama-episode-producer
-description: Orchestrate a complete AI-drama episode from canon lock through script, cinematic staging, shot planning, frame prompts, continuity, and final pre-generation QA.
-version: 1.3.0
+description: Create or continue cinematic AI drama with story, cast, production design, performance, storyboard, start/end frames, model-specific prompts, editing, sound and continuity QA. Use for full episodes, AI series, premium film production and final-approval packages.
+version: 2.0.0
 ---
 
 # ai-drama-episode-producer
@@ -72,7 +72,7 @@ If a character or visual identity has already been approved, preserve it unless 
 ### Final-approve mode
 Default when the user asks to finish the episode, continue the next episode, or says to wait for final approval.
 
-Run the full chain without stage-gating:
+Run the relevant decision passes without stage-gating. Use specialist skills when available; the bundled references below provide a self-contained fallback when specialists are not installed:
 1. `ai-drama-story-engine`
 2. `character-architect` only when new/changed characters or identity details are required
 3. `dialogue-subtext-writer`
@@ -163,3 +163,19 @@ For ambitious cinematic episodes, read [production-handoff.md](references/produc
 - Reuse approved assets and decisions rather than regenerating them unnecessarily.
 - Update canonical project files only after approval unless the user explicitly asks to record a draft state.
 - If an external action requires an unavailable tool or permission, finish all upstream production work and state only the blocked action.
+
+## Cinematic studio reference routing
+
+For a full episode read the following references as each pass becomes relevant; for a narrow task read only the relevant reference. Specialist names describe decision ownership, not a requirement to spawn agents.
+
+- [Story and performance](references/story-performance.md): series/episode architecture, cast differentiation, language and dialogue timing.
+- [Prestige direction](references/prestige-direction.md): cinematic or “100-million” brief, look bible, location design, spectacle, acting, camera, lighting, editing and sound.
+- [Shot prompts](references/shot-prompts.md): master shot table, separate frame/video prompts, capability verification and model adapters.
+- [Continuity and delivery](references/continuity-delivery.md): resume/revise, truthful asset states, individual images plus illustrated PDF, and authorized GitHub updates.
+- [Quality rubric](references/quality-rubric.md): evidence-based planning gates and actual-media review.
+
+For full cinematic production, include the series/episode look decision, location anchors, signature sequence construction, performance beats, edit timeline and sound map alongside the existing output contract. Runtime is the final edit total, not the sum of all generated source lengths. Follow explicit deliverable requests: create actual storyboard images when requested and authorized; prompts alone are not images.
+
+Treat a premium budget phrase as an artistic target, never a budget claim or authorization to spend. Preserve approved casting and project separation. Do not require every episode to contain spectacle or every shot to move.
+
+If no scope is given, finish one complete episode package and a next-episode handoff; when a finite multi-episode range is explicitly authorized, carry it through while recording draft state. Do not invent prior approved episode content that cannot be recovered.
