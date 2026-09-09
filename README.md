@@ -1,6 +1,6 @@
-# Teacher Kikkey AI Skill Library v1
+# Teacher Kikkey AI Skill Library v1.1
 
-A curated **20-skill Agent Skills library** for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
+A curated **21-skill Agent Skills library** for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
 
 The goal is not to collect hundreds of prompts. The goal is to create a small, high-quality operating system with clear routing, handoffs, QA, and version control.
 
@@ -13,13 +13,14 @@ The goal is not to collect hundreds of prompts. The goal is to create a small, h
 - `bev-campaign-qa` — Audit a complete BEV campaign or promotional asset for factual accuracy, consistency, conversion clarity, and visual/copy readiness.
 - `social-viral-strategist` — Design social content concepts, hooks, and beat structures with high retention and shareability while protecting credibility and brand fit.
 - `caption-conversion-writer` — Write social captions that keep the user's natural warmth while improving clarity, trust, engagement, and conversion.
-- `ai-drama-story-engine` — Develop bingeable short-form AI drama using premise, character wounds/secrets, escalation, setup/payoff, twists, cliffhangers, and continuity.
+- `ai-drama-episode-producer` — Orchestrate a complete AI-drama episode from canon lock through script, cinematic staging, shot planning, frame/video prompts, continuity, and final pre-generation QA.
+- `ai-drama-story-engine` — Design bingeable short-form AI drama with causal episode structure, character-driven escalation, retention beats, setup/payoff, twists, and cliffhangers.
 - `character-architect` — Build original, production-ready fictional characters with distinctive psychology, visual identity, behavior, voice, and long-term arc.
 - `dialogue-subtext-writer` — Write natural English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
 - `cinematic-director` — Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
-- `veo-shot-planner` — Plan AI-video shots and decide when start/end frames are useful while keeping action fluid and prompts model-friendly.
+- `veo-shot-planner` — Engineer generation-ready AI-video shots, choose start/end-frame strategy, route still/keyframe versus motion generation, and produce prompt packs with fallbacks.
 - `continuity-supervisor` — Maintain character, wardrobe, prop, location, timeline, screen-direction, and story-state continuity across AI-generated episodes and shots.
-- `episode-qa` — Perform rigorous story and production QA on an AI-drama episode before generation or release.
+- `episode-qa` — Perform rigorous pre-generation and post-generation QA, repair critical issues, and return a clear generation or release verdict.
 - `image-art-director` — Develop distinctive, premium image concepts, prompts, and art direction before generation or editing.
 - `visual-qa` — Inspect generated or edited visual assets for composition, typography, spelling, face integrity, crop, realism, and commercial polish.
 - `educational-product-builder` — Design practical, sellable English-learning products for children, parents, and teachers with clear age fit, objectives, activities, and answer support.
@@ -41,22 +42,52 @@ The goal is not to collect hundreds of prompts. The goal is to create a small, h
 └── scripts/validate_skills.py
 ```
 
+## AI drama default workflow
+
+For a narrow request, use the narrowest specialist skill.
+
+For requests like “ทำ EP ถัดไปให้จบ”, “script + storyboard + prompt ทั้งหมด”, or “ทำให้เสร็จแล้วรอ final approve”, use `ai-drama-episode-producer` as the lead orchestrator.
+
+Default full-episode chain:
+
+```text
+ai-drama-episode-producer
+  → ai-drama-story-engine
+  → character-architect (only when needed)
+  → dialogue-subtext-writer
+  → cinematic-director
+  → veo-shot-planner
+  → continuity-supervisor
+  → episode-qa
+```
+
+Important production rules:
+- preserve approved character identity and prior canon unless explicitly changed;
+- do not stop for intermediate approval when final-approve mode is requested;
+- use start/end frames only when they materially improve identity, composition, state, or transitions;
+- when the project has both a still/keyframe model and a motion model, route exact frame creation to the still model and moving shots to the motion model unless the user specifies otherwise;
+- planning and pre-generation QA do **not** require an uploaded/generated video;
+- post-generation visual review is optional and only applies when media is actually supplied.
+
 ## Recommended first tests
 
 **BEV**
 > Create one genuinely fresh BEV parent post. Avoid our common screen-time/outdoor angle. Use the relevant skills and QA it.
 
-**AI drama**
-> Improve Episode 1 so the hook lands within 3 seconds, dialogue is in English, performance has strong inner emotion, and choose only the Veo shots that truly need start/end frames.
+**AI drama — full episode**
+> Continue the next episode from approved canon. Finish the script, storyboard, master shots, start/end-frame prompts, video prompts, continuity update, and pre-generation QA. Do not stop for intermediate approval; wait only for final approval.
+
+**AI drama — focused task**
+> Improve this one scene's chemistry and dialogue, then update only the affected shots and prompts without redesigning approved characters.
 
 **Digital product**
 > Build a sellable English printable pack for Thai parents with children aged 5–7, then create a validation-first launch plan.
 
 ## Versioning
 
-- Patch `1.0.1`: wording / QA refinements
-- Minor `1.1.0`: meaningful workflow/resources added
-- Major `2.0.0`: routing or output-contract changes
+- Patch `1.1.1`: wording / QA refinements
+- Minor `1.2.0`: meaningful workflow/resources added without changing core ownership
+- Major `2.0.0`: broad routing or repository-wide output-contract changes
 
 ## Security
 
@@ -64,9 +95,9 @@ Third-party skills can contain instructions and scripts. Review them before inst
 
 ## Next upgrade path
 
-v1.1 should add:
-- project-specific reference packs,
-- structured BEV canonical facts,
-- richer AI-drama continuity schemas,
-- scored visual QA rubrics,
-- real eval cases based on successful/failed outputs.
+Suggested next additions:
+- richer `PROJECT_BIBLE.md` and episode-state schemas for long-running drama;
+- prompt adapters per model family kept separate from stable universal skills;
+- scored continuity/visual QA rubrics based on real generation failures;
+- project-specific reference packs for active series;
+- regression evals from successful and failed episode outputs.
