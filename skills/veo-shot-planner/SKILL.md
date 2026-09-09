@@ -35,7 +35,7 @@ Use the best available combination of:
 
 Do not require generated video to exist before planning.
 
-## Shot design workflow
+## Workflow
 
 1. **Assign stable IDs**
    - use scene and shot IDs that survive revisions, such as `EP03-S02-SH04`
