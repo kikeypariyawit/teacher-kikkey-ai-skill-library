@@ -1,7 +1,7 @@
 ---
 name: continuity-supervisor
 description: Maintain character, wardrobe, prop, location, timeline, screen-direction, and story-state continuity across AI-generated episodes and shots.
-version: 1.0.0
+version: 1.3.0
 ---
 
 # continuity-supervisor
@@ -45,6 +45,12 @@ Use for Multi-shot or multi-episode productions where generated assets may drift
 - Props persist logically
 - Invariants unchanged
 - Intentional changes documented
+
+## State dependencies and evidence
+
+Generated assets are optional when checking planned continuity. Track character knowledge and mistaken beliefs, audience knowledge, relationship leverage and emotional residue alongside wardrobe/prop/light/position. Record stable shot and asset IDs, actual paths, revisions, accepted/draft status and reference bindings. Mark missing canon unknown.
+
+Check first/last-frame feasibility and the match between previous exit and next entry. Re-anchor accepted references when iterative generation drifts. Prop ownership/hand, crowd density, set dressing and voice/room perspective persist unless shown changing. A local change produces an explicit downstream repair list; preserve unrelated scenes and approvals. Reading a prompt cannot prove visual continuity.
 
 ## Operating rules
 

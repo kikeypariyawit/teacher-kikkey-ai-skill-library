@@ -1,7 +1,7 @@
 ---
 name: veo-shot-planner
 description: Engineer generation-ready AI-video shots, choose start/end-frame strategy, route still/keyframe versus motion generation, and produce continuity-safe prompt packs with fallbacks.
-version: 2.0.0
+version: 2.1.0
 ---
 
 # veo-shot-planner
@@ -175,6 +175,12 @@ Pre-generation planning must never require the user to upload a generated video.
 - Handoff state is clear for the next shot.
 - Risky shots have practical fallbacks.
 - Model routing matches the project's stated tools without hard-coding obsolete versions.
+
+## Motion-preserving frame and render strategy
+
+Read [frame-and-generation-strategy.md](references/frame-and-generation-strategy.md) for prompt packs or rendered sequences. Verify the exact provider surface and model before asserting settings, limits, price, audio or reference support; record source and date in project adapters. Continue model-neutral planning when a label is unresolved. A new still generator does not imply video support.
+
+Each final prompt must bind actual references and expand relevant identity/location details. Separate generated duration, edit duration and handles. Keep Thai speech plus listening and action within time. Pilot the hardest representative shot and change strategy after two failed repairs of the same issue. Distinguish requested prompts from assets actually generated and inspected.
 
 ## Operating rules
 

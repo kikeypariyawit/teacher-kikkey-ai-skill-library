@@ -1,7 +1,7 @@
 ---
 name: ai-drama-story-engine
 description: Design bingeable short-form AI drama with causal episode structure, character-driven escalation, visual storytelling, setup/payoff, retention beats, twists, cliffhangers, and continuity-aware handoffs.
-version: 2.0.0
+version: 2.1.0
 ---
 
 # ai-drama-story-engine
@@ -54,11 +54,11 @@ For the series define:
    - define what changes by the end even if the larger conflict remains unresolved
 
 3. **Design the opening hook**
-   - hook within the first 1–3 seconds with danger, desire, contradiction, accusation, discovery, unusual visual action, or an emotionally loaded decision
+   - for short social drama, aim for a hook within the first 1–3 seconds with danger, desire, contradiction, accusation, discovery, unusual visual action, or an emotionally loaded decision
    - avoid hooks that are only vague narration or context-setting
 
 4. **Build the retention map**
-   - create a meaningful shift roughly every 10–20 seconds depending on runtime and tone
+   - for short social drama, consider a meaningful shift roughly every 10–20 seconds depending on runtime and tone; do not enforce a clockwork pattern
    - shifts can be reveal, reversal, emotional beat, new obstacle, status change, visual surprise, comedic turn, attraction spike, threat, or decision
    - vary the mechanism; do not use repeated mini-cliffhangers with identical rhythm
 
@@ -143,6 +143,12 @@ Return the level of detail required by the downstream task. For a full episode h
 - Cliffhanger creates one clear next question.
 - Episode can plausibly fit the target runtime.
 - Story remains feasible for the stated production method.
+
+## Advanced story and scale
+
+Build premise → goal/wound/secret → pressure and causal escalation → emotional beats → planted evidence/payoff → earned twist → consequential cliffhanger → arc. For long form, use act/sequence turns appropriate to its runtime; do not force every film into vertical-drama timing. Hook/shift timing is an editorial heuristic, not guaranteed retention.
+
+Give the antagonist a defensible worldview, private cost and active tactic. Escalate through a failed tactic that forces a harder choice. Connect public spectacle to private stakes. Structure major set pieces through objective, geography, obstacle, reversal, costly choice and aftermath. Alternate intensity with earned silence, tenderness or humor so peaks have contrast. Track dramatic irony: audience knowledge may differ from each character's knowledge. Give recurring motifs new meaning at payoff.
 
 ## Operating rules
 

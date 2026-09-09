@@ -1,7 +1,7 @@
 ---
 name: episode-qa
 description: Perform rigorous pre-generation and post-generation QA on AI-drama episodes, repair critical issues, and return a clear generation or release verdict without unnecessary stage-gating.
-version: 2.0.0
+version: 2.1.0
 ---
 
 # episode-qa
@@ -135,26 +135,9 @@ Never claim to have reviewed media that was not supplied.
 
 ## Scorecard
 
-Score each 0–10:
-- Hook
-- Story causality
-- Character motivation
-- Dialogue/subtext
-- Emotional escalation
-- Retention/pacing
-- Cinematic clarity
-- Generation feasibility
-- Continuity
-- Cliffhanger
+Default to evidence-based status by domain: ผ่าน / ต้องแก้ / ยังไม่ตรวจ. Cite a concrete scene, shot, line or observed media issue. If the user requests numbers, provide clearly labeled subjective editorial scores with supporting examples; never infer measured retention or observed media quality from them.
 
-Total: /100
-
-Suggested verdicts:
-- `90–100`: FINAL APPROVAL PACK READY
-- `80–89`: READY AFTER MINOR FIXES
-- `<80`: REVISE BEFORE GENERATION
-
-A lower score does not require asking the user to do another stage manually. Repair what can be repaired and rescore.
+Use PREPRODUCTION READY only when critical planning issues are repaired. Use REVISE BEFORE GENERATION for unresolved critical planning defects. Use MEDIA REVIEW PENDING where renders are absent. A finished-film verdict requires review of the actual cut and relevant audio/motion. No average score overrides a critical issue.
 
 ## Output contract
 
@@ -185,6 +168,12 @@ When the user asked for an episode to be completed and then checked for final ap
 - Cliffhanger earns continuation.
 - Corrections are applied, not merely suggested.
 - Verdict accurately reflects what was actually reviewed.
+
+## Cinematic and media evidence
+
+Assess world/set geography, motivated light, background behavior, expressive range, coverage, edit/sound plan, frame necessity and clue readability. Verify actual asset bindings instead of passing identity based on repeated names. Paired frames need compatible positions, expression transitions and feasible travel.
+
+Use ผ่าน / ต้องแก้ / ยังไม่ตรวจ with specific evidence. Script timing is estimated until tested with delivery. Mark motion, facial consistency, voice and lip-sync unreviewed when media is absent. Inspect actual motion and sound before passing those domains. Fix critical defects before polish and recheck affected neighbors. A high editorial score never overrides a critical defect or substitutes for media review.
 
 ## Operating rules
 

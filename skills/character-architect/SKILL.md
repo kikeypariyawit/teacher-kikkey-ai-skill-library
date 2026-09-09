@@ -1,7 +1,7 @@
 ---
 name: character-architect
 description: Build original, production-ready fictional characters with distinctive psychology, visual identity, behavior, voice, and long-term arc.
-version: 1.0.0
+version: 1.3.0
 ---
 
 # character-architect
@@ -48,6 +48,12 @@ Use for Character creation, redesign, character bibles, cast differentiation, an
 - Motivation supports plot
 - Visual traits reproducible
 - Arc has causal decisions
+
+## Ensemble and performance bible
+
+Separate immutable identity and actual reference assets from mutable expression, pose, costume state and light. Record character ID, approved face references, useful angles, body presence, wardrobe IDs, voice ID, stress behavior, baseline/trigger/peak/recovery and relationship-specific distance/register. Text or seed repetition does not guarantee identity.
+
+For every principal include want, need, wound, lie/belief, secret, moral boundary, contradiction, sacrifice and decisions that change the arc. Distinguish the ensemble by strategy, rhythm, silhouette and behavior, not only clothing color. Antagonists need motives and limits. Preserve established approvals; do not recast characters during an episode upgrade. Track who knows which secret and when they learn it.
 
 ## Operating rules
 

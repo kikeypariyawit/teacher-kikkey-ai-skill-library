@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0 — 2026-09-09
+- Upgraded all eight drama specialists with cinematic story scale, ensemble psychology, Thai dialogue and playable heightened emotion.
+- Added portable craft references for production design/cinematography/sound/editing, frame strategy and production handoffs.
+- Replaced score-threshold readiness with evidence-based QA and critical-defect handling.
+- Added cinematic treatment and shot/render manifest templates plus behavioral regression briefs.
+
 ## 1.2.0 — 2026-09-09
 - Added production-ready AI drama project-state templates for `PROJECT_BIBLE.md`, `CHARACTER_BIBLE.md`, `CONTINUITY_LEDGER.md`, and `EPISODE_STATUS.md`.
 - Expanded the project bible with audience promise, world/story canon, setup/payoff tracking, visual canon, identity lock, production pipeline, prompt invariants, and current canonical state.

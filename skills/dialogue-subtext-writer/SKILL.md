@@ -1,18 +1,18 @@
 ---
 name: dialogue-subtext-writer
-description: Write natural English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
-version: 1.0.0
+description: Write natural Thai or English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
+version: 1.3.0
 ---
 
 # dialogue-subtext-writer
 
 ## Purpose
 
-Write natural English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
+Write natural Thai or English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
 
 ## Use when
 
-Use for English dialogue, scene rewrites, monologues, voiceover, inner thoughts, confrontation, romance, comedy, or intense scenes.
+Use for Thai or English dialogue, scene rewrites, monologues, voiceover, inner thoughts, confrontation, romance, comedy, or intense scenes.
 
 ## Required inputs
 
@@ -45,6 +45,12 @@ Use for English dialogue, scene rewrites, monologues, voiceover, inner thoughts,
 - Lines speakable
 - Emotion playable
 - Subtext where appropriate
+
+## Thai dialogue and playable intensity
+
+Follow the project's approved spoken language; default to Thai for this user's new Thai drama. Use English for visual prompts unless specified otherwise, retaining spoken lines verbatim. Choose pronouns, particles, relationship register, vocabulary and rhythm per character. Do not count Thai whitespace to estimate speech; read aloud or use real audio, including breaths and reactions.
+
+Map objective → tactic → trigger → reaction → new tactic. Honor requested theatrical intensity with committed gestures, vocal attack, breath and changing tactics; calibrate amplitude to shot size. Include listening and residue, not continuous shouting. Each line should exert pressure, conceal, evade, expose, protect or decide. Use a silent action where it says more. Label every speaker and distinguish dialogue from VO and internal thought.
 
 ## Operating rules
 

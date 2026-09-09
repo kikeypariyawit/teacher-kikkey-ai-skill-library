@@ -1,4 +1,4 @@
-# Teacher Kikkey AI Skill Library v1.1
+# Teacher Kikkey AI Skill Library v1.3
 
 A curated **21-skill Agent Skills library** for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
 
@@ -16,7 +16,7 @@ The goal is not to collect hundreds of prompts. The goal is to create a small, h
 - `ai-drama-episode-producer` — Orchestrate a complete AI-drama episode from canon lock through script, cinematic staging, shot planning, frame/video prompts, continuity, and final pre-generation QA.
 - `ai-drama-story-engine` — Design bingeable short-form AI drama with causal episode structure, character-driven escalation, retention beats, setup/payoff, twists, and cliffhangers.
 - `character-architect` — Build original, production-ready fictional characters with distinctive psychology, visual identity, behavior, voice, and long-term arc.
-- `dialogue-subtext-writer` — Write natural English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
+- `dialogue-subtext-writer` — Write natural Thai or English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
 - `cinematic-director` — Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
 - `veo-shot-planner` — Engineer generation-ready AI-video shots, choose start/end-frame strategy, route still/keyframe versus motion generation, and produce prompt packs with fallbacks.
 - `continuity-supervisor` — Maintain character, wardrobe, prop, location, timeline, screen-direction, and story-state continuity across AI-generated episodes and shots.
@@ -101,3 +101,13 @@ Suggested next additions:
 - scored continuity/visual QA rubrics based on real generation failures;
 - project-specific reference packs for active series;
 - regression evals from successful and failed episode outputs.
+
+## Cinematic drama upgrade — v1.3.0
+
+The eight existing drama skills now cover an ambitious production from story/ensemble through world design, heightened acting, motivated camera/light, selective spectacle, sound/editing, motion-preserving frames and evidence-based QA. “Production 100 ล้าน” describes creative ambition, not an actual budget or guaranteed result.
+
+Start with `ai-drama-episode-producer` for a complete episode. Supporting craft references live inside the producer, cinematic director and shot planner bundles. Use `templates/CINEMATIC_TREATMENT.template.md` for a new ambitious project and `templates/SHOT_RENDER_MANIFEST.template.md` to track generation and editing.
+
+Example: “ใช้ ai-drama-episode-producer ทำ EP ต่อจาก canon เดิม ให้ภาพและการแสดงแบบ cinematic production 100 ล้าน มีบท ฉาก แสง เสียง และ prompt รายช็อต เลือก start/end frame เท่าที่จำเป็น ตรวจแผนทั้งหมดก่อนส่ง”
+
+Saving this repository does not itself install its skills in every chat product; use the product's supported skill mechanism or explicitly supply the relevant source files. Existing project canon remains in each project's own files.

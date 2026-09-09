@@ -1,7 +1,7 @@
 ---
 name: cinematic-director
 description: Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
-version: 1.0.0
+version: 1.3.0
 ---
 
 # cinematic-director
@@ -49,6 +49,10 @@ Use for Scene direction, visual storytelling, cinematic style, performance direc
 - Performance matches stakes
 - No impossible geography
 - Style consistent
+
+## Premium cinematic craft
+
+Read [cinematic-production.md](references/cinematic-production.md) for ambitious scenes and full episodes. Own the look bible, world/production design, set-piece geography, performance curve, camera/light logic and edit/sound intent. Specify observable choices rather than stacking “cinematic, masterpiece, 8K” adjectives. Keep intimate dramatic truth legible within spectacle, and protect requested scale with feasible coverage.
 
 ## Operating rules
 

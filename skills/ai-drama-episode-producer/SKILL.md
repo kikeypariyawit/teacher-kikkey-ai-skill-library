@@ -1,7 +1,7 @@
 ---
 name: ai-drama-episode-producer
 description: Orchestrate a complete AI-drama episode from canon lock through script, cinematic staging, shot planning, frame prompts, continuity, and final pre-generation QA.
-version: 1.1.0
+version: 1.3.0
 ---
 
 # ai-drama-episode-producer
@@ -149,6 +149,10 @@ Return, when relevant:
 - Cliffhanger creates a concrete reason to watch the next episode.
 - Approved assets are not unnecessarily regenerated.
 - Final package is ready for generation without requiring an intermediate approval step.
+
+## Cinematic production upgrade
+
+For ambitious cinematic episodes, read [production-handoff.md](references/production-handoff.md). Have cinematic-director develop world/production design, a performance curve, selective spectacle, a look bible and edit/sound cues. Keep specialist decision ownership. Treat “100 ล้าน” as visual/dramatic ambition, not a verified budget or promise. Do not shrink the requested scale by default; engineer achievable layered coverage. Deliver actual requested assets when tools and authorization permit, and label script-only and uninspected media accurately.
 
 ## Operating rules
 
