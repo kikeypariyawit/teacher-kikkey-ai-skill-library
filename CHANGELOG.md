@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-09-09
+- Added production-ready AI drama project-state templates for `PROJECT_BIBLE.md`, `CHARACTER_BIBLE.md`, `CONTINUITY_LEDGER.md`, and `EPISODE_STATUS.md`.
+- Expanded the project bible with audience promise, world/story canon, setup/payoff tracking, visual canon, identity lock, production pipeline, prompt invariants, and current canonical state.
+- Expanded the continuity ledger with character, prop, location, spatial, injury, knowledge, setup/payoff, shot-anchor, and end-of-episode inheritance tracking.
+- Added a full character bible covering psychology, voice, face/identity lock, hair/makeup, body presence, wardrobe looks, relationships, knowledge state, generation anchors, and approved evolution.
+- Added an episode status dashboard for approvals, asset locks, generation queue, revision queue, blockers, continuity handoff, and final-approval checklist.
+- Upgraded `ai-drama-episode-producer` to v1.1.0 with a canonical project-file read order, source ownership, approval-safe update rules, and exact post-approval state handoffs.
+
 ## 1.1.0 — 2026-09-09
 - Added `ai-drama-episode-producer` as the lead orchestrator for full-episode/final-approve workflows.
 - Upgraded `ai-drama-story-engine` to v2.0.0 with canon lock, retention mapping, decision-chain logic, relationship escalation, and stronger story handoffs.
