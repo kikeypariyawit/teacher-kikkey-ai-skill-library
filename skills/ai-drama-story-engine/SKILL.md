@@ -1,60 +1,155 @@
 ---
 name: ai-drama-story-engine
-description: Develop bingeable short-form AI drama using premise, character wounds/secrets, escalation, setup/payoff, twists, cliffhangers, and continuity.
-version: 1.0.0
+description: Design bingeable short-form AI drama with causal episode structure, character-driven escalation, visual storytelling, setup/payoff, retention beats, twists, cliffhangers, and continuity-aware handoffs.
+version: 2.0.0
 ---
 
 # ai-drama-story-engine
 
 ## Purpose
 
-Develop bingeable short-form AI drama using premise, character wounds/secrets, escalation, setup/payoff, twists, cliffhangers, and continuity.
+Build the dramatic engine of short-form AI series and episodic vertical films. Own story causality, episode architecture, escalation, setup/payoff, reveal timing, and cliffhanger design. Do not own final camera engineering or model-specific video prompts.
 
 ## Use when
 
-Use for AI short films, vertical drama, episodic series, story rewrites, episode planning, and story improvement.
+Use for:
+- AI short films and vertical drama
+- season/episode architecture
+- rewriting weak or repetitive episodes
+- planning a next episode from an approved prior state
+- improving hooks, retention, twists, romance tension, comedy, suspense, or emotional payoff
+- creating a production-ready story handoff for downstream dialogue/cinematic/shot skills
 
 ## Required inputs
 
-- Premise/existing story
-- Target runtime/episode count
-- Genre/tone
-- Platform
-- Production constraints
+Use the best available combination of:
+- premise or existing story
+- approved canon / prior episode state
+- target runtime and episode count
+- genre, tone, language, platform
+- character constraints
+- production constraints and available generation tools
 
-## Workflow
+If the user already approved characters, relationships, visual identities, or prior episodes, treat them as locked canon unless explicitly changed.
 
-1. Define the core dramatic question and audience promise.
-2. For each main character define goal, wound, fear, secret, leverage, contradiction, and arc.
-3. Map season-level escalation before individual scenes.
-4. Plant setups that can pay off later; twists must recontextualize prior information rather than arrive randomly.
-5. For each scene define objective, obstacle, turn, new information, and emotional change.
-6. Hook each episode within 1-3 seconds and end with a reversal, revelation, decision, danger, or unanswered question.
-7. Reduce exposition; favor visual storytelling, subtext, behavior, and consequence.
-8. Run logic, motivation, pacing, and continuity QA after every episode.
+## Core story model
+
+For the series define:
+- **Audience promise** — what emotional experience viewers return for
+- **Core dramatic question** — the unresolved question carrying the season
+- **Character pressure system** — goals, wounds, fears, secrets, leverage, contradictions, loyalties
+- **Escalation ladder** — consequences must become more costly, intimate, public, dangerous, or irreversible
+- **Setup/payoff ledger** — important reveals must be supported before payoff
+- **Relationship engine** — attraction, trust, resentment, dependency, rivalry, debt, power, or misunderstanding must evolve through decisions and consequences
+
+## Episode workflow
+
+1. **Canon lock**
+   - inherit the prior episode's final physical, emotional, relational, and information state
+   - identify unresolved setups and promises
+   - flag contradictions instead of silently rewriting canon
+
+2. **Define the episode question**
+   - one specific question should pull the viewer through the episode
+   - define what changes by the end even if the larger conflict remains unresolved
+
+3. **Design the opening hook**
+   - hook within the first 1–3 seconds with danger, desire, contradiction, accusation, discovery, unusual visual action, or an emotionally loaded decision
+   - avoid hooks that are only vague narration or context-setting
+
+4. **Build the retention map**
+   - create a meaningful shift roughly every 10–20 seconds depending on runtime and tone
+   - shifts can be reveal, reversal, emotional beat, new obstacle, status change, visual surprise, comedic turn, attraction spike, threat, or decision
+   - vary the mechanism; do not use repeated mini-cliffhangers with identical rhythm
+
+5. **Build the decision chain**
+   - important events must come from character decisions, pressure, mistakes, secrets, or prior consequences
+   - random coincidence may trigger a problem but should not solve one
+
+6. **Map scenes**
+   For every scene define:
+   - scene objective
+   - conflict/obstacle
+   - power position at entry
+   - turn/reversal
+   - new information or changed belief
+   - emotional shift
+   - visual storytelling opportunity
+   - setup/payoff function
+   - production complexity
+
+7. **Control exposition**
+   - reveal character through action, subtext, behavior, environment, props, silence, reactions, and consequences
+   - keep dialogue for conflict, desire, misdirection, vulnerability, humor, or choice rather than explaining what the audience can already see
+
+8. **Escalate relationships deliberately**
+   - romantic or interpersonal intensity must change because of proximity, risk, disclosure, jealousy, protection, betrayal, vulnerability, sacrifice, or changed power
+   - avoid instant emotional jumps unsupported by prior behavior
+
+9. **Design twists**
+   - a strong twist reinterprets prior information or changes the meaning of a relationship/goal
+   - seed support before payoff
+   - preserve character intelligence unless the story explicitly establishes otherwise
+
+10. **End with a specific cliffhanger**
+   Choose among:
+   - revelation
+   - irreversible decision
+   - arrival/discovery
+   - betrayal
+   - danger
+   - intimate interruption
+   - identity/status reveal
+   - moral dilemma
+   - reversal of power
+   - unanswered evidence/question
+
+11. **Run story QA and repair**
+   - remove redundant beats
+   - repair motivation gaps
+   - strengthen weak scene turns
+   - make the final beat earn the next episode
+
+## Final-approve behavior
+
+When the user asks to make or continue an episode end-to-end, do not stop after outlining the story to request approval. Produce the complete story handoff needed by the next production skills. Only stop for a canon conflict that would invalidate the rest of the episode.
 
 ## Output contract
 
-- Premise upgrade
-- Character engine
-- Season/episode beats
-- Scene objectives
-- Setup/payoff map
-- Cliffhangers
-- Continuity notes
+Return the level of detail required by the downstream task. For a full episode handoff include:
+- episode premise upgrade
+- canon inherited from prior episode
+- episode question
+- hook
+- retention map
+- character decision chain
+- scene-by-scene beats
+- scene objectives and reversals
+- setup/payoff map
+- relationship progression
+- cliffhanger
+- continuity-critical notes
+- production-risk notes
 
 ## Final QA
 
-- Every scene changes situation/emotion
-- Twists have prior support
-- Actions follow motivation
-- Cliffhangers vary
-- Production feasible
+- Opening creates immediate curiosity, tension, desire, or surprise.
+- Every scene changes information, power, danger, relationship, or emotion.
+- Events follow character decisions and prior causes.
+- Twists have visible support in hindsight.
+- Exposition is minimized.
+- Relationship changes are earned.
+- Stakes escalate without becoming random.
+- Cliffhanger creates one clear next question.
+- Episode can plausibly fit the target runtime.
+- Story remains feasible for the stated production method.
 
 ## Operating rules
 
 - Preserve explicit user constraints over defaults in this skill.
-- Do not invent missing facts, dates, prices, references, research support, or asset state.
-- Prefer concrete decisions and finished outputs over generic advice.
-- Keep the result easy to hand off to the next skill.
-- If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+- Stable skill rules must not hard-code volatile model versions, prices, dates, or current project facts.
+- Do not invent missing asset approvals, research support, or prior episode facts.
+- Prefer concrete finished episode architecture over generic advice.
+- Preserve approved characters and prior canon unless the user changes them.
+- Keep the output easy to hand off to character, dialogue, cinematic, shot-planning, continuity, and QA skills.
+- If an external action needs an unavailable tool or permission, complete every possible upstream story step and state the blocked action clearly.
