@@ -31,8 +31,8 @@ for d in dirs:
         if section not in text:
             errors.append(f"{d.name}: missing {section}")
 
-if len(dirs) != 20:
-    errors.append(f"expected 20 skill directories, found {len(dirs)}")
+if len(dirs) != 21:
+    errors.append(f"expected 21 skill directories, found {len(dirs)}")
 
 if errors:
     print("VALIDATION FAILED")
