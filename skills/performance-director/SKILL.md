@@ -1,7 +1,7 @@
 ---
 name: performance-director
 description: Direct playable screen performance for AI drama through objectives, subtext, body language, gaze, rhythm, emotional transitions and shot-safe acting instructions.
-version: 1.0.0
+version: 1.0.1
 ---
 
 # performance-director
@@ -22,6 +22,19 @@ Use for:
 - shots that look visually correct but emotionally empty
 - converting dialogue into physical performance notes
 - designing acting that remains achievable in AI video generation
+
+## Required inputs
+
+Use the best available combination of:
+- approved scene/script and dialogue
+- character psychology / current emotional state
+- relationship state and power dynamic
+- knowledge state: what each character knows at this moment
+- continuity constraints such as injury, prop-in-hand, wardrobe or physical distance
+- desired acting intensity / tone
+- downstream generation constraints when known
+
+If motive or emotional causality is unresolved, hand back to `ai-drama-story-engine` or `character-architect` instead of inventing a new motive here.
 
 ## Decision ownership
 
