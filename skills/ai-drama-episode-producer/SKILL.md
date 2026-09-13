@@ -1,7 +1,7 @@
 ---
 name: ai-drama-episode-producer
 description: Create or continue cinematic AI drama with canon lock, story, vertical retention, cast, reference architecture, performance, production design, storyboard, model routing, start/end frames, prompts, edit/sound and continuity QA.
-version: 3.0.0
+version: 3.0.1
 ---
 
 # ai-drama-episode-producer
@@ -21,6 +21,22 @@ Use for requests such as:
 - rebuild an episode after a story, character, visual or model-routing change
 
 Do not use when the user only wants one narrow task such as dialogue polishing or one video prompt.
+
+## Required inputs
+
+Minimum useful input is one of:
+- a current drama project repository containing canonical project files
+- the latest approved episode plus character/continuity state
+- an explicit new-project brief sufficient to establish initial canon
+
+Use, when available:
+- platform / aspect ratio / target runtime
+- approved character and visual references
+- preferred language / tone / genre
+- current available generation tools or provider constraints
+- user requirements for final deliverables
+
+Do not invent prior approvals that cannot be recovered.
 
 ## Preferred canonical project files
 
