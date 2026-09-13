@@ -1,3 +1,16 @@
+# 3.0.0 — AI Drama Studio v3
+
+- Added `vertical-drama-retention-director` for vertical hook clarity, viewer-question chains, reveal pacing, emotional contrast and attention architecture without fake clickbait.
+- Added `performance-director` for playable acting objectives, tactics, subtext, gaze, breath, body behavior, reaction timing and emotional progression.
+- Added `ai-video-model-router` for per-shot still/video model routing, evidence-labeled capability decisions, hero/core/utility quality tiers and fallback routes.
+- Upgraded `ai-drama-episode-producer` to v3.0.0 with the new end-to-end chain: story → retention → references → performance → cinematography → model routing → shot engineering → continuity → QA.
+- Upgraded `ai-drama-story-engine` so it owns causality and reveal logic while handing detailed vertical attention architecture to the retention director.
+- Upgraded `cinematic-director` so it owns staging/camera/light/design while preserving, rather than duplicating, performance-direction ownership.
+- Upgraded `veo-shot-planner` so it consumes a routed model/tool decision and owns frame/motion shot engineering rather than choosing the provider itself.
+- Added `ASSET_REGISTRY.template.md` for Character/Look/Location Masters, Scene Anchors and shot assets.
+- Added `MODEL_ADAPTERS.template.md` for current provider/model evidence, project tests and routing notes.
+- Updated `AGENTS.md` and `README.md` with dedicated decision ownership, reference-first production, per-shot routing and focused-revision rules.
+
 # 2.0.0 — Cinematic AI Drama production
 
 - Upgrade eight drama skills and add five producer references covering story/cast, prestige direction, model adapters, continuity/delivery and evidence-based QA.

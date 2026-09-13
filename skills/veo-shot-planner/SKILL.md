@@ -1,150 +1,193 @@
 ---
 name: veo-shot-planner
-description: Engineer generation-ready AI-video shots, choose start/end-frame strategy, route still/keyframe versus motion generation, and produce continuity-safe prompt packs with fallbacks.
-version: 2.2.0
+description: Engineer generation-ready AI-video shots from an approved model route, choose start/end-frame strategy, build motion-safe prompt packs, and preserve continuity with practical fallbacks.
+version: 3.0.0
 ---
 
 # veo-shot-planner
 
 ## Purpose
 
-Turn an approved script/cinematic scene into the fewest reliable AI-video shots needed for clarity, emotion, pace, and continuity. Own shot engineering, generation mode, frame strategy, prompt structure, continuity anchors, and fallback plans.
+Turn an approved script/cinematic scene and model-routing decision into the fewest reliable AI-video shots needed for clarity, emotion, pace and continuity. Own shot engineering, frame strategy, prompt structure, continuity anchors, generated-versus-used duration and shot-level fallback design.
+
+`ai-video-model-router` owns which provider/model/tool should perform the shot. This skill consumes that routing decision and adapts the shot to it. If no route exists, keep planning model-neutral or request/trigger routing rather than inventing current capabilities.
 
 ## Use when
 
 Use for:
-- Veo / Flow shot breakdowns
+- Veo / Flow-style shot breakdowns
+- Seedance / Omni / Kling or mixed-model shot packs after routing
 - start-frame and end-frame planning
 - image-to-video or reference-driven shots
-- model routing between still/keyframe and motion generation
 - scene continuity and transition control
-- prompt packs for AI-video production
+- generation-ready prompt packs
 
 ## Required inputs
 
 Use the best available combination of:
 - approved script/scene
+- retention function when relevant
+- approved performance beat
 - cinematic staging intent
-- approved character/location references
-- target motion model
-- available still/keyframe model
+- reference-first asset bindings
+- primary/fallback model route when available
 - target duration/aspect ratio
 - dialogue/audio requirements
-- available start/end images
 - continuity state from prior shot/episode
 
 Do not require generated video to exist before planning.
+
+## Decision ownership
+
+This skill owns:
+- shot decomposition
+- generation mode within the approved route
+- start/end-frame necessity
+- frame prompt construction
+- motion prompt construction
+- shot duration / edit handle logic
+- shot-specific continuity anchors
+- prompt-safe simplification
+- fallback engineering when the same route can be repaired
+
+It does not own:
+- story → `ai-drama-story-engine`
+- vertical retention → `vertical-drama-retention-director`
+- acting objectives → `performance-director`
+- camera intent → `cinematic-director`
+- reference ownership → `reference-first-visual-production`
+- provider/model choice → `ai-video-model-router`
 
 ## Workflow
 
 1. **Assign stable IDs**
    - use scene and shot IDs that survive revisions, such as `EP03-S02-SH04`
-   - do not renumber unrelated shots unnecessarily after a local revision
+   - do not renumber unrelated shots unnecessarily
 
 2. **Define the dramatic beat**
-   For each shot state what changes: information, emotion, power, danger, attraction, decision, reveal, or spatial understanding.
+   State what changes: information, emotion, power, danger, attraction, decision, reveal or spatial understanding.
 
-3. **Use the fewest shots that work**
-   - avoid overcutting because each extra generation increases continuity risk
-   - split only when a performance beat, spatial change, reveal, transition, or generation limitation justifies it
+3. **Read the performance handoff**
+   Preserve objective, tactic, gaze, reaction timing and landing state without over-choreographing every micro-movement.
 
-4. **Choose generation mode**
-   Select one:
+4. **Read the cinematic handoff**
+   Preserve approved blocking, composition/camera intent, light direction and geography.
+
+5. **Read the reference map**
+   Resolve Character Masters, Look Masters, Location Master, Scene Anchor and previous accepted handoff frame when relevant.
+
+6. **Consume model routing**
+   Record:
+   - primary tool/model role
+   - evidence status
+   - fallback route
+   - capability constraints actually verified for the selected interface
+
+   Do not infer unsupported controls from the model name alone.
+
+7. **Use the fewest shots that work**
+   Avoid overcutting because each extra generation increases continuity risk. Split only when performance, geography, reveal, transition or generation reliability justifies it.
+
+8. **Choose generation mode inside the route**
+   Select one when supported:
    - text-to-video
    - reference-driven video
    - start-frame only
    - start + end frame
+   - image-to-video
    - still/keyframe generation only
 
-5. **Route models by job**
-   - use the user-specified motion model for moving shots
-   - when a separate still/keyframe generator is available, prefer it for character references, exact compositions, start frames, end frames, inserts, and difficult identity-critical frames
-   - when the project specifically uses a still model plus Veo/Flow, do not ask the motion model to recreate a frame that is better locked as a still asset
-   - do not hard-code model versions into this universal skill
+9. **Decide frame locking**
+   Use a start frame when identity, composition, wardrobe, prop state, screen direction, environment or pose needs control.
 
-6. **Decide frame locking**
-   Use a start frame when identity, composition, wardrobe, prop state, screen direction, environment, or pose needs control.
-
-   Add an end frame only when the destination materially matters, for example:
+   Add an end frame only when destination state materially matters:
    - exact reveal composition
    - required object state
    - transition match
    - pose/position needed by the next shot
-   - identity-critical close-up destination
-   - difficult wardrobe/hair change that must land correctly
+   - identity-critical landing frame
 
-   Avoid start+end locking when it makes organic acting, walking, kissing, fighting, cloth/hair motion, or camera movement unnaturally stiff.
+   Avoid start+end locking when it makes organic acting, crying, breathing, walking, fighting, kissing, cloth/hair motion or camera movement unnaturally stiff.
 
-7. **Design start/end frame prompts before the video prompt**
+10. **Design frame prompts before motion prompts**
    Frame prompt order:
-   - character identity anchor
+   - explicit reference roles / identity anchor
    - wardrobe/hair/makeup state
    - body pose and expression
    - interaction / prop state
-   - composition and lens feel
+   - composition and camera intent
    - location/time/light
    - continuity-critical constraints
+   - allowed-to-change fields where useful
 
-8. **Write the video prompt action-first**
+11. **Write video prompt action-first**
    Preferred order:
-   - subject action and performance
+   - subject action and performance progression
    - physical interaction
    - camera behavior
    - environment motion
    - emotional tone
    - lighting/atmosphere
-   - dialogue/lip-sync/audio instruction when supported/required
+   - dialogue/lip-sync/audio instruction only when supported/required
    - continuity constraints
 
-   Describe what should happen, not a long list of adjectives.
+12. **Protect performance**
+   Use concrete behavior such as gaze, breath, hesitation, touch, hand placement, body distance and reaction timing only where it matters. Avoid impossible simultaneous actions or adjective piles.
 
-9. **Control performance**
-   - specify gaze, breathing, hesitation, touch, hand placement, body distance, reaction timing, and emotional transition only when they matter
-   - avoid impossible simultaneous actions
-   - for intimate or high-emotion scenes, prioritize believable body mechanics and clear consent/context implied by the script rather than excessive choreography
-
-10. **Protect continuity**
+13. **Protect continuity**
    Carry only critical anchors:
    - face/identity
    - hair state
-   - wardrobe and accessories
+   - wardrobe/accessories
    - injuries/makeup
    - prop hand/state
-   - screen direction and relative positions
+   - screen direction / relative positions
    - location/time/weather/light
-   - relationship/emotional state when it affects performance
+   - emotional landing state when it affects the next shot
 
-11. **Identify likely failure modes**
+14. **Separate generated duration from edit duration**
+   Record:
+   - generated duration target
+   - intended edit in/out or usable duration
+   - handles when useful
+
+   Runtime is based on the final edit, not the sum of all raw generation lengths.
+
+15. **Identify likely failure modes**
    Examples:
    - face drift
-   - extra fingers/limbs
+   - extra limbs/fingers
    - prop teleportation
-   - hand-through-body contact
    - wardrobe mutation
    - screen-direction reversal
    - overactive camera
-   - stiff start/end interpolation
+   - stiff interpolation
    - lip-sync conflict
-   - unwanted smiling or wrong emotional intensity
+   - wrong emotional intensity
 
-12. **Provide a fallback**
-   Prefer one of:
+16. **Provide a fallback**
+   First try shot-level repairs compatible with the route:
    - simplify camera movement
    - shorten action
    - split one shot into two
    - remove unnecessary end-frame lock
    - create a stronger start frame
-   - use an insert/reaction shot to bridge continuity
-   - change from text-to-video to reference-driven generation
+   - use an insert/reaction bridge
+
+   If repeated failure indicates the model/route itself is wrong, hand back to `ai-video-model-router` instead of endlessly rewriting the prompt.
 
 ## Output contract
 
 For each shot return:
 - Shot ID
-- Duration target
+- Generated duration target
+- Intended edit duration / handles when useful
 - Dramatic beat
+- Retention function when applicable
+- Performance turn
 - Composition / shot size / camera intent
-- Generation tool/model role
+- Reference owners / asset IDs
+- Primary routed model/tool + evidence status
 - Generation mode
 - Start-frame: yes/no + reason
 - Start-frame prompt if needed
@@ -154,45 +197,39 @@ For each shot return:
 - Dialogue / audio / SFX note
 - Continuity anchors
 - Negative constraints / failure risks
-- Fallback plan
+- Shot-level fallback
+- Re-route trigger
 - Handoff state to next shot
 
-For a full episode also return a compact master shot table before the detailed prompt pack.
+For a full episode, return a compact master shot table before the detailed prompt pack.
 
 ## No-upload dependency rule
 
-Pre-generation planning must never require the user to upload a generated video. If no video exists, complete the shot plan, frame prompts, video prompts, continuity notes, and generation-risk QA. Reviewing the generated result is a separate optional post-generation pass.
+Pre-generation planning must never require the user to upload a generated video. If no video exists, complete the shot plan, frame prompts, video prompts, continuity notes and generation-risk QA. Reviewing generated results is a separate optional pass.
 
 ## Final QA
 
 - Every shot has a clear dramatic purpose.
-- Shot count is low enough to reduce continuity risk but high enough for pacing and clarity.
+- Shot count is low enough to reduce continuity risk but high enough for pace and clarity.
+- Approved performance turns remain playable.
 - Start/end frames are justified, not automatic.
 - Prompts are action-forward and paste-ready.
-- Character and wardrobe identity are explicit where needed.
+- Character/reference ownership is explicit where needed.
 - Body mechanics and spatial relationships are plausible.
 - Camera instructions do not fight the character action.
 - Handoff state is clear for the next shot.
-- Risky shots have practical fallbacks.
-- Model routing matches the project's stated tools without hard-coding obsolete versions.
-
-## Motion-preserving frame and render strategy
-
-Read [frame-and-generation-strategy.md](references/frame-and-generation-strategy.md) for prompt packs or rendered sequences. Verify the exact provider surface and model before asserting settings, limits, price, audio or reference support; record source and date in project adapters. Continue model-neutral planning when a label is unresolved. A new still generator does not imply video support.
-
-Each final prompt must bind actual references and expand relevant identity/location details. Separate generated duration, edit duration and handles. Keep Thai speech plus listening and action within time. Pilot the hardest representative shot and change strategy after two failed repairs of the same issue. Distinguish requested prompts from assets actually generated and inspected.
+- Model capability assumptions match the router's evidence status.
+- Risky shots have practical fallbacks or clear re-route triggers.
 
 ## Operating rules
 
-- Preserve explicit user constraints over defaults in this skill.
-- Do not invent missing references, asset approvals, model capabilities, or generated results.
-- Stable skill rules must not hard-code volatile model versions, prices, or project facts.
+- Preserve explicit user constraints over defaults.
+- Do not invent references, approvals, provider controls, model capabilities or generated results.
+- Stable skill rules must not hard-code volatile model versions, prices or provider limits.
 - Prefer finished prompt packs over generic prompt-writing advice.
-- Reuse approved frames and character references rather than recreating them without reason.
+- Reuse approved frames and references rather than recreating them without reason.
 - If a requested external generation action is unavailable, finish all planning and prompt assets and state only the blocked action.
 
 ## Cinematic production extension
 
-Read [shot-prompts.md](../ai-drama-episode-producer/references/shot-prompts.md) for this pass. If used separately, keep this reference available with the producer bundle.
-
-Verify the exact provider, model and interface before claiming frame, duration, reference or audio support. If unavailable, mark routing PROVISIONAL and give a compatible fallback. Include edit in/out, generated versus used duration, reference filenames, separate complete start/end/motion prompts and state handoff per shot. Do not infer capability from model nicknames.
+Read [shot-prompts.md](../ai-drama-episode-producer/references/shot-prompts.md) and [frame-and-generation-strategy.md](references/frame-and-generation-strategy.md) as relevant. Verify the exact provider, model and interface before asserting settings, limits, duration, references or audio support. Record volatile evidence in project adapters rather than this stable skill.

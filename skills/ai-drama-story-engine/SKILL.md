@@ -1,14 +1,18 @@
 ---
 name: ai-drama-story-engine
-description: Design bingeable short-form AI drama with causal episode structure, character-driven escalation, visual storytelling, setup/payoff, retention beats, twists, cliffhangers, and continuity-aware handoffs.
-version: 2.2.0
+description: Design bingeable short-form AI drama with causal episode structure, character-driven escalation, setup/payoff, twists, cliffhangers and continuity-aware handoffs.
+version: 2.3.0
 ---
 
 # ai-drama-story-engine
 
 ## Purpose
 
-Build the dramatic engine of short-form AI series and episodic vertical films. Own story causality, episode architecture, escalation, setup/payoff, reveal timing, and cliffhanger design. Do not own final camera engineering or model-specific video prompts.
+Build the dramatic engine of short-form AI series and episodic vertical films. Own story causality, episode architecture, escalation, setup/payoff, reveal logic, relationship progression and cliffhanger meaning.
+
+For vertical social drama, this skill supplies the dramatic material and structural hook; `vertical-drama-retention-director` owns the detailed attention architecture, viewer-question chain, reveal spacing and visual-reset cadence.
+
+Do not own final acting direction, camera engineering or model-specific video prompts.
 
 ## Use when
 
@@ -16,9 +20,9 @@ Use for:
 - AI short films and vertical drama
 - season/episode architecture
 - rewriting weak or repetitive episodes
-- planning a next episode from an approved prior state
-- improving hooks, retention, twists, romance tension, comedy, suspense, or emotional payoff
-- creating a production-ready story handoff for downstream dialogue/cinematic/shot skills
+- planning a next episode from approved prior state
+- improving motivation, escalation, twists, romance tension, suspense or emotional payoff
+- creating a production-ready story handoff for downstream retention/dialogue/performance/cinematic/shot skills
 
 ## Required inputs
 
@@ -30,22 +34,22 @@ Use the best available combination of:
 - character constraints
 - production constraints and available generation tools
 
-If the user already approved characters, relationships, visual identities, or prior episodes, treat them as locked canon unless explicitly changed.
+If the user already approved characters, relationships, visual identities or prior episodes, treat them as locked canon unless explicitly changed.
 
 ## Core story model
 
 For the series define:
-- **Audience promise** — what emotional experience viewers return for
+- **Audience promise** — the emotional experience viewers return for
 - **Core dramatic question** — the unresolved question carrying the season
 - **Character pressure system** — goals, wounds, fears, secrets, leverage, contradictions, loyalties
-- **Escalation ladder** — consequences must become more costly, intimate, public, dangerous, or irreversible
-- **Setup/payoff ledger** — important reveals must be supported before payoff
-- **Relationship engine** — attraction, trust, resentment, dependency, rivalry, debt, power, or misunderstanding must evolve through decisions and consequences
+- **Escalation ladder** — consequences become more costly, intimate, public, dangerous or irreversible
+- **Setup/payoff ledger** — important reveals are supported before payoff
+- **Relationship engine** — attraction, trust, resentment, dependency, rivalry, debt, power or misunderstanding evolve through decisions and consequences
 
 ## Workflow
 
 1. **Canon lock**
-   - inherit the prior episode's final physical, emotional, relational, and information state
+   - inherit prior physical, emotional, relational and information state
    - identify unresolved setups and promises
    - flag contradictions instead of silently rewriting canon
 
@@ -53,20 +57,16 @@ For the series define:
    - one specific question should pull the viewer through the episode
    - define what changes by the end even if the larger conflict remains unresolved
 
-3. **Design the opening hook**
-   - for short social drama, aim for a hook within the first 1–3 seconds with danger, desire, contradiction, accusation, discovery, unusual visual action, or an emotionally loaded decision
-   - avoid hooks that are only vague narration or context-setting
+3. **Design the structural hook**
+   - open on danger, desire, contradiction, accusation, discovery, unusual action or an emotionally loaded decision when appropriate
+   - avoid vague narration or context-setting as the only opening device
+   - hand the hook to `vertical-drama-retention-director` for detailed vertical pacing when applicable
 
-4. **Build the retention map**
-   - for short social drama, consider a meaningful shift roughly every 10–20 seconds depending on runtime and tone; do not enforce a clockwork pattern
-   - shifts can be reveal, reversal, emotional beat, new obstacle, status change, visual surprise, comedic turn, attraction spike, threat, or decision
-   - vary the mechanism; do not use repeated mini-cliffhangers with identical rhythm
+4. **Build the decision chain**
+   - important events must come from character decisions, pressure, mistakes, secrets or prior consequences
+   - coincidence may trigger a problem but should not solve one
 
-5. **Build the decision chain**
-   - important events must come from character decisions, pressure, mistakes, secrets, or prior consequences
-   - random coincidence may trigger a problem but should not solve one
-
-6. **Map scenes**
+5. **Map scenes**
    For every scene define:
    - scene objective
    - conflict/obstacle
@@ -78,20 +78,20 @@ For the series define:
    - setup/payoff function
    - production complexity
 
-7. **Control exposition**
-   - reveal character through action, subtext, behavior, environment, props, silence, reactions, and consequences
-   - keep dialogue for conflict, desire, misdirection, vulnerability, humor, or choice rather than explaining what the audience can already see
+6. **Control exposition**
+   - reveal character through action, subtext, behavior, environment, props, silence, reactions and consequences
+   - keep dialogue for conflict, desire, misdirection, vulnerability, humor or choice rather than explaining visible facts
 
-8. **Escalate relationships deliberately**
-   - romantic or interpersonal intensity must change because of proximity, risk, disclosure, jealousy, protection, betrayal, vulnerability, sacrifice, or changed power
-   - avoid instant emotional jumps unsupported by prior behavior
+7. **Escalate relationships deliberately**
+   - intensity changes because of proximity, risk, disclosure, jealousy, protection, betrayal, vulnerability, sacrifice or changed power
+   - avoid unsupported emotional jumps
 
-9. **Design twists**
+8. **Design twists**
    - a strong twist reinterprets prior information or changes the meaning of a relationship/goal
    - seed support before payoff
-   - preserve character intelligence unless the story explicitly establishes otherwise
+   - preserve character intelligence unless established otherwise
 
-10. **End with a specific cliffhanger**
+9. **End with a specific cliffhanger**
    Choose among:
    - revelation
    - irreversible decision
@@ -104,37 +104,52 @@ For the series define:
    - reversal of power
    - unanswered evidence/question
 
-11. **Run story QA and repair**
+10. **Run story QA and repair**
    - remove redundant beats
    - repair motivation gaps
    - strengthen weak scene turns
    - make the final beat earn the next episode
 
+## Vertical-retention handoff
+
+For short vertical work, provide to `vertical-drama-retention-director`:
+- audience promise
+- episode question
+- structural opening hook
+- reveal inventory
+- scene/beat order
+- emotional peaks and quiet beats
+- cliffhanger meaning
+- facts that must not be spoiled early
+
+Do not force a rigid every-N-seconds formula inside story architecture. Retention timing is an editorial heuristic, not story causality.
+
 ## Final-approve behavior
 
-When the user asks to make or continue an episode end-to-end, do not stop after outlining the story to request approval. Produce the complete story handoff needed by the next production skills. Only stop for a canon conflict that would invalidate the rest of the episode.
+When the user asks to make or continue an episode end-to-end, do not stop after outlining the story to request approval. Produce the complete story handoff needed by downstream skills. Only stop for a canon conflict that would invalidate the rest of the episode.
 
 ## Output contract
 
-Return the level of detail required by the downstream task. For a full episode handoff include:
+For a full episode handoff include:
 - episode premise upgrade
 - canon inherited from prior episode
 - episode question
-- hook
-- retention map
+- structural hook
 - character decision chain
 - scene-by-scene beats
 - scene objectives and reversals
 - setup/payoff map
 - relationship progression
+- reveal inventory / spoiler constraints
 - cliffhanger
 - continuity-critical notes
 - production-risk notes
+- vertical-retention handoff when applicable
 
 ## Final QA
 
-- Opening creates immediate curiosity, tension, desire, or surprise.
-- Every scene changes information, power, danger, relationship, or emotion.
+- Opening creates immediate dramatic potential.
+- Every scene changes information, power, danger, relationship or emotion.
 - Events follow character decisions and prior causes.
 - Twists have visible support in hindsight.
 - Exposition is minimized.
@@ -146,22 +161,20 @@ Return the level of detail required by the downstream task. For a full episode h
 
 ## Advanced story and scale
 
-Build premise → goal/wound/secret → pressure and causal escalation → emotional beats → planted evidence/payoff → earned twist → consequential cliffhanger → arc. For long form, use act/sequence turns appropriate to its runtime; do not force every film into vertical-drama timing. Hook/shift timing is an editorial heuristic, not guaranteed retention.
+Build premise → goal/wound/secret → pressure and causal escalation → emotional beats → planted evidence/payoff → earned twist → consequential cliffhanger → arc. For long form, use act/sequence turns appropriate to its runtime; do not force vertical-drama timing onto every film.
 
 Give the antagonist a defensible worldview, private cost and active tactic. Escalate through a failed tactic that forces a harder choice. Connect public spectacle to private stakes. Structure major set pieces through objective, geography, obstacle, reversal, costly choice and aftermath. Alternate intensity with earned silence, tenderness or humor so peaks have contrast. Track dramatic irony: audience knowledge may differ from each character's knowledge. Give recurring motifs new meaning at payoff.
 
 ## Operating rules
 
-- Preserve explicit user constraints over defaults in this skill.
-- Stable skill rules must not hard-code volatile model versions, prices, dates, or current project facts.
-- Do not invent missing asset approvals, research support, or prior episode facts.
+- Preserve explicit user constraints over defaults.
+- Stable skill rules must not hard-code volatile model versions, prices, dates or project facts.
+- Do not invent missing asset approvals, research support or prior episode facts.
 - Prefer concrete finished episode architecture over generic advice.
 - Preserve approved characters and prior canon unless the user changes them.
-- Keep the output easy to hand off to character, dialogue, cinematic, shot-planning, continuity, and QA skills.
+- Keep the output easy to hand off to retention, character, dialogue, performance, cinematic, shot-planning, continuity and QA skills.
 - If an external action needs an unavailable tool or permission, complete every possible upstream story step and state the blocked action clearly.
 
 ## Cinematic production extension
 
-Read [story-performance.md](../ai-drama-episode-producer/references/story-performance.md) for this pass. If used separately, keep this reference available with the producer bundle.
-
-Use the series pressure system and scene decision chain from the reference. For a grand production brief, make each signature sequence cause a consequential character choice and hand its scale requirements to direction. Track planted evidence and who knows it. Adapt retention beats to emotion; avoid mechanical escalation or a guaranteed-viral claim.
+Read [story-performance.md](../ai-drama-episode-producer/references/story-performance.md) for this pass. Use the series pressure system and scene decision chain from the reference. For a grand production brief, make each signature sequence cause a consequential character choice and hand scale requirements to direction. Track planted evidence and who knows it. Avoid mechanical escalation or guaranteed-viral claims.
