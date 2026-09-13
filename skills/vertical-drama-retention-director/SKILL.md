@@ -1,7 +1,7 @@
 ---
 name: vertical-drama-retention-director
 description: Engineer attention, curiosity, emotional momentum and cliffhanger cadence for short vertical drama without sacrificing causality or character credibility.
-version: 1.0.0
+version: 1.0.1
 ---
 
 # vertical-drama-retention-director
@@ -23,6 +23,19 @@ Use for:
 - strengthening next-episode desire
 
 Do not use to force fake twists, arbitrary danger or clickbait that breaks the story.
+
+## Required inputs
+
+Use the best available combination of:
+- approved story beats / script or episode outline
+- audience promise and genre
+- target runtime and platform
+- episode question and cliffhanger intent
+- reveal inventory / facts that must not be spoiled early
+- current character and relationship state
+- user pacing preferences
+
+If story causality is not yet stable, hand back to `ai-drama-story-engine` before optimizing attention.
 
 ## Core principle
 
