@@ -11,6 +11,8 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - When facts conflict, surface the conflict instead of guessing.
 - For recurring production, preserve approved canon and only revise the smallest affected downstream chain.
 - For serialized AI drama visuals, use **reference-first production**: approved visual references define identity/state; prompts direct what changes next.
+- For vertical drama, separate **story causality**, **retention architecture**, **performance**, **cinematography**, and **model routing** instead of forcing one prompt to own all five.
+- Route AI-video models **per shot**, not by habit for the whole episode.
 
 ## Default routing
 
@@ -30,12 +32,15 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 
 ### AI Drama
 - Full next episode / do everything / finish for final approval → `ai-drama-episode-producer`
-- Story architecture → `ai-drama-story-engine`
+- Story causality / episode architecture → `ai-drama-story-engine`
+- Vertical hook / viewer-question chain / retention pacing → `vertical-drama-retention-director`
 - Character bible → `character-architect`
 - Dialogue / inner monologue → `dialogue-subtext-writer`
 - Character/location/look reference packs, scene anchors, reference binding, keyframe continuity → `reference-first-visual-production`
-- Staging / cinematic language → `cinematic-director`
-- Veo/Flow shots / start-end frames / generation prompts → `veo-shot-planner`
+- Acting / playable emotion / gaze / body behavior / reaction timing → `performance-director`
+- Staging / cinematic language / lighting / blocking / camera intent → `cinematic-director`
+- Per-shot model choice / still-first vs motion route / quality-cost-risk allocation → `ai-video-model-router`
+- Veo/Flow-style shots / start-end frames / generation prompts → `veo-shot-planner`
 - Cross-shot / cross-episode state → `continuity-supervisor`
 - Episode audit → `episode-qa`
 
@@ -49,9 +54,19 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - Revenue system / prioritization → `monetization-strategist`
 
 ## Canonical project-state rule
-Before execution on recurring projects, read the project's current source-of-truth (for example `PROJECT_BIBLE.md`, event sheet, continuity ledger, latest approved brief, or approved character references). Stable skills should not hard-code volatile dates, prices, schedules, model versions, or campaign state.
+Before execution on recurring projects, read the project's current source-of-truth (for example `PROJECT_BIBLE.md`, `CHARACTER_BIBLE.md`, `CONTINUITY_LEDGER.md`, `EPISODE_STATUS.md`, latest approved brief, or approved character references). Stable skills should not hard-code volatile dates, prices, schedules, model versions, provider limits, or campaign state.
 
 If a character identity, face, costume state, relationship, prior episode, or production choice is already approved, keep it locked unless the user explicitly changes it.
+
+For AI drama, prefer these project files when available:
+1. `PROJECT_BIBLE.md`
+2. `CHARACTER_BIBLE.md`
+3. `CONTINUITY_LEDGER.md`
+4. `EPISODE_STATUS.md`
+5. `ASSET_REGISTRY.md`
+6. `MODEL_ADAPTERS.md`
+
+The first four are canonical story/state files. `ASSET_REGISTRY.md` tracks approved visual masters and generated assets. `MODEL_ADAPTERS.md` stores volatile provider/interface evidence separately from stable skills.
 
 ## Reference-first visual production standard
 For serialized AI drama, do not default to creating each image as an independent prompt-first artwork.
@@ -74,16 +89,20 @@ Use `reference-first-visual-production` whenever a request involves recurring ch
 When the user says things such as “ทำ EP ถัดไปให้จบ”, “ทำทั้งหมดเลย”, “รอ final approve”, “script + storyboard + prompts”, or equivalent, route to `ai-drama-episode-producer` as the lead orchestrator.
 
 The producer should execute the full required chain without stopping for intermediate approvals:
-`ai-drama-story-engine` → `character-architect` (only when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `cinematic-director` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
+
+`ai-drama-story-engine` → `vertical-drama-retention-director` (for short vertical work) → `character-architect` (only when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `performance-director` → `cinematic-director` → `ai-video-model-router` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
 
 Do not require a generated-video upload for planning or pre-generation QA. Video review is a separate optional post-generation step.
 
 ### Focused-revision mode
 When the user changes one approved detail, rerun only the smallest affected downstream chain. Examples:
-- dialogue change → dialogue + downstream shot/QA updates if timing changes
-- wardrobe change → character + reference binding + continuity + affected frame/shot prompts
+- hook/pacing weakness → retention director + affected direction/shot/edit notes; do not rewrite character identity
+- dialogue change → dialogue + performance + downstream shot/QA updates if timing changes
+- performance feels flat → performance + affected cinematic/shot prompts; do not rewrite plot unless motivation is actually broken
+- wardrobe change → character/look state + reference binding + continuity + affected frame/shot prompts
 - face/identity drift → reference-first visual production + affected visual/shot QA; do not rewrite story
 - location drift → reference-first visual production + continuity + affected keyframes
+- wrong model/tool for a shot → model router + shot planner; preserve approved story, acting and framing intent
 - story beat change → story engine + every affected downstream skill
 - generated visual artifact only → reference/visual/episode QA without rewriting the story unless necessary
 
@@ -92,8 +111,11 @@ When the user changes one approved detail, rerun only the smallest affected down
 ### BEV campaign
 `workflow-router` (when needed) → `bev-content-strategist` → `bev-parent-copywriter` → `bev-creative-director` → `visual-qa` → `bev-campaign-qa`
 
-### AI drama full episode
-`ai-drama-episode-producer` → orchestrates `ai-drama-story-engine` → `character-architect` (when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `cinematic-director` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
+### AI drama full vertical episode
+`ai-drama-episode-producer` → orchestrates `ai-drama-story-engine` → `vertical-drama-retention-director` → `character-architect` (when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `performance-director` → `cinematic-director` → `ai-video-model-router` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
+
+### AI drama cinematic/non-vertical episode
+Use the same chain but invoke `vertical-drama-retention-director` only when short-form/social attention architecture is relevant. Do not force vertical heuristics onto long-form scenes.
 
 ### AI drama focused task
 Use the narrowest single specialist skill or short chain needed; do not invoke the whole episode pipeline for one prompt, one line, or one shot unless downstream continuity would break.
@@ -108,10 +130,17 @@ Use the narrowest single specialist skill or short chain needed; do not invoke t
 4. For a shot, attach only references that own a required invariant; more references are not automatically better.
 5. For research claims, separate evidence from marketing interpretation.
 6. For stories, prioritize causality, motivation, escalation, and continuity over random twists.
-7. For AI-video prompts, use the fewest reliable shots and justify start/end-frame locking.
-8. For recurring drama, preserve approved canon, visual masters and stable shot IDs across revisions whenever possible.
-9. For pre-generation QA, inspect the plan that exists; never block completion by asking for a video that has not been generated yet.
-10. For monetization, use assumptions and ranges; never promise earnings.
+7. For vertical retention, create a specific viewer-question chain without fake promises or mechanical cuts.
+8. For performance, direct objectives, tactics, gaze, breath, body distance and emotional transitions rather than adjective piles.
+9. For AI-video prompts, use the fewest reliable shots and justify start/end-frame locking.
+10. Route models per shot and label volatile capability evidence as verified, user-confirmed, project-tested, or provisional.
+11. For recurring drama, preserve approved canon, visual masters and stable shot IDs across revisions whenever possible.
+12. For pre-generation QA, inspect the plan that exists; never block completion by asking for a video that has not been generated yet.
+13. For monetization, use assumptions and ranges; never promise earnings.
 
 ## Cinematic production standard
 For prestige / cinematic / โปรดักชัน 100 ล้าน briefs, load the producer's bundled prestige-direction reference for production design, location geometry, performance, camera/light, edit and sound. Use model capability evidence before tool-specific controls. Treat the requested budget as an artistic aspiration, not spending authorization. Skill handoffs do not require parallel agents. Preserve existing smallest-chain routing.
+
+For high-emotion performance, allow heightened or stage-level inner intensity when requested, but preserve psychological triggers and contrast. Do not set every beat to maximum emotion.
+
+For current provider/model comparisons, verify time-sensitive capabilities outside the stable skill file and store the conclusion in `MODEL_ADAPTERS.md` with date/source when project persistence is useful.
