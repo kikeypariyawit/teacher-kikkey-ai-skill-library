@@ -1,32 +1,55 @@
-# Teacher Kikkey AI Skill Library v2.0
+# Teacher Kikkey AI Skill Library v3
 
-A curated **21-skill Agent Skills library** for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
+A curated Agent Skills library for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
 
-The goal is not to collect hundreds of prompts. The goal is to create a small, high-quality operating system with clear routing, handoffs, QA, and version control.
+The goal is not to collect hundreds of prompts. The goal is to build a small, high-quality operating system with clear decision ownership, routing, handoffs, QA, canonical project state, reference-first visuals, and version control.
+
+## Core AI drama idea
+
+For serialized AI drama, do **not** treat each shot as an independent prompt.
+
+Use this production logic:
+
+**Canon → Story → Retention → Character → Dialogue → References → Performance → Cinematography → Model Routing → Shot Engineering → Continuity → QA**
+
+Approved references define identity/state. Prompts direct what those approved assets do next.
 
 ## Skill catalog
 
-- `bev-content-strategist` — Plan fresh, useful, non-repetitive content for Bangyai English Village that builds trust, engagement, and enrollment intent among parents.
-- `bev-creative-director` — Create premium, modern, high-converting visual directions for Bangyai English Village without generic AI-poster or cheap-template aesthetics.
-- `bev-parent-copywriter` — Write persuasive, warm, credible Thai parent-facing copy for BEV that feels human, specific, and education-first rather than salesy.
-- `bev-education-researcher` — Turn child-development, English-learning, outdoor-play, and parenting topics into accurate, practical BEV content with careful evidence handling.
-- `bev-campaign-qa` — Audit a complete BEV campaign or promotional asset for factual accuracy, consistency, conversion clarity, and visual/copy readiness.
-- `social-viral-strategist` — Design social content concepts, hooks, and beat structures with high retention and shareability while protecting credibility and brand fit.
-- `caption-conversion-writer` — Write social captions that keep the user's natural warmth while improving clarity, trust, engagement, and conversion.
-- `ai-drama-episode-producer` — Orchestrate a complete AI-drama episode from canon lock through script, cinematic staging, shot planning, frame/video prompts, continuity, and final pre-generation QA.
-- `ai-drama-story-engine` — Design bingeable short-form AI drama with causal episode structure, character-driven escalation, retention beats, setup/payoff, twists, and cliffhangers.
-- `character-architect` — Build original, production-ready fictional characters with distinctive psychology, visual identity, behavior, voice, and long-term arc.
-- `dialogue-subtext-writer` — Write natural Thai or English dramatic dialogue with subtext, character voice, internal monologue, and playable emotion.
-- `cinematic-director` — Translate story beats into cinematic staging, performance, camera, lighting, blocking, and emotional visual language for AI film production.
-- `veo-shot-planner` — Engineer generation-ready AI-video shots, choose start/end-frame strategy, route still/keyframe versus motion generation, and produce prompt packs with fallbacks.
-- `continuity-supervisor` — Maintain character, wardrobe, prop, location, timeline, screen-direction, and story-state continuity across AI-generated episodes and shots.
-- `episode-qa` — Perform rigorous pre-generation and post-generation QA, repair critical issues, and return a clear generation or release verdict.
-- `image-art-director` — Develop distinctive, premium image concepts, prompts, and art direction before generation or editing.
-- `visual-qa` — Inspect generated or edited visual assets for composition, typography, spelling, face integrity, crop, realism, and commercial polish.
-- `educational-product-builder` — Design practical, sellable English-learning products for children, parents, and teachers with clear age fit, objectives, activities, and answer support.
-- `digital-product-launcher` — Turn an educational or creator digital-product idea into a validated offer, packaging, pricing logic, sales assets, and launch plan.
-- `monetization-strategist` — Build realistic creator revenue systems across content, digital products, services, affiliates, and platform monetization without fantasy projections.
-- `workflow-router` — Route complex requests to the smallest useful combination of Teacher Kikkey AI Studio skills and define handoffs between them.
+### Bangyai English Village
+- `bev-content-strategist` — Fresh, non-repetitive parent content strategy.
+- `bev-creative-director` — Premium BEV visual direction.
+- `bev-parent-copywriter` — Warm, credible parent-facing Thai copy.
+- `bev-education-researcher` — Research-backed child-development / English-learning content.
+- `bev-campaign-qa` — Campaign accuracy, consistency and conversion QA.
+
+### Social
+- `social-viral-strategist` — Hooks, concepts and social retention.
+- `caption-conversion-writer` — Finished captions with clarity, trust and conversion.
+
+### AI Drama Studio
+- `ai-drama-episode-producer` — Lead orchestrator for complete episodes and final-approve packages.
+- `ai-drama-story-engine` — Causal episode structure, escalation, setup/payoff, twists and cliffhangers.
+- `vertical-drama-retention-director` — Vertical hook, viewer-question chain, reveal pacing and attention architecture.
+- `character-architect` — Character psychology, identity invariants, voice and arc.
+- `dialogue-subtext-writer` — Dialogue, subtext and inner monologue.
+- `reference-first-visual-production` — Character/Look/Location Masters, scene anchors, reference bindings and drift repair.
+- `performance-director` — Playable acting, gaze, breath, body behavior, tactics and emotional turns.
+- `cinematic-director` — Blocking, camera, lighting, production design, reveal strategy and visual language.
+- `ai-video-model-router` — Per-shot still/video model routing, evidence status, cost-quality-risk allocation and fallbacks.
+- `veo-shot-planner` — Start/end-frame strategy, shot engineering and ready-to-paste motion prompt packs after routing.
+- `continuity-supervisor` — Cross-shot/cross-episode character, wardrobe, prop, location and story-state continuity.
+- `episode-qa` — Pre-generation and post-generation episode QA and repair.
+
+### Image
+- `image-art-director` — Premium image concepts and art direction.
+- `visual-qa` — Composition, typography, crop, face integrity and commercial-polish QA.
+
+### Products / Business
+- `educational-product-builder` — Sellable English-learning resources.
+- `digital-product-launcher` — Offer, packaging, validation and launch plan.
+- `monetization-strategist` — Realistic creator revenue systems.
+- `workflow-router` — Routes complex requests to the smallest useful skill chain.
 
 ## Repository structure
 
@@ -46,74 +69,133 @@ The goal is not to collect hundreds of prompts. The goal is to create a small, h
 
 For a narrow request, use the narrowest specialist skill.
 
-For requests like “ทำ EP ถัดไปให้จบ”, “script + storyboard + prompt ทั้งหมด”, or “ทำให้เสร็จแล้วรอ final approve”, use `ai-drama-episode-producer` as the lead orchestrator.
+For requests like “ทำ EP ถัดไปให้จบ”, “script + storyboard + prompt ทั้งหมด”, or “ทำให้เสร็จแล้วรอ final approve”, use `ai-drama-episode-producer` as lead.
 
-Default full-episode chain:
+### Full vertical-drama chain
 
 ```text
 ai-drama-episode-producer
   → ai-drama-story-engine
+  → vertical-drama-retention-director
   → character-architect (only when needed)
   → dialogue-subtext-writer
+  → reference-first-visual-production
+  → performance-director
   → cinematic-director
+  → ai-video-model-router
   → veo-shot-planner
   → continuity-supervisor
   → episode-qa
 ```
 
-Important production rules:
-- preserve approved character identity and prior canon unless explicitly changed;
-- do not stop for intermediate approval when final-approve mode is requested;
-- use start/end frames only when they materially improve identity, composition, state, or transitions;
-- when the project has both a still/keyframe model and a motion model, route exact frame creation to the still model and moving shots to the motion model unless the user specifies otherwise;
-- planning and pre-generation QA do **not** require an uploaded/generated video;
-- post-generation visual review is optional and only applies when media is actually supplied.
+For cinematic/non-vertical work, invoke `vertical-drama-retention-director` only when short-form/social attention architecture is relevant.
+
+## Decision ownership
+
+The Studio v3 upgrade deliberately separates decisions that are often mixed into one huge prompt:
+
+- **Story engine** — what happens and why.
+- **Retention director** — why the viewer keeps watching the next beat.
+- **Reference-first production** — what visual truth must stay the same.
+- **Performance director** — what the actor wants, hides, does and feels.
+- **Cinematic director** — how the scene is staged, lit and photographed.
+- **Model router** — which current model/tool should attempt each shot and why.
+- **Shot planner** — how to engineer the selected route into reliable start/end/motion prompts.
+- **Continuity supervisor** — what state survives into the next shot/episode.
+
+This makes focused revisions safer: a face-drift problem should not rewrite the plot; a weak hook should not redesign the character; a model failure should not destroy approved cinematography.
+
+## Reference-first visual production
+
+For recurring characters:
+1. Approve Character Masters.
+2. Approve Look/Costume Masters.
+3. Approve recurring Location Masters.
+4. Create a Scene Anchor when many connected shots depend on the same state.
+5. Bind only the references that own something the shot must preserve.
+6. Use the previous accepted shot as a local continuity anchor, but keep global masters in the chain.
+7. Record `must preserve`, `allowed to change`, and `intentional delta`.
+8. Repair the failing ownership layer instead of regenerating everything.
+
+Do not rely on “same character as before” when actual approved references exist.
+
+## Start/end-frame rule
+
+Use a start frame when identity, pose, composition, wardrobe, prop state, screen direction or environment needs control.
+
+Use an end frame only when the landing state materially matters, such as an exact reveal, transition match, object state or continuity-critical destination.
+
+Do **not** automatically use start+end frames for subtle acting, crying, breathing, kissing, walking, fighting or hair/cloth motion if it makes interpolation stiff.
+
+## Per-shot model routing
+
+Do not decide “this whole episode uses one model” by habit.
+
+For each shot evaluate:
+- identity sensitivity
+- number of characters
+- performance subtlety
+- physical interaction complexity
+- camera/environment motion
+- exact landing-state need
+- dialogue/audio requirements
+- iteration budget / speed / cost sensitivity
+
+Provider/model capability claims are volatile. Record them in project `MODEL_ADAPTERS.md` with one evidence state:
+- `VERIFIED_CURRENT`
+- `USER_CONFIRMED`
+- `KNOWN_PROJECT_TEST`
+- `PROVISIONAL`
+
+Never present `PROVISIONAL` capability as fact.
+
+## Canonical project files
+
+For a recurring drama project, prefer:
+
+```text
+PROJECT_BIBLE.md
+CHARACTER_BIBLE.md
+CONTINUITY_LEDGER.md
+EPISODE_STATUS.md
+ASSET_REGISTRY.md
+MODEL_ADAPTERS.md
+```
+
+Templates are provided in `/templates`.
+
+`ASSET_REGISTRY.md` tracks approved Character/Look/Location Masters, Scene Anchors and shot assets. `MODEL_ADAPTERS.md` tracks current provider/model capability evidence and project tests separately from stable skill rules.
 
 ## Recommended first tests
+
+**AI drama — full vertical episode**
+> Continue the next episode from approved canon. Finish story, vertical-retention map, dialogue, reference bindings, performance map, cinematic storyboard, per-shot model routing, start/end-frame prompts, motion prompts, continuity update and pre-generation QA. Do not stop for intermediate approval; wait only for final approval.
+
+**AI drama — focused face-drift repair**
+> Preserve the approved story, acting and camera. Diagnose only the reference ownership failure and repair the smallest affected visual/shot chain.
+
+**AI drama — model routing**
+> Use the approved shot list. Route each shot independently across my available tools, label current capability evidence, allocate hero/core/utility quality tiers, and provide fallback routes before writing final motion prompts.
 
 **BEV**
 > Create one genuinely fresh BEV parent post. Avoid our common screen-time/outdoor angle. Use the relevant skills and QA it.
 
-**AI drama — full episode**
-> Continue the next episode from approved canon. Finish the script, storyboard, master shots, start/end-frame prompts, video prompts, continuity update, and pre-generation QA. Do not stop for intermediate approval; wait only for final approval.
+## Security
 
-**AI drama — focused task**
-> Improve this one scene's chemistry and dialogue, then update only the affected shots and prompts without redesigning approved characters.
+Third-party skills can contain instructions and scripts. Review them before installing or running them. Never place API keys, passwords, tokens or credentials in this repository.
 
-**Digital product**
-> Build a sellable English printable pack for Thai parents with children aged 5–7, then create a validation-first launch plan.
+## Product-use note
+
+Saving this repository does not itself install every skill into every ChatGPT surface automatically. Use the product's supported skill/app mechanism when available, or explicitly tell ChatGPT/Work to read `AGENTS.md` and the relevant `SKILL.md` files from the connected repository.
+
+Recommended instruction for a new AI-drama Work task:
+
+> Use `teacher-kikkey-ai-skill-library` as the production operating system. Read `AGENTS.md` first. Load only the smallest relevant AI-drama skill chain. Read the project's canonical files before changing approved canon. Use reference-first visual production and route video models per shot. Do not regenerate approved character identity unnecessarily.
 
 ## Versioning
 
-- Patch `1.1.1`: wording / QA refinements
-- Minor `1.2.0`: meaningful workflow/resources added without changing core ownership
-- Major `2.0.0`: broad routing or repository-wide output-contract changes
+- Patch: wording / QA refinements
+- Minor: meaningful workflow/resources added without changing major ownership
+- Major: repository-wide ownership or routing changes
 
-## Security
-
-Third-party skills can contain instructions and scripts. Review them before installing or running them. Never place API keys, passwords, tokens, or credentials in this repository.
-
-## Next upgrade path
-
-Suggested next additions:
-- richer `PROJECT_BIBLE.md` and episode-state schemas for long-running drama;
-- prompt adapters per model family kept separate from stable universal skills;
-- scored continuity/visual QA rubrics based on real generation failures;
-- project-specific reference packs for active series;
-- regression evals from successful and failed episode outputs.
-
-## Cinematic drama upgrade — v1.3.0
-
-The eight existing drama skills now cover an ambitious production from story/ensemble through world design, heightened acting, motivated camera/light, selective spectacle, sound/editing, motion-preserving frames and evidence-based QA. “Production 100 ล้าน” describes creative ambition, not an actual budget or guaranteed result.
-
-Start with `ai-drama-episode-producer` for a complete episode. Supporting craft references live inside the producer, cinematic director and shot planner bundles. Use `templates/CINEMATIC_TREATMENT.template.md` for a new ambitious project and `templates/SHOT_RENDER_MANIFEST.template.md` to track generation and editing.
-
-Example: “ใช้ ai-drama-episode-producer ทำ EP ต่อจาก canon เดิม ให้ภาพและการแสดงแบบ cinematic production 100 ล้าน มีบท ฉาก แสง เสียง และ prompt รายช็อต เลือก start/end frame เท่าที่จำเป็น ตรวจแผนทั้งหมดก่อนส่ง”
-
-Saving this repository does not itself install its skills in every chat product; use the product's supported skill mechanism or explicitly supply the relevant source files. Existing project canon remains in each project's own files.
-
-## Cinematic AI Drama upgrade
-
-The eight drama skills now cover prestige production design, differentiated cast and performance, Thai/English dialogue timing, location geometry, selective spectacle, edit and sound, evidence-based model adapters, and traceable start/end-frame delivery. The producer includes five self-contained references, so it can operate when specialist skills are not separately installed. “100-million production” describes the creative target; actual media quality is judged only from available outputs.
-
-Use: `ใช้ ai-drama-episode-producer ทำตอนถัดไปให้จบแบบ cinematic ฟอร์มใหญ่ รักษา canon เดิม พร้อมบท storyboard master shot ภาพและ prompts ตามที่ขอ แผนตัดต่อเสียง และ QA รอ Final Approve`
+Studio v3 is a major AI-drama routing change because retention, performance and model routing now have dedicated decision owners.
