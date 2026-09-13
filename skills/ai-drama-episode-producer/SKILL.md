@@ -1,14 +1,14 @@
 ---
 name: ai-drama-episode-producer
-description: Create or continue cinematic AI drama with story, cast, production design, performance, storyboard, start/end frames, model-specific prompts, editing, sound and continuity QA. Use for full episodes, AI series, premium film production and final-approval packages.
-version: 2.0.0
+description: Create or continue cinematic AI drama with canon lock, story, vertical retention, cast, reference architecture, performance, production design, storyboard, model routing, start/end frames, prompts, edit/sound and continuity QA.
+version: 3.0.0
 ---
 
 # ai-drama-episode-producer
 
 ## Purpose
 
-Coordinate the smallest useful AI-drama skill chain and return a complete, generation-ready episode package. This skill owns orchestration and final coherence; specialist skills still own story, character, dialogue, cinematography, shot engineering, continuity, and QA decisions.
+Coordinate the smallest useful AI-drama skill chain and return a complete, generation-ready episode package. This skill owns orchestration and final coherence; specialist skills still own story, retention, character, dialogue, visual references, performance, cinematography, model routing, shot engineering, continuity, and QA decisions.
 
 ## Use when
 
@@ -17,53 +17,42 @@ Use for requests such as:
 - continue from the approved episode/characters
 - finish everything and wait for final approval
 - create script + storyboard + master shots + prompts
-- prepare an episode for Veo / Flow / still-frame generation
-- rebuild an episode after a story or character change
+- prepare an episode for Veo / Seedance / Omni / Kling / Flow or mixed-model production
+- rebuild an episode after a story, character, visual or model-routing change
 
 Do not use when the user only wants one narrow task such as dialogue polishing or one video prompt.
 
-## Required inputs
+## Preferred canonical project files
 
-Minimum useful input is one of:
-- current project repository containing the canonical project files
-- latest approved episode plus character / continuity state
-- explicit user brief sufficient to establish canon for a new project
-
-Preferred canonical project files:
+Read when available:
 1. `PROJECT_BIBLE.md`
 2. `CHARACTER_BIBLE.md`
 3. `CONTINUITY_LEDGER.md`
 4. `EPISODE_STATUS.md`
-
-## Canonical project read order
-
-When these files exist, read them before writing a new episode in this order:
-
-1. `PROJECT_BIBLE.md` — world, story, platform, visual, production, setup/payoff truth
-2. `CHARACTER_BIBLE.md` — identity, psychology, voice, approved looks, relationships, current character state
-3. `CONTINUITY_LEDGER.md` — state changes that must survive between scenes/shots/episodes
-4. `EPISODE_STATUS.md` — what is approved, in progress, rejected, blocked, or next
-5. latest approved episode / scene / shot artifacts when available
-
-If the files disagree, use the newest explicit user approval or clearly newer approved artifact and flag the exact conflict. Do not silently merge incompatible versions.
+5. `ASSET_REGISTRY.md`
+6. `MODEL_ADAPTERS.md`
 
 ### Source ownership
 - Story/world canon → `PROJECT_BIBLE.md`
 - Character identity/behavior canon → `CHARACTER_BIBLE.md`
 - Cross-shot/cross-episode state → `CONTINUITY_LEDGER.md`
 - Workflow/approval status → `EPISODE_STATUS.md`
+- Approved visual masters / generated assets / paths → `ASSET_REGISTRY.md`
+- Current provider/model capability evidence and project tests → `MODEL_ADAPTERS.md`
 
-Do not duplicate ownership across files unless a brief handoff summary is useful.
+If files disagree, use the newest explicit user approval or clearly newer approved artifact and flag the conflict. Do not silently merge incompatible versions.
 
 ## Canon-first rule
 
 Before producing an episode, resolve the current source of truth from available project materials. Lock:
 - approved character identity and face references
-- age, role, relationships, secrets, wounds, goals, and current emotional state
+- age, role, relationships, secrets, wounds, goals, knowledge and emotional state
 - wardrobe/hair/makeup state
-- locations, props, injuries, weather/time-of-day, and object state
+- locations, props, injuries, weather/time-of-day and object state
 - unresolved setups/payoffs and prior cliffhanger
-- platform, aspect ratio, runtime, language, tone, and generation constraints
+- platform, aspect ratio, runtime, language and tone
+- approved visual masters and current scene anchors
+- user-available generation tools, subscriptions or constraints when known
 
 If a character or visual identity has already been approved, preserve it unless the user explicitly requests a redesign.
 
@@ -72,110 +61,181 @@ If a character or visual identity has already been approved, preserve it unless 
 ### Final-approve mode
 Default when the user asks to finish the episode, continue the next episode, or says to wait for final approval.
 
-Run the relevant decision passes without stage-gating. Use specialist skills when available; the bundled references below provide a self-contained fallback when specialists are not installed:
+Run the relevant decision passes without stage-gating:
 1. `ai-drama-story-engine`
-2. `character-architect` only when new/changed characters or identity details are required
-3. `dialogue-subtext-writer`
-4. `cinematic-director`
-5. `veo-shot-planner`
-6. `continuity-supervisor`
-7. `episode-qa`
+2. `vertical-drama-retention-director` for short vertical/social drama
+3. `character-architect` only when new/changed characters or identity details are required
+4. `dialogue-subtext-writer`
+5. `reference-first-visual-production`
+6. `performance-director`
+7. `cinematic-director`
+8. `ai-video-model-router`
+9. `veo-shot-planner` or the compatible shot-planning pass for the chosen interface
+10. `continuity-supervisor`
+11. `episode-qa`
 
-Do not stop after script, storyboard, or shot planning to ask for approval unless a genuinely unresolved canon conflict would make later work invalid.
+Do not stop after script, storyboard or shot planning to ask for approval unless a genuinely unresolved canon conflict would invalidate later work.
 
 ### Focused-revision mode
-When the user changes one element, revise the smallest affected downstream chain. Example: dialogue-only feedback should not redesign approved characters.
+When the user changes one element, revise the smallest affected downstream chain.
+
+Examples:
+- weak hook / flat pacing → retention + affected cinematic/edit/shot decisions
+- dialogue-only change → dialogue + performance + downstream timing if affected
+- flat acting → performance + affected camera/shot prompts
+- face drift → reference-first visual production + affected shot/QA
+- wrong wardrobe → look/reference binding + continuity + affected frame prompts
+- wrong model choice → model router + shot planner only
+- story beat change → story + every affected downstream pass
 
 ## Workflow
 
-1. **Read project state** — load the four canonical files and latest approved artifacts when available.
-2. **Canon lock** — summarize only continuity-critical facts and contradictions.
-3. **Episode intent** — define emotional promise, episode question, hook, escalation, payoff, and cliffhanger.
-4. **Episode script** — produce finished scene-by-scene action and dialogue at plausible runtime.
-5. **Cinematic pass** — choose blocking, compositions, reveals, visual motifs, and camera language that serve the drama.
-6. **Storyboard / master shot plan** — assign stable scene and shot IDs; use the fewest shots that preserve clarity, emotion, and pace.
-7. **Generation routing** — assign each asset to the appropriate available model/tool. When the project uses a still/keyframe generator plus a motion generator, use the still model for character references/start/end frames and the motion model for video shots unless the user specifies otherwise.
-8. **Prompt pack** — provide ready-to-paste start-frame, end-frame, and video prompts where needed, with continuity anchors and failure-safe fallbacks.
-9. **Continuity delta** — record what changed by the end of the episode and what the next episode must inherit.
-10. **Project-state update plan** — specify exact updates needed for the four canonical files after approval. When repository write access is available and the user has asked for project state to be maintained, update those files after approval rather than before approval.
-11. **Pre-generation QA** — repair critical story, timing, visual, continuity, and generation-risk issues before presenting the package.
-12. **Final approval package** — return the corrected production-ready version, not a list of unresolved suggestions.
+1. **Read project state** — load canonical files and latest approved artifacts.
+2. **Canon lock** — summarize only continuity-critical facts and conflicts.
+3. **Episode intent** — define emotional promise, episode question, escalation, payoff and cliffhanger.
+4. **Vertical retention pass** — when applicable, define hook, viewer-question chain, reveal spacing and attention resets without breaking causality.
+5. **Episode script** — produce finished scene-by-scene action and dialogue at plausible runtime.
+6. **Reference architecture** — resolve Character Masters, Look Masters, Location Masters, Scene Anchors, previous-shot handoffs and ownership boundaries.
+7. **Performance pass** — define objectives, tactics, subtext, gaze, body distance, reaction timing and emotional transitions.
+8. **Cinematic pass** — choose blocking, compositions, reveals, motifs, camera and lighting that serve story and performance.
+9. **Storyboard / master shot plan** — assign stable scene and shot IDs; use the fewest shots that preserve clarity, emotion and pace.
+10. **Generation routing** — choose still-first, reference-driven, image-to-video, start-frame, start+end-frame or text-to-video route per shot. Assign primary/fallback model roles based on verified or clearly labeled capability evidence.
+11. **Prompt pack** — provide ready-to-paste frame and motion prompts with actual reference ownership, continuity anchors and practical fallbacks.
+12. **Edit and sound map** — define intended edit duration, reaction holds, transitions, dialogue/SFX/music cues and generated-versus-used duration where relevant.
+13. **Continuity delta** — record what changed by episode end and what the next episode inherits.
+14. **Project-state update plan** — specify exact post-approval updates for canonical files.
+15. **Pre-generation QA** — repair critical story, retention, performance, visual, continuity and generation-risk issues.
+16. **Final approval package** — return the corrected production-ready version, not an unresolved suggestion list.
+
+## Model-routing evidence rule
+
+Provider/model capabilities, price, duration, reference limits, audio and UI-specific controls are volatile.
+
+For provider-specific routing, label evidence as one of:
+- `VERIFIED_CURRENT`
+- `USER_CONFIRMED`
+- `KNOWN_PROJECT_TEST`
+- `PROVISIONAL`
+
+Never state a provisional capability as fact. If current evidence is unavailable, keep routing model-neutral and provide a fallback.
+
+## Reference-first rule
+
+For recurring characters or connected shots:
+- use approved visual masters as identity/state owners
+- use previous accepted shot/handoff frame only as a local continuity anchor
+- periodically re-anchor to global masters to prevent cumulative drift
+- define `must preserve`, `allowed to change`, and `intentional delta`
+- do not redesign character, outfit or location in every prompt
+
+## Start/end-frame rule
+
+Use a start frame when identity, pose, composition, wardrobe, prop state, screen direction or environment needs control.
+
+Use an end frame only when the landing state materially matters, such as:
+- exact reveal composition
+- object state required by the next cut
+- transition match
+- continuity-critical pose/location
+- difficult identity-critical destination
+
+Avoid over-locking organic acting, dialogue, crying, breathing, hair/cloth motion, kissing, fighting or walking when interpolation would become stiff.
 
 ## No-upload dependency rule
 
-Planning and pre-generation QA must not require the user to upload or generate a video first. If no generated video is supplied, evaluate the script, frames, prompts, timing, and continuity and return a pre-generation verdict. Post-generation visual review is a separate optional pass.
+Planning and pre-generation QA must not require the user to upload or generate a video first. If no generated video is supplied, evaluate the script, frames, prompts, timing, routing and continuity and return a pre-generation verdict. Post-generation visual review is a separate optional pass.
 
 ## Output contract
 
 Return, when relevant:
 1. Episode header: number/title/runtime/platform/tone
 2. Canon carried in from prior episode
-3. Hook + retention map + cliffhanger
+3. Episode question, hook, retention map and cliffhanger
 4. Final episode script
-5. Scene storyboard with scene purpose and visual beat
-6. Master shot list with stable shot IDs
-7. Generation routing per shot/asset
-8. Start-frame prompt(s)
-9. End-frame prompt(s)
-10. Video prompt(s)
-11. Dialogue/audio/SFX notes
-12. Continuity anchors and negative constraints
-13. Fallback generation strategy for risky shots
-14. Continuity ledger delta for the next episode
-15. Exact post-approval updates for `PROJECT_BIBLE.md`, `CHARACTER_BIBLE.md`, `CONTINUITY_LEDGER.md`, and `EPISODE_STATUS.md`
-16. Episode QA scorecard and corrected final verdict
-17. Optional thumbnail/title/caption handoff only when requested or clearly part of the deliverable
+5. Reference architecture and required approved assets
+6. Performance map by scene/shot
+7. Scene storyboard with purpose and visual beat
+8. Master shot list with stable shot IDs
+9. Per-shot generation routing table with evidence status
+10. Start-frame prompt(s)
+11. End-frame prompt(s)
+12. Video prompt(s)
+13. Dialogue/audio/SFX/edit notes
+14. Continuity anchors and negative constraints
+15. Fallback generation strategy for risky shots
+16. Continuity ledger delta for the next episode
+17. Exact post-approval updates for project files
+18. Episode QA scorecard and corrected final verdict
+19. Optional title/thumbnail/caption handoff only when requested
+
+## Master shot table minimum fields
+
+- Shot ID
+- Edit duration target
+- Dramatic beat
+- Viewer question / retention function when vertical
+- Character performance turn
+- Composition / camera intent
+- Reference owners
+- Primary generation route
+- Model/tool role + evidence status
+- Start frame yes/no + reason
+- End frame yes/no + reason
+- Main continuity anchors
+- Main failure risk
+- Fallback
+- Handoff state
 
 ## Handoff discipline
 
 - Story engine decides causality and episode beats.
+- Retention director decides vertical attention architecture, not plot logic.
 - Character architect decides identity and character-state specification.
-- Dialogue writer decides spoken language and subtext.
-- Cinematic director decides staging and cinematic language.
-- Veo shot planner decides shot engineering, frame use, and generation prompts.
+- Dialogue writer decides spoken language and subtext wording.
+- Reference-first production decides visual ownership and bindings.
+- Performance director decides playable acting and emotional progression.
+- Cinematic director decides staging, composition, camera and light.
+- Model router decides per-shot generation route and primary/fallback model role.
+- Shot planner decides frame engineering, motion prompts and generation-safe handoff.
 - Continuity supervisor decides cross-shot/cross-episode state.
 - Episode QA audits and repairs; it does not randomly reinvent working material.
 
 ## Final QA
 
 - Canonical project files were read when available.
-- Hook is understandable immediately and creates a specific question.
-- Every scene changes information, power, danger, relationship, or emotion.
+- Hook is immediately legible and creates a specific question when vertical retention matters.
+- Every scene changes information, power, danger, relationship or emotion.
 - Dialogue sounds speakable and avoids exposition dumps.
-- Character actions follow motives and prior state.
+- Performance beats have objectives, triggers and readable transitions.
+- Approved references own identity/look/location truth where needed.
+- Cinematic choices serve story and performance rather than generic spectacle.
 - Major visual beats can be generated with the stated production tools.
-- Start/end frames are used only where they materially improve identity, composition, object state, or transition control.
-- Shot IDs, wardrobe, props, screen direction, injuries, time, and location state are internally consistent.
+- Model routing is per shot and capability evidence is labeled.
+- Start/end frames are justified, not automatic.
+- Shot IDs, wardrobe, props, screen direction, injuries, time and location state are internally consistent.
 - Cliffhanger creates a concrete reason to watch the next episode.
 - Approved assets are not unnecessarily regenerated.
 - Final package is ready for generation without requiring an intermediate approval step.
 
 ## Cinematic production upgrade
 
-For ambitious cinematic episodes, read [production-handoff.md](references/production-handoff.md). Have cinematic-director develop world/production design, a performance curve, selective spectacle, a look bible and edit/sound cues. Keep specialist decision ownership. Treat “100 ล้าน” as visual/dramatic ambition, not a verified budget or promise. Do not shrink the requested scale by default; engineer achievable layered coverage. Deliver actual requested assets when tools and authorization permit, and label script-only and uninspected media accurately.
+For ambitious cinematic episodes, read the producer references as needed:
+- `references/story-performance.md`
+- `references/prestige-direction.md`
+- `references/shot-prompts.md`
+- `references/continuity-delivery.md`
+- `references/quality-rubric.md`
+
+Treat “100 ล้าน” as visual/dramatic ambition, not a verified budget or promise. Do not shrink scale by default; engineer achievable layered coverage. Runtime is the final edit total, not the sum of all generated source lengths.
+
+For high-emotion scenes, heightened or stage-level inner intensity is allowed when requested, but emotional changes must still have triggers, tactics and contrast.
 
 ## Operating rules
 
-- Preserve explicit user constraints over defaults in this skill.
-- Do not hard-code volatile model versions, prices, dates, or project state into this universal skill.
+- Preserve explicit user constraints over defaults.
+- Do not hard-code volatile model versions, prices, limits or current project state into this universal skill.
 - Do not invent missing asset approvals or claim media was reviewed when it was not supplied.
 - Prefer decisive finished production packets over generic advice.
 - Reuse approved assets and decisions rather than regenerating them unnecessarily.
-- Update canonical project files only after approval unless the user explicitly asks to record a draft state.
-- If an external action requires an unavailable tool or permission, finish all upstream production work and state only the blocked action.
-
-## Cinematic studio reference routing
-
-For a full episode read the following references as each pass becomes relevant; for a narrow task read only the relevant reference. Specialist names describe decision ownership, not a requirement to spawn agents.
-
-- [Story and performance](references/story-performance.md): series/episode architecture, cast differentiation, language and dialogue timing.
-- [Prestige direction](references/prestige-direction.md): cinematic or “100-million” brief, look bible, location design, spectacle, acting, camera, lighting, editing and sound.
-- [Shot prompts](references/shot-prompts.md): master shot table, separate frame/video prompts, capability verification and model adapters.
-- [Continuity and delivery](references/continuity-delivery.md): resume/revise, truthful asset states, individual images plus illustrated PDF, and authorized GitHub updates.
-- [Quality rubric](references/quality-rubric.md): evidence-based planning gates and actual-media review.
-
-For full cinematic production, include the series/episode look decision, location anchors, signature sequence construction, performance beats, edit timeline and sound map alongside the existing output contract. Runtime is the final edit total, not the sum of all generated source lengths. Follow explicit deliverable requests: create actual storyboard images when requested and authorized; prompts alone are not images.
-
-Treat a premium budget phrase as an artistic target, never a budget claim or authorization to spend. Preserve approved casting and project separation. Do not require every episode to contain spectacle or every shot to move.
-
-If no scope is given, finish one complete episode package and a next-episode handoff; when a finite multi-episode range is explicitly authorized, carry it through while recording draft state. Do not invent prior approved episode content that cannot be recovered.
+- Update canonical project files only after approval unless the user explicitly asks to record draft state.
+- If an external generation action requires an unavailable tool or permission, finish all upstream production work and state only the blocked action.
