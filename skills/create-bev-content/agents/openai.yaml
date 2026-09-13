@@ -1,0 +1,15 @@
+interface:
+  display_name: BEV Content Studio
+  short_description: คอนเทนต์ BEV ใหม่ ภาพสวย พร้อมประโยชน์ที่พ่อแม่ใช้ได้จริง
+  default_prompt: Use $create-bev-content to create one fresh, useful BEV post with
+    a practical Thai caption and beautiful mobile-first visual direction, based on
+    available recent content and real assets.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

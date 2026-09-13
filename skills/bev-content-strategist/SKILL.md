@@ -1,7 +1,7 @@
 ---
 name: bev-content-strategist
 description: Plan fresh, useful, non-repetitive content for Bangyai English Village that builds trust, engagement, and enrollment intent among parents.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # bev-content-strategist
@@ -56,3 +56,9 @@ Use for BEV content calendars, daily post ideas, campaign pillars, educational p
 - Prefer concrete decisions and finished outputs over generic advice.
 - Keep the result easy to hand off to the next skill.
 - If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+
+## Execution handoff
+
+Use [create-bev-content](../create-bev-content/SKILL.md) for finished BEV content and its freshness-and-social reference for semantic duplicate checks. Compare parent need, underlying takeaway, concrete example/action and visual family with the actual available history. Check a user-named pipeline before claiming it was consulted; do not invent publication records or cross-session memory.
+
+Use [social](../social/SKILL.md) selectively for carousel narratives, hook variants and short-video structure. Keep one owner for topic and factual claims. Respect no-selling briefs and avoid guilt, unsupported outcomes, fabricated testimonials or false scarcity. A caption or image request needs the requested finished deliverable, not only the strategy fields above.

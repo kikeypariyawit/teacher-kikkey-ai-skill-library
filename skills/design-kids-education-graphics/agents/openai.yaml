@@ -1,0 +1,15 @@
+interface:
+  display_name: Kids Education Graphic Designer
+  short_description: ออกแบบกราฟิกเด็กที่อ่านง่ายและดูมืออาชีพ
+  default_prompt: Use $design-kids-education-graphics to create a polished educational
+    social post with readable Thai, an intentional visual direction, and correct supplied
+    brand assets.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: Social Content — BEV Edition
+  short_description: Write useful posts, carousels, and short video scripts
+  default_prompt: Use $social with create-bev-content to draft a fresh Thai parent
+    post.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: Canvas Design — BEV Edition
+  short_description: Art-direct clear, distinctive posters and social graphics
+  default_prompt: Use $canvas-design to improve composition and Thai readability for
+    this BEV graphic.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

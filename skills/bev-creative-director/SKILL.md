@@ -1,7 +1,7 @@
 ---
 name: bev-creative-director
 description: Create premium, modern, high-converting visual directions for Bangyai English Village without generic AI-poster or cheap-template aesthetics.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # bev-creative-director
@@ -26,7 +26,7 @@ Use for BEV posters, campaign key visuals, social posts, ads, redesigns, layout 
 
 1. Classify references as content, brand, real-photo asset, style, or layout reference.
 2. Extract non-negotiable facts and separate them from decorative copy.
-3. Develop three genuinely different art directions.
+3. For a broad new design, compare three genuinely different art directions internally. For narrow edits, preserve the accepted direction.
 4. Select the strongest direction for hierarchy, emotion, readability, and brand fit.
 5. Design one dominant focal point and one clear reading path.
 6. Use typography, spacing, crop, lighting, and graphic elements intentionally; reduce clutter.
@@ -58,3 +58,9 @@ Use for BEV posters, campaign key visuals, social posts, ads, redesigns, layout 
 - Prefer concrete decisions and finished outputs over generic advice.
 - Keep the result easy to hand off to the next skill.
 - If an external action needs an unavailable tool or permission, complete every possible upstream step and state the blocked action clearly.
+
+## Execution handoff
+
+Use [design-kids-education-graphics](../design-kids-education-graphics/SKILL.md) as the production owner for finished BEV graphics. Apply its visual-execution reference to bind actual source roles, record exact copy and invariants, and check the rendered result at full and phone size. Use [canvas-design](../canvas-design/SKILL.md) selectively for additional composition work, not a second competing production workflow.
+
+A finished-image request requires the actual image when feasible; the output contract above is a planning handoff, not a replacement for production. Four requested images are four separate deliverables with the requested per-image ratios. Never promise unchanged pixels from generative editing or redraw the official logo. For exact-preservation requirements, use an allowed unchanged-layer workflow or explain the tool conflict.
