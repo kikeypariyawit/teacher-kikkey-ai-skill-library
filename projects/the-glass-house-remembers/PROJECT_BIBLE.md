@@ -20,11 +20,11 @@ Why does Blackthorn House remember Mara Vale—and what happened to the woman wh
 ## Series premise
 Mara Vale, 27, a gifted but financially desperate art conservator, accepts a lucrative private commission at Blackthorn House, a modern-gothic estate built around a vast Victorian glass conservatory. The owner, Adrian Blackthorn, insists that Mara restore a smoke-damaged portrait hidden for decades.
 
-The portrait is signed 2002. Its subject is identical to Mara—including a crescent-shaped birthmark hidden beneath her left collarbone. A brass plaque names the woman “Evelyn Blackthorn.” According to the family archive, Evelyn died in the conservatory fire on October 17, 2002.
+The portrait is signed 1975. Its subject is identical to Mara—including a crescent-shaped birthmark hidden beneath her left collarbone. A brass plaque names the woman “Evelyn Blackthorn.” According to the family archive, Evelyn died in the conservatory fire on October 17, 1975.
 
-Mara was born in 2026.
+Mara was born in 1999.
 
-Adrian knows more than he admits. The housekeeper, Mrs. Rowan, behaves as if Mara has returned rather than arrived. A sealed wing contains burned photographs, voice recordings, and fragments of a failed memory-preservation experiment funded by Adrian’s father.
+Adrian knows more than he admits. The housekeeper, Mrs. Rowan, behaves as if Mara has returned rather than arrived. A sealed wing contains burned photographs, voice recordings, and fragments of a failed memory-preservation experiment funded by Adrian’s grandfather.
 
 The season keeps supernatural and scientific explanations in tension. The emotional truth is more important than proving one explanation too early.
 
@@ -43,7 +43,7 @@ The season keeps supernatural and scientific explanations in tension. The emotio
 5. Mara finds Evelyn’s recorded voice speaking a phrase Mara has dreamed since childhood.
 6. Evidence suggests Mara’s mother once worked at Blackthorn House under another name.
 7. The “fire” may have been staged to erase an experiment.
-8. Adrian’s father may have tried to transfer memory patterns from Evelyn into an unborn child.
+8. Adrian’s grandfather may have tried to preserve or transfer memory patterns beyond Evelyn’s death.
 9. Mara must decide whether Evelyn’s memories are evidence, inheritance, contamination, or part of herself.
 10. Finale: Mara enters the sealed glass chamber and learns Evelyn did not die trying to escape—she chose to leave something behind for a future version of herself.
 
@@ -63,7 +63,7 @@ Primary visible pressure: Sebastian Blackthorn, Adrian’s estranged uncle and e
 Deeper pressure: the Blackthorn doctrine that memory can be owned, curated, edited, and inherited.
 
 Sebastian’s defensible worldview: some truths destroy the living and should remain buried.
-Private cost: he was present the night of the fire and has lived for decades protecting someone else’s final request.
+Private cost: he inherited the burden of what his family did and has spent decades protecting someone else’s final request.
 
 ## Key locations
 ### Blackthorn House
@@ -111,12 +111,12 @@ Fire-scarred corridor, covered mirrors, locked archive, analog machines and dama
 - End frames are used only when the landing state matters for reveal, match cut, object continuity or the next shot.
 
 ## Season 1 episode spine
-1. THE PORTRAIT — Mara sees her own face in a 2002 painting.
+1. THE PORTRAIT — Mara sees her own face in a 1975 painting.
 2. THE BIRTHMARK — the portrait contains a mark nobody at the house should know.
 3. THE ROOM THAT KNOWS HER — the conservatory unlocks when Mara touches the door.
 4. ADRIAN’S LIE — Adrian admits he saw her face years before they met.
 5. EVELYN’S VOICE — a damaged tape speaks Mara’s recurring dream phrase.
-6. HER MOTHER’S NAME — Mara finds proof her mother lived at Blackthorn House.
+6. HER MOTHER’S NAME — Mara finds proof her mother had a hidden connection to Blackthorn House.
 7. OCTOBER 17 — the official fire record contradicts the physical evidence.
 8. THE MEMORY TRIAL — the family experiment is revealed.
 9. THE BETRAYAL — Mara learns Adrian used her restoration work to access hidden data.
