@@ -1,7 +1,7 @@
 ---
 name: ai-video-model-router
 description: Route each AI-drama shot to the most suitable available still, reference, image-to-video or text-to-video model based on identity control, motion, audio, camera, cost, speed and failure risk.
-version: 1.0.0
+version: 1.0.1
 ---
 
 # ai-video-model-router
@@ -22,6 +22,20 @@ Use for:
 - deciding which shots deserve premium generation attempts
 - planning fallbacks when one model repeatedly fails
 - comparing quality, controllability, latency or cost for a production plan
+
+## Required inputs
+
+Use the best available combination of:
+- approved shot list / storyboard
+- performance and cinematic intent
+- reference-first asset bindings
+- available providers/models/interfaces in the user's workflow
+- target duration and aspect ratio
+- dialogue/audio requirements
+- cost/credit and speed priorities
+- current capability evidence or project test results when available
+
+If current provider capabilities materially affect routing and are not verified, keep the route provisional until current evidence is obtained.
 
 ## Decision ownership
 
@@ -72,7 +86,7 @@ For every shot score or classify:
 - render speed priority
 - cost sensitivity
 
-## Routing workflow
+## Workflow
 
 1. Read the approved shot intent and references.
 2. Identify what the shot absolutely cannot lose.
