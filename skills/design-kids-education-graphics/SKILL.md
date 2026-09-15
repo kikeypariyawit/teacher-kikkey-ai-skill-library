@@ -23,6 +23,8 @@ For new images, broad redesigns, or feedback that work looks generic, apply [ref
 
 For a new design or broad redesign, read [references/art-direction.md](references/art-direction.md). Compare a few meaningfully different compositions internally, select the strongest fit, and proceed. Show options only when requested or when a consequential unresolved choice needs the user.
 
+For **BEV Facebook feed graphics**, also read [references/bev-facebook-style-reference.md](references/bev-facebook-style-reference.md). Treat it as the preferred visual grammar when the request asks for the current BEV look, a Facebook-ready design, or a style similar to the user-approved 2026-09-15 references. Use its four composition families as a repertoire, not fixed templates, and keep platform notes date-sensitive rather than hard-coding them as permanent facts.
+
 Choose photography, illustration, objects, or typography because it serves this specific message. Children's education does not automatically mean cute animal characters. When real activity is central and suitable photos are supplied, prioritize those photos. An editorial illustration can suit a general parenting or language post, but must not impersonate a BEV event or override an explicit real-photo request.
 
 For a narrow edit, preserve the accepted direction. Define what changes and what must remain before editing. Do not turn a price correction into a full redesign.
@@ -42,6 +44,8 @@ Read [references/mobile-design-system.md](references/mobile-design-system.md) fo
 Keep exact copy in a compact text inventory while working. Use natural Thai, meaningful line breaks, and short functional English. Keep text off faces, working hands, and safety equipment. Put explanation in the caption when the image is becoming an essay. Respect a requested single page; summarize secondary information before proposing extra pages.
 
 For learning graphics, match visual language to the age band and task without assuming all older learners need harder vocabulary. For parent-facing posts, keep the composition adult-readable even when the subject is playful. Do not promise virality, guaranteed learning outcomes, or developmental benefits unsupported by evidence.
+
+When a visual includes a developmental, health-adjacent, language-learning, or behavioral claim rather than a simple visible activity description, require claim grounding before locking the on-image copy. Route substantial BEV evidence work through `bev-education-researcher`; put only the safest short takeaway on the image and keep nuance or sources in the caption when useful.
 
 ## Protect authenticity and facts
 

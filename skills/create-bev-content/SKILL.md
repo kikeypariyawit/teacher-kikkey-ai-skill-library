@@ -5,7 +5,7 @@ description: Create fresh, useful, visually polished social content for Bangyai 
 
 # Create BEV Content
 
-Create content Thai parents want to save, try, or share because it offers a specific useful idea. Keep children and their activity central, with English as part of meaningful play. Treat freshness, usefulness, and visual quality as separate requirements.
+Create content Thai parents want to save, try, or share because it offers a specific useful idea. Keep children and their activity central, with English as part of meaningful play. Treat freshness, usefulness, visual quality, and evidence quality as separate requirements.
 
 ## Ground the request
 
@@ -29,19 +29,25 @@ Use `plan-fresh-kids-content` when available for substantial calendars or repeat
 
 ## Make benefits credible
 
-Distinguish a visible observation, a proposed activity, and a research-supported claim. Match the wording to the evidence.
+Distinguish a visible observation, a proposed activity, a practice opportunity, and a research-supported claim. Match the wording to the evidence.
 
-- For health, developmental mechanisms, statistics, recommendations, or named research claims, browse reliable current sources and link the directly supporting page near the claim. Prefer primary studies, systematic reviews, and authoritative guidance; calibrate causation and age applicability. Use `create-research-backed-parent-content` for substantial research when available.
+- For health, developmental mechanisms, statistics, recommendations, language-learning mechanisms, cognition, sleep, screen use, motor development, or named research claims, browse reliable current sources and link the directly supporting page near the claim. Prefer primary studies, systematic reviews, major institutions, and professional associations; calibrate causation and age applicability. Use `bev-education-researcher` for BEV evidence work and `create-research-backed-parent-content` for substantial parent-content research when available.
+- Before research, write the exact claim you want to support. Do not search broadly and then retrofit a dramatic headline to whatever evidence appears.
+- Translate research into one safe parent-facing takeaway. Put nuance and sources in the caption when useful; do not turn the image into an academic slide.
 - Do not invent statistics, citations, neuroscience, individual progress, testimonials, or guaranteed results. Avoid “เพิ่ม IQ”, “พัฒนาสมองทุกด้าน”, “แก้สมาธิสั้น”, or promises of fluency from a session.
 - If evidence cannot be checked, omit the unsupported claim and give a clearly framed practical suggestion. Do not label it research-backed.
 - Simple observed activity descriptions and original low-risk language games need no ornamental research paragraph. Keep English natural, short, and functional; provide Thai meaning when useful.
 - Make activities accessible to children who prefer watching, pointing, moving, or speaking briefly. Never equate quietness with inability or pressure children into public performance.
 
-## Art-direct for mobile
+## Art-direct for Facebook and mobile
 
-Use [references/visual-playbook.md](references/visual-playbook.md) for image briefs, creation, and redesign. Default feed format: 4:5, 1080 × 1350; short video: 9:16. The user's specified ratio takes priority.
+Use [references/visual-playbook.md](references/visual-playbook.md) for image briefs, creation, and redesign. For BEV Facebook feed work, route the finished visual through `design-kids-education-graphics` and its [BEV Facebook style reference](../../design-kids-education-graphics/references/bev-facebook-style-reference.md) when available. Default feed format: 4:5, 1080 × 1350; short video: 9:16. The user's specified ratio takes priority.
 
-Use warm editorial early-learning design with strong readable Thai type, generous space, natural green and cream, and a purposeful brighter accent. Vary composition and visual storytelling while preserving brand recognition. Keep one main idea on a single image; move explanations into the caption or carousel. Do not reduce type to fit an essay.
+Use the user-approved BEV visual grammar as a repertoire: authentic activity/family moments, bold Thai editorial hierarchy, warm outdoor/nature framing, controlled bright accents, and compact information modules. Choose among adventure hero, real-photo skills collage, quiet parent editorial, or storybook offer-card structures according to the message. Do not force every post into the same layout.
+
+Keep one main idea on a single image. Use large readable Thai type, a clear primary subject, a controlled background around text, generous spacing, and only a few purposeful icons or decorative motifs. Move explanations into the caption or carousel instead of shrinking type to fit an essay. A Facebook post should still make sense at phone size and after a quick glance.
+
+For platform-specific or paid-ad decisions, verify current Meta guidance rather than treating old dimensions or creative rules as permanent. Current research notes can guide design—fast hooks, contrast, clear subject, mobile preview, creative testing—but never justify promising reach or virality.
 
 Use only an available official BEV logo, once, with clear space; never redraw it or imply a text label is the official logo. Use the verified supplied logo by default unless the user asks to omit it. Missing logos need not block a content draft or clearly identified illustration.
 
@@ -71,6 +77,7 @@ Before delivery, verify:
 - **Fresh:** The underlying advice differs from the closest available recent post, or the requested repeat has a meaningful new application.
 - **Useful:** Parents receive a specific usable takeaway or concrete verified reason to enquire.
 - **Credible:** Claims, ages, examples, source links, and business details agree; no invented outcomes or urgency.
+- **Facebook-ready:** The first read is quick, the main subject and headline are clear at phone size, and nonessential text or decoration has been removed.
 - **Beautiful:** The visual has one clear focal point, readable Thai, balanced spacing, and activity-relevant imagery. Inspect the actual rendered result at full size and phone size when accessible; do not claim a visual inspection from a prompt alone.
 - **Correct:** Proofread Thai marks, English, numbers, contacts, logo, crop, and caption–image agreement. Repair material errors before describing an asset as ready to post.
 - **Complete:** Deliver the requested artifact, not just directions; clearly identify any unavailable asset or remaining tool limitation.
