@@ -1,3 +1,13 @@
+# 4.0.0 — Roblox Product Studio + AI Drama v4
+
+- Added `roblox-retention-game-director` for player promise, FTUE funnels, core/session/meta/return/social loops, progression, replayability, analytics instrumentation, discovery-signal diagnosis, mobile performance gates and Codex implementation handoffs.
+- Added `roblox-economy-monetization-director` for currency roles, sources/sinks, economy simulation, passes/developer products/subscriptions, value ladders, purchase funnels, receipt integrity, pricing verification and paid-random-item policy gates.
+- Added dated Roblox platform research based primarily on official Creator Hub documentation and regression evals for FTUE, map scale, retention, economy, receipts, social invites and monetization safety.
+- Upgraded `ai-drama-story-engine` to v4.0.0 with series engine, promise/debt ledger, first-episode promise block, anti-sag axis shifts, novelty budgeting, production-complexity awareness and analytics-based repair.
+- Upgraded `vertical-drama-retention-director` to v2.0.0 with entry/carry/payment/continuation architecture, middle-retention checks, promise-payment cadence, cliffhanger-rotation diagnostics and timestamp-based retention repair.
+- Added a dated vertical-drama research snapshot separating platform evidence from craft heuristics.
+- Updated `AGENTS.md`, `workflow-router`, and `README.md` so Roblox requests route to the smallest useful game-product/economy chain.
+
 # 3.0.0 — AI Drama Studio v3
 
 - Added `vertical-drama-retention-director` for vertical hook clarity, viewer-question chains, reveal pacing, emotional contrast and attention architecture without fake clickbait.
