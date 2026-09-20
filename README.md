@@ -1,6 +1,6 @@
-# Teacher Kikkey AI Skill Library v3
+# Teacher Kikkey AI Skill Library v4
 
-A curated Agent Skills library for recurring work across Bangyai English Village, social content, AI drama, image direction, educational products, and creator monetization.
+A curated Agent Skills library for recurring work across Bangyai English Village, social content, AI drama, Roblox game product design, image direction, educational products, and creator monetization.
 
 The goal is not to collect hundreds of prompts. The goal is to build a small, high-quality operating system with clear decision ownership, routing, handoffs, QA, canonical project state, reference-first visuals, and version control.
 
@@ -40,6 +40,11 @@ Approved references define identity/state. Prompts direct what those approved as
 - `veo-shot-planner` — Start/end-frame strategy, shot engineering and ready-to-paste motion prompt packs after routing.
 - `continuity-supervisor` — Cross-shot/cross-episode character, wardrobe, prop, location and story-state continuity.
 - `episode-qa` — Pre-generation and post-generation episode QA and repair.
+
+### Roblox Game Studio
+- `roblox-retention-game-director` — FTUE, core/session/meta loops, replayability, progression, social play, analytics instrumentation, discovery-signal diagnosis, mobile performance, and Codex implementation handoffs.
+- `roblox-economy-monetization-director` — currencies, sources/sinks, passes, developer products, subscriptions, pricing, purchase funnels, receipt integrity, and policy-aware monetization.
+- Dated platform evidence lives in `docs/ROBLOX_PLATFORM_RESEARCH_2026-09-20.md`; current platform claims should be re-verified before implementation.
 
 ### Image
 - `image-art-director` — Premium image concepts and art direction.
@@ -92,7 +97,7 @@ For cinematic/non-vertical work, invoke `vertical-drama-retention-director` only
 
 ## Decision ownership
 
-The Studio v3 upgrade deliberately separates decisions that are often mixed into one huge prompt:
+The Studio v4 system deliberately separates decisions that are often mixed into one huge prompt:
 
 - **Story engine** — what happens and why.
 - **Retention director** — why the viewer keeps watching the next beat.
@@ -177,6 +182,12 @@ Templates are provided in `/templates`.
 **AI drama — model routing**
 > Use the approved shot list. Route each shot independently across my available tools, label current capability evidence, allocate hero/core/utility quality tiers, and provide fallback routes before writing final motion prompts.
 
+**Roblox — retention/product pass**
+> Audit my current playable build as a mobile-first Roblox product. Define the player promise, FTUE funnel, core/session/meta/return/social loops, progression, analytics events, performance gates, highest-risk retention leaks, and a prioritized Codex implementation brief. Do not promise Top-10 placement.
+
+**Roblox — economy/monetization pass**
+> Design a fair economy and monetization layer only after the core loop is clear. Map currencies, sources/sinks, stage-specific wallet assumptions, SKU/value ladder, purchase moments, receipt/idempotency requirements, analytics events, policy gates, and post-launch rebalance rules.
+
 **BEV**
 > Create one genuinely fresh BEV parent post. Avoid our common screen-time/outdoor angle. Use the relevant skills and QA it.
 
@@ -198,4 +209,4 @@ Recommended instruction for a new AI-drama Work task:
 - Minor: meaningful workflow/resources added without changing major ownership
 - Major: repository-wide ownership or routing changes
 
-Studio v3 is a major AI-drama routing change because retention, performance and model routing now have dedicated decision owners.
+Studio v4 adds an evidence-driven Roblox product/economy layer and upgrades AI drama with promise/debt control, anti-sag season architecture, production-aware complexity and analytics-based retention repair.
