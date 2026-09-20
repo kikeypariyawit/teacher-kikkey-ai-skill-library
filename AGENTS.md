@@ -1,7 +1,7 @@
 # Teacher Kikkey AI Studio — AGENTS.md
 
 ## Mission
-A reusable operating system for recurring creative, education, marketing, AI-film, and digital-product work.
+A reusable operating system for recurring creative, education, marketing, AI-film, Roblox game-product, and digital-product work.
 
 ## First principles
 - Use the **smallest useful skill chain**.
@@ -13,6 +13,8 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - For serialized AI drama visuals, use **reference-first production**: approved visual references define identity/state; prompts direct what changes next.
 - For vertical drama, separate **story causality**, **retention architecture**, **performance**, **cinematography**, and **model routing** instead of forcing one prompt to own all five.
 - Route AI-video models **per shot**, not by habit for the whole episode.
+- For Roblox, treat analytics instrumentation, mobile performance and player value as product design inputs rather than post-launch cleanup.
+- For Roblox monetization, make the core play valuable before purchase prompts and verify current platform/policy details before implementation.
 
 ## Default routing
 
@@ -43,6 +45,12 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - Veo/Flow-style shots / start-end frames / generation prompts → `veo-shot-planner`
 - Cross-shot / cross-episode state → `continuity-supervisor`
 - Episode audit → `episode-qa`
+
+### Roblox
+- Core game concept / FTUE / retention / replayability / progression / social / live-ops / analytics / mobile product design → `roblox-retention-game-director`
+- Currencies / sources-sinks / passes / developer products / subscriptions / pricing / purchase flow / receipt integrity / monetization policy → `roblox-economy-monetization-director`
+- Full commercial-game system pass → retention director as lead, economy director only when purchase/economy scope is relevant
+- Current Roblox platform claims → verify official Creator Hub; use dated research notes rather than silently hard-coding volatile limits
 
 ### Image
 - Concept + prompt + art direction → `image-art-director`
@@ -120,6 +128,9 @@ Use the same chain but invoke `vertical-drama-retention-director` only when shor
 ### AI drama focused task
 Use the narrowest single specialist skill or short chain needed; do not invoke the whole episode pipeline for one prompt, one line, or one shot unless downstream continuity would break.
 
+### Roblox commercial game
+`roblox-retention-game-director` → `roblox-economy-monetization-director` (only when economy/monetization is in scope) → implementation handoff to Codex/Roblox Studio → post-release analytics feedback into the smallest affected skill
+
 ### Educational product
 `educational-product-builder` → `digital-product-launcher` → `social-viral-strategist` / `caption-conversion-writer`
 
@@ -137,6 +148,9 @@ Use the narrowest single specialist skill or short chain needed; do not invoke t
 11. For recurring drama, preserve approved canon, visual masters and stable shot IDs across revisions whenever possible.
 12. For pre-generation QA, inspect the plan that exists; never block completion by asking for a video that has not been generated yet.
 13. For monetization, use assumptions and ranges; never promise earnings.
+14. For Roblox, instrument onboarding/progression/economy hypotheses before guessing from anecdotes when data can be collected.
+15. For Roblox, do not trade join time, memory or low-end mobile usability for an unnecessarily large world.
+16. For Roblox purchases, protect non-payer viability, receipt integrity and current paid-random-item policy compliance.
 
 ## Cinematic production standard
 For prestige / cinematic / โปรดักชัน 100 ล้าน briefs, load the producer's bundled prestige-direction reference for production design, location geometry, performance, camera/light, edit and sound. Use model capability evidence before tool-specific controls. Treat the requested budget as an artistic aspiration, not spending authorization. Skill handoffs do not require parallel agents. Preserve existing smallest-chain routing.
