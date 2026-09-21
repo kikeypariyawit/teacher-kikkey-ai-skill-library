@@ -39,6 +39,31 @@ It does not own:
 - provider/model routing
 - motion prompt syntax
 
+## Required inputs
+
+Use the best available combination of:
+- approved scene/script or world brief
+- recurring-location requirements
+- current project/character canon
+- time/era/cultural context
+- reference assets or existing Location Master
+- scene blocking needs
+- aspect ratio and delivery format
+- known generation constraints
+
+## Workflow
+
+1. Define the location's narrative function and emotional contradiction.
+2. Establish architecture, scale, circulation and three repeatable spatial anchors.
+3. Choose materials, wear, maintenance and status cues that fit the world.
+4. Define practical light sources and day/night/weather variants.
+5. Add only story-relevant dressing and one or two hero props.
+6. Plan foreground, midground, background and negative-space opportunities.
+7. Define population logic and event/crowd zones when relevant.
+8. Separate must-preserve location invariants from allowed variation.
+9. Hand location identity to reference-first visual production for Location Master / Scene Anchor creation when needed.
+10. Hand staging/camera execution to cinematic-director.
+
 ## Location bible
 
 For each important location define:
