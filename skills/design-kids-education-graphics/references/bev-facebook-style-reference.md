@@ -1,6 +1,6 @@
 # BEV Facebook style reference
 
-This reference captures the visual grammar the user approved on 2026-09-15. It is a style system, not a template to copy literally. Use the current brief, real BEV assets, latest verified facts, and current platform requirements over anything here.
+This reference captures the visual grammar the user approved on 2026-09-15 and expands it with the user-approved **Colorful Outdoor Editorial** direction from 2026-09-21. It is a style system, not a template to copy literally. Use the current brief, real BEV assets, latest verified facts, and current platform requirements over anything here.
 
 ## Reference DNA
 
@@ -16,6 +16,64 @@ Core characteristics:
 - benefit icons are simple and limited; they clarify, not decorate
 - composition may be lively, but the reading path stays obvious
 - warmth and playfulness come from authentic expressions, sunlight, nature, and activity—not from excessive stickers
+
+## Approved default — Colorful Outdoor Editorial (2026-09-21)
+
+Use this direction as the **default for Parenting, Outdoor & Movement, Child Development, and soft-sell English-through-real-life posts**, unless the user explicitly asks for another campaign style.
+
+### Look and feeling
+
+- photorealistic Thai children in a real-feeling outdoor activity moment
+- candid teamwork, helping, exploring, thinking, speaking, or problem-solving rather than posed school portraits
+- warm natural daylight / soft golden sunlight
+- lush but controlled greenery and gentle depth of field
+- bright, joyful, colorful and premium without neon saturation
+- natural green + warm cream as the base, with controlled orange/yellow and small BEV brand-color accents
+- one clear emotional hero moment with generous breathing room
+
+### Typography and copy
+
+- large friendly, sturdy Thai sans-serif headline
+- short headline first; explanation belongs in caption when possible
+- use 2–3 controlled text colors to create hierarchy rather than many competing styles
+- one short supporting line is acceptable when it adds real meaning
+- English micro-copy may appear in **1–2 small speech bubbles** when it reflects the actual action, e.g. “Let’s go together!” or “I’ll help you.”
+- English should support the Thai message, never compete with it
+
+### Graphic language
+
+- restrained leaf / sprout motifs
+- hand-drawn marks, simple brush strokes, cream paper/paint fields
+- occasional natural wood details when they reinforce outdoor identity
+- official BEV logo once, small, unchanged, with clear space
+- optional bottom brand tag such as “Bangyai English Village” when it does not compete with the headline
+- default ratio for feed remains 4:5
+
+### Variation rule
+
+Preserve this **visual DNA**, not the exact same layout. Change at least two of the following from post to post:
+
+- child action
+- camera distance or angle
+- headline placement
+- crop / subject side
+- graphic framing
+- accent color
+- small English phrase treatment
+
+This prevents the feed from looking templated while keeping it recognizably BEV.
+
+### Avoid inside this direction
+
+- busy event-poster density
+- stacked price boxes, badges, sticker clusters, or CTA blocks unless the post is actually promotional
+- cartoon-heavy or fantasy backgrounds for ordinary educational/parenting posts
+- harsh contrast or over-saturated neon colors
+- too many wooden signs, leaves, clouds, doodles, or speech bubbles in one frame
+- generic stock-school posing
+- long Thai paragraphs on the artwork
+- generated pseudo-logos
+- decorative English slogans unrelated to the action
 
 ## Four approved composition families
 
