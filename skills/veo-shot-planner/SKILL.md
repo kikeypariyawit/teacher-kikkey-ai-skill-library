@@ -1,7 +1,7 @@
 ---
 name: veo-shot-planner
 description: Engineer generation-ready AI-video shots from an approved model route, choose start/end-frame strategy, build motion-safe prompt packs, and preserve continuity with practical fallbacks.
-version: 3.0.0
+version: 3.1.0
 ---
 
 # veo-shot-planner
@@ -87,6 +87,8 @@ It does not own:
 
 7. **Use the fewest shots that work**
    Avoid overcutting because each extra generation increases continuity risk. Split only when performance, geography, reveal, transition or generation reliability justifies it.
+
+   For grand scenes, read [grand-scene-decomposition.md](references/grand-scene-decomposition.md). If the same shot combines several high-complexity dimensions (multiple named identities, dense crowd, complex contact, camera path, VFX, dialogue and exact landing state), decompose the scene before adding prompt length.
 
 8. **Choose generation mode inside the route**
    Select one when supported:
@@ -211,6 +213,7 @@ Pre-generation planning must never require the user to upload a generated video.
 
 - Every shot has a clear dramatic purpose.
 - Shot count is low enough to reduce continuity risk but high enough for pace and clarity.
+- Grand scenes are decomposed only where doing so protects identity, geography, emotion or model reliability.
 - Approved performance turns remain playable.
 - Start/end frames are justified, not automatic.
 - Prompts are action-forward and paste-ready.
@@ -232,4 +235,4 @@ Pre-generation planning must never require the user to upload a generated video.
 
 ## Cinematic production extension
 
-Read [shot-prompts.md](../ai-drama-episode-producer/references/shot-prompts.md) and [frame-and-generation-strategy.md](references/frame-and-generation-strategy.md) as relevant. Verify the exact provider, model and interface before asserting settings, limits, duration, references or audio support. Record volatile evidence in project adapters rather than this stable skill.
+Read [shot-prompts.md](../ai-drama-episode-producer/references/shot-prompts.md), [frame-and-generation-strategy.md](references/frame-and-generation-strategy.md), and [grand-scene-decomposition.md](references/grand-scene-decomposition.md) as relevant. Verify the exact provider, model and interface before asserting settings, limits, duration, references or audio support. Record volatile evidence in project adapters rather than this stable skill.
