@@ -1,3 +1,10 @@
+# 4.0.1 — BEV Colorful Outdoor Editorial visual standard — 2026-09-21
+
+- Updated `design-kids-education-graphics/references/bev-facebook-style-reference.md` with the newly approved BEV default for Parenting, Outdoor & Movement, Child Development, and soft-sell English-through-real-life posts.
+- Locked the preferred visual DNA: photorealistic Thai children in candid outdoor activity, warm sunlight, green/cream base, controlled orange/yellow accents, large friendly Thai headline, restrained leaves/brush/wood framing, and optional 1–2 natural English micro-copy bubbles.
+- Added variation rules so future posts keep the same BEV identity without repeating the same layout.
+- Added anti-patterns for busy event-poster density, generic school posing, over-saturation, excessive decorative elements, and long copy on artwork.
+
 # 4.0.0 — Roblox Product Studio + AI Drama v4
 
 - Added `roblox-retention-game-director` for player promise, FTUE funnels, core/session/meta/return/social loops, progression, replayability, analytics instrumentation, discovery-signal diagnosis, mobile performance gates and Codex implementation handoffs.
