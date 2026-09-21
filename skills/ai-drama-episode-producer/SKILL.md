@@ -1,7 +1,7 @@
 ---
 name: ai-drama-episode-producer
-description: Create or continue cinematic AI drama with canon lock, story, vertical retention, cast, reference architecture, performance, production design, storyboard, model routing, start/end frames, prompts, edit/sound and continuity QA.
-version: 3.0.1
+description: Create or continue cinematic AI drama with canon lock, story, vertical retention, cast, reference architecture, performance, authored production design, grand setpieces, storyboard, model routing, start/end frames, prompts, edit/sound and continuity QA.
+version: 4.0.0
 ---
 
 # ai-drama-episode-producer
@@ -84,11 +84,13 @@ Run the relevant decision passes without stage-gating:
 4. `dialogue-subtext-writer`
 5. `reference-first-visual-production`
 6. `performance-director`
-7. `cinematic-director`
-8. `ai-video-model-router`
-9. `veo-shot-planner` or the compatible shot-planning pass for the chosen interface
-10. `continuity-supervisor`
-11. `episode-qa`
+7. `ai-production-designer` when a major/recurring location needs authored environment design
+8. `cinematic-setpiece-director` when scale, crowd, event choreography or spectacle materially drives the scene
+9. `cinematic-director`
+10. `ai-video-model-router`
+11. `veo-shot-planner` or the compatible shot-planning pass for the chosen interface
+12. `continuity-supervisor`
+13. `episode-qa`
 
 Do not stop after script, storyboard or shot planning to ask for approval unless a genuinely unresolved canon conflict would invalidate later work.
 
@@ -113,15 +115,17 @@ Examples:
 5. **Episode script** — produce finished scene-by-scene action and dialogue at plausible runtime.
 6. **Reference architecture** — resolve Character Masters, Look Masters, Location Masters, Scene Anchors, previous-shot handoffs and ownership boundaries.
 7. **Performance pass** — define objectives, tactics, subtext, gaze, body distance, reaction timing and emotional transitions.
-8. **Cinematic pass** — choose blocking, compositions, reveals, motifs, camera and lighting that serve story and performance.
-9. **Storyboard / master shot plan** — assign stable scene and shot IDs; use the fewest shots that preserve clarity, emotion and pace.
-10. **Generation routing** — choose still-first, reference-driven, image-to-video, start-frame, start+end-frame or text-to-video route per shot. Assign primary/fallback model roles based on verified or clearly labeled capability evidence.
-11. **Prompt pack** — provide ready-to-paste frame and motion prompts with actual reference ownership, continuity anchors and practical fallbacks.
-12. **Edit and sound map** — define intended edit duration, reaction holds, transitions, dialogue/SFX/music cues and generated-versus-used duration where relevant.
-13. **Continuity delta** — record what changed by episode end and what the next episode inherits.
-14. **Project-state update plan** — specify exact post-approval updates for canonical files.
-15. **Pre-generation QA** — repair critical story, retention, performance, visual, continuity and generation-risk issues.
-16. **Final approval package** — return the corrected production-ready version, not an unresolved suggestion list.
+8. **Production-design pass** — for major/recurring locations, establish architecture, materials, spatial anchors, practical light and population logic through `ai-production-designer`.
+9. **Set-piece pass** — when the scene is grand, crowded, event-based or VFX-heavy, define dramatic reason for scale, reveal hierarchy, geography, hero image, crowd zones, complexity budget and fallback through `cinematic-setpiece-director`.
+10. **Cinematic pass** — choose blocking, compositions, reveals, motifs, camera and lighting that serve story, performance and approved set-piece geography.
+11. **Storyboard / master shot plan** — assign stable scene and shot IDs; use the fewest shots that preserve clarity, emotion and pace. For large scenes, decompose overloaded generations into controlled coverage.
+12. **Generation routing** — choose still-first, reference-driven, image-to-video, start-frame, start+end-frame or text-to-video route per shot. Assign primary/fallback model roles based on verified or clearly labeled capability evidence.
+13. **Prompt pack** — provide ready-to-paste frame and motion prompts with actual reference ownership, continuity anchors and practical fallbacks.
+14. **Edit and sound map** — define intended edit duration, reaction holds, transitions, dialogue/SFX/music cues and generated-versus-used duration where relevant.
+15. **Continuity delta** — record what changed by episode end and what the next episode inherits.
+16. **Project-state update plan** — specify exact post-approval updates for canonical files.
+17. **Pre-generation QA** — repair critical story, retention, performance, visual, continuity and generation-risk issues.
+18. **Final approval package** — return the corrected production-ready version, not an unresolved suggestion list.
 
 ## Model-routing evidence rule
 
@@ -210,7 +214,9 @@ Return, when relevant:
 - Dialogue writer decides spoken language and subtext wording.
 - Reference-first production decides visual ownership and bindings.
 - Performance director decides playable acting and emotional progression.
-- Cinematic director decides staging, composition, camera and light.
+- AI production designer decides recurring environment identity, architecture, materials, spatial anchors and population logic when needed.
+- Cinematic setpiece director decides large-scene dramatic scale, reveal hierarchy, geography, hero image, crowd zones and reduced-complexity fallback when needed.
+- Cinematic director decides staging, composition, camera and light within the approved performance/environment/set-piece intent.
 - Model router decides per-shot generation route and primary/fallback model role.
 - Shot planner decides frame engineering, motion prompts and generation-safe handoff.
 - Continuity supervisor decides cross-shot/cross-episode state.
@@ -225,6 +231,8 @@ Return, when relevant:
 - Performance beats have objectives, triggers and readable transitions.
 - Approved references own identity/look/location truth where needed.
 - Cinematic choices serve story and performance rather than generic spectacle.
+- Major locations are authored rather than generic when production design materially matters.
+- Large scenes preserve a readable human anchor, coherent geography, controlled crowd logic and a practical decomposition/fallback.
 - Major visual beats can be generated with the stated production tools.
 - Model routing is per shot and capability evidence is labeled.
 - Start/end frames are justified, not automatic.
@@ -235,14 +243,14 @@ Return, when relevant:
 
 ## Cinematic production upgrade
 
-For ambitious cinematic episodes, read the producer references as needed:
+For ambitious cinematic episodes, route grand scenes through `ai-production-designer` and/or `cinematic-setpiece-director` only when their distinct ownership is needed. Then read the producer references as needed:
 - `references/story-performance.md`
 - `references/prestige-direction.md`
 - `references/shot-prompts.md`
 - `references/continuity-delivery.md`
 - `references/quality-rubric.md`
 
-Treat “100 ล้าน” as visual/dramatic ambition, not a verified budget or promise. Do not shrink scale by default; engineer achievable layered coverage. Runtime is the final edit total, not the sum of all generated source lengths.
+Treat “100 ล้าน” as visual/dramatic ambition, not a verified budget or promise. Do not shrink scale by default; engineer achievable layered coverage. For difficult spectacle, use the set-piece complexity budget and the shot planner's `references/grand-scene-decomposition.md` instead of forcing crowd, identities, choreography, VFX and camera motion into one prompt. Runtime is the final edit total, not the sum of all generated source lengths.
 
 For high-emotion scenes, heightened or stage-level inner intensity is allowed when requested, but emotional changes must still have triggers, tactics and contrast.
 
