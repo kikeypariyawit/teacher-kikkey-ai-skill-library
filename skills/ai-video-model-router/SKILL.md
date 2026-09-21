@@ -1,7 +1,7 @@
 ---
 name: ai-video-model-router
 description: Route each AI-drama shot to the most suitable available still, reference, image-to-video or text-to-video model based on identity control, motion, audio, camera, cost, speed and failure risk.
-version: 1.0.1
+version: 1.1.0
 ---
 
 # ai-video-model-router
@@ -78,6 +78,8 @@ For every shot score or classify:
 - physical interaction complexity
 - camera-motion complexity
 - environment-motion complexity
+- crowd density/specificity
+- VFX/compositing burden
 - exact landing-state requirement
 - dialogue/lip-sync/audio need
 - target duration
@@ -92,7 +94,8 @@ For every shot score or classify:
 2. Identify what the shot absolutely cannot lose.
 3. Build the shot requirement vector.
 4. Inspect currently available models/interfaces and evidence status.
-5. Choose a primary route from:
+5. For grand scenes, inspect the simultaneous complexity load before choosing a route. If identities + crowd + choreography + camera + VFX are all high, prefer decomposition/hybrid coverage unless a current project test supports the combined shot.
+6. Choose a primary route from:
    - still/keyframe generation only
    - still master → image-to-video
    - reference-driven video
@@ -100,10 +103,10 @@ For every shot score or classify:
    - start + end frame video
    - text-to-video
    - hybrid split-shot route
-6. Assign the primary model/tool and explain why in one sentence.
-7. Assign one practical fallback route.
-8. Flag any capability assumption that remains provisional.
-9. After repeated failure, change route instead of endlessly rewriting the same prompt.
+7. Assign the primary model/tool and explain why in one sentence.
+8. Assign one practical fallback route.
+9. Flag any capability assumption that remains provisional.
+10. After repeated failure, change route instead of endlessly rewriting the same prompt.
 
 ## Routing heuristics
 
@@ -117,6 +120,20 @@ Use these as model-neutral production heuristics:
 - dialogue shot → prioritize performance/audio compatibility and plausible duration over elaborate camera motion
 - utility reaction/insert → use the fastest reliable route that preserves canon
 - hero reveal → spend higher quality/iteration budget only where viewers will notice it
+- grand environment with identity-critical acting → separate environment/scale coverage from performance coverage when simultaneous complexity threatens face or acting
+- crowd-heavy spectacle → treat crowd specificity as expendable before sacrificing the principal action or story turn
+- current Seedance/Veo capability claims → consult dated research/project MODEL_ADAPTERS; never infer exact limits from family names
+
+## Grand-scene routing doctrine
+
+For signature sequences, first decide whether the shot should remain whole or be decomposed into a sequence. A strong route may be:
+- environment master → character approach → decisive interaction → reaction/consequence;
+- still/location master → image-to-video for identity-sensitive coverage;
+- text-to-video for atmosphere/utility coverage where identity is not critical;
+- start-frame control for exact composition, with end-frame control only for a required landing state;
+- separate VFX/environment plate logic when the interface supports a reliable workflow.
+
+Use `docs/CINEMATIC_AI_VIDEO_RESEARCH_2026-09-22.md` as dated evidence background and refresh time-sensitive provider details before a current routing claim.
 
 ## Cost-aware production tiers
 
