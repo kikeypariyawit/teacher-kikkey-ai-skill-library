@@ -4,7 +4,7 @@ import re, sys
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
-EXPECTED_SKILL_COUNT = 26
+EXPECTED_SKILL_COUNT = 33
 required_sections = [
     "## Purpose","## Use when","## Required inputs","## Workflow",
     "## Output contract","## Final QA","## Operating rules"
