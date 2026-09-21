@@ -54,7 +54,7 @@ Use the best available combination of:
 - available reference assets
 - known generation constraints
 
-## Set-piece workflow
+## Workflow
 
 ### 1. State the dramatic reason for scale
 Complete:
