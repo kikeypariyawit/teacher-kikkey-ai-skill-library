@@ -1,7 +1,7 @@
 ---
 name: workflow-router
 description: Route complex requests to the smallest useful combination of Teacher Kikkey AI Studio skills and define handoffs between them.
-version: 1.1.0
+version: 1.2.0
 ---
 
 # workflow-router
@@ -26,6 +26,7 @@ Use for Tasks spanning multiple domains, 'do everything' requests, or ambiguous 
 1. Identify the final deliverable before selecting skills.
 2. Resolve canonical project facts first when changing dates, prices, assets, or continuity matter; flag conflicts rather than guessing.
 3. Choose one lead skill responsible for end-to-end coherence.
+   - For AI-drama requests involving a major recurring environment, add `ai-production-designer`; for a true crowd/event/epic signature sequence, add `cinematic-setpiece-director`. Do not add either to ordinary dialogue coverage by default.
    - For Roblox game requests, use `roblox-retention-game-director` as lead for product/retention/gameplay. Add `roblox-economy-monetization-director` only when currencies, purchases or monetization are materially in scope.
    - For current Roblox platform/policy claims, require official-source verification rather than relying on stale skill text.
 4. Add only supporting skills with distinct capabilities.
