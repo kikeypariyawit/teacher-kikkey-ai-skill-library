@@ -1,14 +1,14 @@
 ---
 name: cinematic-director
 description: Translate approved story and performance beats into cinematic staging, camera, lighting, blocking, production design and emotional visual language for AI film production.
-version: 3.0.0
+version: 4.0.0
 ---
 
 # cinematic-director
 
 ## Purpose
 
-Translate approved story, reference constraints and performance intent into filmable cinematic staging. Own blocking, camera grammar, production design, lighting, reveal strategy, spatial geography, visual motifs, edit intent and sound-image relationships.
+Translate approved story, reference constraints, performance intent and (when present) production-design/set-piece handoffs into filmable cinematic staging. Own blocking, camera grammar, lighting, reveal strategy, spatial geography, visual motifs, edit intent and sound-image relationships.
 
 `performance-director` owns playable acting. This skill **supports and photographs the performance** rather than independently redefining the character's inner objective, tactic or emotional turn.
 
@@ -18,9 +18,10 @@ Use for:
 - scene direction and visual storytelling
 - blocking and screen geography
 - camera grammar and composition
-- production design and location use
+- production design usage and location staging
 - lighting and atmosphere
-- visual reveals and set-piece construction
+- visual reveals and set-piece execution
+- translating a grand-scene handoff into readable camera/blocking coverage
 - turning an approved script/performance map into a filmable sequence
 
 ## Required inputs
@@ -42,7 +43,7 @@ This skill owns:
 - reveal strategy
 - lens/composition intent
 - lighting logic
-- production design usage
+- production design usage after environment identity is established
 - environment staging
 - edit intent and visual transitions
 - sound cues tied to direction
@@ -54,6 +55,8 @@ It does not own:
 - dialogue wording → `dialogue-subtext-writer`
 - playable acting objectives/tactics → `performance-director`
 - visual reference ownership → `reference-first-visual-production`
+- recurring location architecture/material identity → `ai-production-designer`
+- large-scene dramatic scale/geography/crowd architecture → `cinematic-setpiece-director`
 - provider/model choice → `ai-video-model-router`
 - generation-mode/frame engineering → `veo-shot-planner`
 
@@ -62,12 +65,13 @@ It does not own:
 1. Identify the emotional center and visual point of view.
 2. Read performance beats and preserve their triggers/turns.
 3. Read reference-first invariants and location geometry.
-4. Stage blocking so distance, orientation and movement express relationships.
-5. Choose camera grammar based on story/performance function, not decoration.
-6. Design reveals, foreground/background use and composition changes around audience knowledge.
-7. Use lighting, production design, weather and sound as narrative tools.
-8. Maintain screen direction, geography and action continuity.
-9. Keep shot intentions clear enough for downstream AI-video engineering.
+4. If `ai-production-designer` was used, preserve its structural anchors, practical light sources and population logic. If `cinematic-setpiece-director` was used, preserve its human anchor, reveal hierarchy, hero image, geography and complexity constraints.
+5. Stage blocking so distance, orientation and movement express relationships.
+6. Choose camera grammar based on story/performance function, not decoration.
+7. Design reveals, foreground/background use and composition changes around audience knowledge.
+8. Use lighting, production design, weather and sound as narrative tools.
+9. Maintain screen direction, geography and action continuity.
+10. Keep shot intentions clear enough for downstream AI-video engineering.
 
 ## Performance-support rule
 
@@ -102,11 +106,12 @@ If the camera choice would make the approved performance unreadable or physicall
 - No impossible geography or screen-direction break.
 - Lighting and design support story rather than decorate it.
 - Scale is concentrated where dramatically useful.
+- In grand scenes, the principal performance remains readable and camera ambition does not exceed the complexity budget without justification.
 - Direction is specific without over-constraining motion generation.
 
 ## Premium cinematic craft
 
-Read [cinematic-production.md](references/cinematic-production.md) for ambitious scenes and full episodes. Own the look bible, world/production design, set-piece geography, camera/light logic and edit/sound intent. Specify observable choices rather than stacking “cinematic, masterpiece, 8K” adjectives. Keep intimate dramatic truth legible within spectacle, and protect requested scale with feasible coverage.
+Read [cinematic-production.md](references/cinematic-production.md) for ambitious scenes and full episodes. For true signature set pieces, consume `cinematic-setpiece-director` first rather than duplicating its dramatic-scale decisions. For major recurring environments, consume `ai-production-designer` first rather than reinventing architecture shot by shot. Own the look bible, world/production design, set-piece geography, camera/light logic and edit/sound intent. Specify observable choices rather than stacking “cinematic, masterpiece, 8K” adjectives. Keep intimate dramatic truth legible within spectacle, and protect requested scale with feasible coverage.
 
 ## Operating rules
 

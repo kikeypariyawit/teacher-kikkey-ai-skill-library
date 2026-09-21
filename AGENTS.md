@@ -12,6 +12,7 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - For recurring production, preserve approved canon and only revise the smallest affected downstream chain.
 - For serialized AI drama visuals, use **reference-first production**: approved visual references define identity/state; prompts direct what changes next.
 - For vertical drama, separate **story causality**, **retention architecture**, **performance**, **cinematography**, and **model routing** instead of forcing one prompt to own all five.
+- For grand AI-drama scenes, separate **production design** and **set-piece architecture** from camera/prompt execution. Do not solve scale by stuffing one generation with every character, crowd action, VFX beat and camera move.
 - Route AI-video models **per shot**, not by habit for the whole episode.
 - For Roblox, treat analytics instrumentation, mobile performance and player value as product design inputs rather than post-launch cleanup.
 - For Roblox monetization, make the core play valuable before purchase prompts and verify current platform/policy details before implementation.
@@ -40,6 +41,8 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - Dialogue / inner monologue → `dialogue-subtext-writer`
 - Character/location/look reference packs, scene anchors, reference binding, keyframe continuity → `reference-first-visual-production`
 - Acting / playable emotion / gaze / body behavior / reaction timing → `performance-director`
+- Major recurring environment / architecture / materials / spatial anchors / population logic → `ai-production-designer`
+- Grand crowd/event/VFX signature sequence / hero image / reveal hierarchy / complexity budget → `cinematic-setpiece-director`
 - Staging / cinematic language / lighting / blocking / camera intent → `cinematic-director`
 - Per-shot model choice / still-first vs motion route / quality-cost-risk allocation → `ai-video-model-router`
 - Veo/Flow-style shots / start-end frames / generation prompts → `veo-shot-planner`
@@ -98,7 +101,7 @@ When the user says things such as “ทำ EP ถัดไปให้จบ”
 
 The producer should execute the full required chain without stopping for intermediate approvals:
 
-`ai-drama-story-engine` → `vertical-drama-retention-director` (for short vertical work) → `character-architect` (only when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `performance-director` → `cinematic-director` → `ai-video-model-router` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
+`ai-drama-story-engine` → `vertical-drama-retention-director` (for short vertical work) → `character-architect` (only when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `performance-director` → `ai-production-designer` (major/recurring locations only) → `cinematic-setpiece-director` (grand signature sequences only) → `cinematic-director` → `ai-video-model-router` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
 
 Do not require a generated-video upload for planning or pre-generation QA. Video review is a separate optional post-generation step.
 
@@ -123,7 +126,7 @@ When the user changes one approved detail, rerun only the smallest affected down
 `ai-drama-episode-producer` → orchestrates `ai-drama-story-engine` → `vertical-drama-retention-director` → `character-architect` (when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `performance-director` → `cinematic-director` → `ai-video-model-router` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`
 
 ### AI drama cinematic/non-vertical episode
-Use the same chain but invoke `vertical-drama-retention-director` only when short-form/social attention architecture is relevant. Do not force vertical heuristics onto long-form scenes.
+Use the same chain but invoke `vertical-drama-retention-director` only when short-form/social attention architecture is relevant. Add `ai-production-designer` only for authored major/recurring environments and `cinematic-setpiece-director` only for true signature-scale sequences. Do not force vertical heuristics or spectacle onto every scene.
 
 ### AI drama focused task
 Use the narrowest single specialist skill or short chain needed; do not invoke the whole episode pipeline for one prompt, one line, or one shot unless downstream continuity would break.
@@ -144,6 +147,7 @@ Use the narrowest single specialist skill or short chain needed; do not invoke t
 7. For vertical retention, create a specific viewer-question chain without fake promises or mechanical cuts.
 8. For performance, direct objectives, tactics, gaze, breath, body distance and emotional transitions rather than adjective piles.
 9. For AI-video prompts, use the fewest reliable shots and justify start/end-frame locking.
+9a. For grand scenes, preserve one readable human anchor, coherent geography and a reduced-complexity fallback. Decompose simultaneous crowd/identity/choreography/VFX/camera load before over-prompting.
 10. Route models per shot and label volatile capability evidence as verified, user-confirmed, project-tested, or provisional.
 11. For recurring drama, preserve approved canon, visual masters and stable shot IDs across revisions whenever possible.
 12. For pre-generation QA, inspect the plan that exists; never block completion by asking for a video that has not been generated yet.
@@ -153,7 +157,7 @@ Use the narrowest single specialist skill or short chain needed; do not invoke t
 16. For Roblox purchases, protect non-payer viability, receipt integrity and current paid-random-item policy compliance.
 
 ## Cinematic production standard
-For prestige / cinematic / โปรดักชัน 100 ล้าน briefs, load the producer's bundled prestige-direction reference for production design, location geometry, performance, camera/light, edit and sound. Use model capability evidence before tool-specific controls. Treat the requested budget as an artistic aspiration, not spending authorization. Skill handoffs do not require parallel agents. Preserve existing smallest-chain routing.
+For prestige / cinematic / โปรดักชัน 100 ล้าน briefs, load the producer's bundled prestige-direction reference for production design, location geometry, performance, camera/light, edit and sound. When the scene's scale is a story function, use `cinematic-setpiece-director`; when a location must recur as authored world design, use `ai-production-designer`. Use model capability evidence before tool-specific controls. Treat the requested budget as an artistic aspiration, not spending authorization. Skill handoffs do not require parallel agents. Preserve existing smallest-chain routing.
 
 For high-emotion performance, allow heightened or stage-level inner intensity when requested, but preserve psychological triggers and contrast. Do not set every beat to maximum emotion.
 

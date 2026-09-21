@@ -1,4 +1,4 @@
-# Teacher Kikkey AI Skill Library v4
+# Teacher Kikkey AI Skill Library v5
 
 A curated Agent Skills library for recurring work across Bangyai English Village, social content, AI drama, Roblox game product design, image direction, educational products, and creator monetization.
 
@@ -10,7 +10,7 @@ For serialized AI drama, do **not** treat each shot as an independent prompt.
 
 Use this production logic:
 
-**Canon → Story → Retention → Character → Dialogue → References → Performance → Cinematography → Model Routing → Shot Engineering → Continuity → QA**
+**Canon → Story → Retention → Character → Dialogue → References → Performance → Production Design / Set-piece (when needed) → Cinematography → Model Routing → Shot Engineering → Continuity → QA**
 
 Approved references define identity/state. Prompts direct what those approved assets do next.
 
@@ -35,7 +35,9 @@ Approved references define identity/state. Prompts direct what those approved as
 - `dialogue-subtext-writer` — Dialogue, subtext and inner monologue.
 - `reference-first-visual-production` — Character/Look/Location Masters, scene anchors, reference bindings and drift repair.
 - `performance-director` — Playable acting, gaze, breath, body behavior, tactics and emotional turns.
-- `cinematic-director` — Blocking, camera, lighting, production design, reveal strategy and visual language.
+- `ai-production-designer` — Authored recurring locations, architecture, materials, spatial anchors, practical light and population logic.
+- `cinematic-setpiece-director` — Grand-scene dramatic scale, hero images, reveal hierarchy, crowd zones, complexity budget and practical fallback coverage.
+- `cinematic-director` — Blocking, camera, lighting, location staging, reveal strategy and visual language.
 - `ai-video-model-router` — Per-shot still/video model routing, evidence status, cost-quality-risk allocation and fallbacks.
 - `veo-shot-planner` — Start/end-frame strategy, shot engineering and ready-to-paste motion prompt packs after routing.
 - `continuity-supervisor` — Cross-shot/cross-episode character, wardrobe, prop, location and story-state continuity.
@@ -86,6 +88,8 @@ ai-drama-episode-producer
   → dialogue-subtext-writer
   → reference-first-visual-production
   → performance-director
+  → ai-production-designer (major/recurring locations only)
+  → cinematic-setpiece-director (grand signature sequences only)
   → cinematic-director
   → ai-video-model-router
   → veo-shot-planner
@@ -97,18 +101,30 @@ For cinematic/non-vertical work, invoke `vertical-drama-retention-director` only
 
 ## Decision ownership
 
-The Studio v4 system deliberately separates decisions that are often mixed into one huge prompt:
+The Studio v5 system deliberately separates decisions that are often mixed into one huge prompt:
 
 - **Story engine** — what happens and why.
 - **Retention director** — why the viewer keeps watching the next beat.
 - **Reference-first production** — what visual truth must stay the same.
 - **Performance director** — what the actor wants, hides, does and feels.
-- **Cinematic director** — how the scene is staged, lit and photographed.
+- **Production designer** — what makes a major location authored, repeatable and specific.
+- **Set-piece director** — why a large scene needs scale and how its geography/reveal/crowd/hero image are structured.
+- **Cinematic director** — how the approved performance/environment/set-piece is staged, lit and photographed.
 - **Model router** — which current model/tool should attempt each shot and why.
 - **Shot planner** — how to engineer the selected route into reliable start/end/motion prompts.
 - **Continuity supervisor** — what state survives into the next shot/episode.
 
 This makes focused revisions safer: a face-drift problem should not rewrite the plot; a weak hook should not redesign the character; a model failure should not destroy approved cinematography.
+
+## Cinematic set-piece workflow
+
+For a true grand scene, do not default to one overloaded prompt. Use:
+
+**dramatic reason for scale → authored location → human anchor → geography → reveal hierarchy → hero image → controlled coverage → per-shot model routing → edit/sound illusion of scale**
+
+A grand scene should have a reduced-complexity fallback that preserves the same decision/reveal while reducing crowd specificity, simultaneous choreography, camera complexity or VFX density.
+
+Dated evidence and current model/craft research lives in `docs/CINEMATIC_AI_VIDEO_RESEARCH_2026-09-22.md`. Current provider/interface details still require verification.
 
 ## Reference-first visual production
 
@@ -209,4 +225,4 @@ Recommended instruction for a new AI-drama Work task:
 - Minor: meaningful workflow/resources added without changing major ownership
 - Major: repository-wide ownership or routing changes
 
-Studio v4 adds an evidence-driven Roblox product/economy layer and upgrades AI drama with promise/debt control, anti-sag season architecture, production-aware complexity and analytics-based retention repair.
+Studio v5 adds a dedicated cinematic set-piece and AI production-design layer, grand-scene decomposition, complexity budgeting, crowd/scale strategy and dated current model evidence while preserving v4 story/retention architecture.

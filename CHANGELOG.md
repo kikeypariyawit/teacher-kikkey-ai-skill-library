@@ -1,3 +1,13 @@
+# 5.0.0 — Cinematic AI Drama Set-piece Studio — 2026-09-22
+
+- Added `cinematic-setpiece-director` for emotionally necessary large-scale sequences, reveal hierarchy, geography, hero images, crowd/event zoning, complexity budgets and reduced-complexity fallbacks.
+- Added `ai-production-designer` for recurring location architecture, materials, spatial anchors, practical light, set dressing, status cues and population logic.
+- Added grand-scene decomposition guidance to `veo-shot-planner` so difficult crowd/identity/choreography/VFX/camera shots can be split into coherent coverage instead of over-prompted.
+- Upgraded `ai-drama-episode-producer`, `cinematic-director`, `ai-video-model-router`, `workflow-router`, `AGENTS.md` and `README.md` to route major locations and signature-scale scenes through the smallest useful cinematic chain.
+- Added `docs/CINEMATIC_AI_VIDEO_RESEARCH_2026-09-22.md` with current official Seedance 2.0 and Veo 3.1 evidence plus blocking/edit/sound craft references. Volatile provider limits remain project-adapter data, not stable skill rules.
+- Added `evals/CINEMATIC_SETPIECES.md` covering a three-story art-faculty orientation, awards ceremony, mansion reveal, hospital emergency, rain confrontation and fire/smoke escape.
+- Preserved the rule that spectacle must serve story and performance; scale should be engineered through authored world design, controlled coverage, edit and sound rather than generic "cinematic/8K/epic" adjective stacking.
+
 # 4.0.1 — BEV Colorful Outdoor Editorial visual standard — 2026-09-21
 
 - Updated `design-kids-education-graphics/references/bev-facebook-style-reference.md` with the newly approved BEV default for Parenting, Outdoor & Movement, Child Development, and soft-sell English-through-real-life posts.
