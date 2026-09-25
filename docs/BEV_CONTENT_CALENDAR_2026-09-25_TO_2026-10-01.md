@@ -14,7 +14,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 
 | Date | Time (TH) | Post | Audience | Job / format | Hook | Visual | CTA |
 |---|---|---|---|---|---|---|---|
-| 2026-09-25 | 07:00 | มองฟ้าแล้วพูดหนึ่งประโยค | Kids 3-5 | Engagement · Carousel | เช้านี้ท้องฟ้าเป็นแบบไหน? | ผู้ใหญ่กับเด็กมองท้องฟ้าจากพื้นที่จริง ไม่ใส่ภาพเด็กที่สร้างใหม่; ข้อความภาพ: Look up! | ชวนลูกพูด It looks cloudy / sunny หนึ่งประโยค |
+| 2026-09-25 | 07:00 | มองฟ้าแล้วพูดหนึ่งประโยค | Kids 3-5 | Engagement · Single Image | เช้านี้ท้องฟ้าเป็นแบบไหน? | ภาพประกอบผู้ใหญ่กับเด็กมองท้องฟ้า 4:5; ไม่ใช่ภาพสถานที่จริง; ข้อความ LOOK UP! / sunny / cloudy และโลโก้ต้นฉบับ | ชวนลูกเลือกพูด 1 คำจากท้องฟ้าที่เห็นด้วยกัน |
 | 2026-09-25 | 12:00 | นักสืบผิวสัมผัส | Kids 6-8 | Shareability · Carousel | ใบไม้กับเปลือกไม้ ต่างกันตรงไหน? | รายละเอียดวัสดุธรรมชาติที่ปลอดภัยจากภาพจริง 3 ภาพหรือการ์ดข้อความ; smooth / rough | ชวนเด็กลองเปรียบเทียบของที่ปลอดภัยสองชิ้น |
 | 2026-09-25 | 19:00 | รูปหนึ่งใบ ชื่อเรื่องหนึ่งบรรทัด | Kids 9-11 | Engagement · Long Caption | ถ้ารูปนี้เป็นหนังสือ ลูกจะตั้งชื่อว่าอะไร? | ภาพกิจกรรมจริงที่ได้รับอนุญาต หรือภาพมือเลือกภาพถ่าย ไม่แต่งหน้าหรือเปลี่ยนตัวเด็ก | ชวนลูกตั้งชื่อภาพโปรดหนึ่งภาพในบ้าน |
 | 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Carousel | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพวงเล่นจริงที่ได้รับอนุญาต; ข้อความ Want to play? | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
@@ -40,23 +40,24 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 
 ### 2026-09-25 07:00 · มองฟ้าแล้วพูดหนึ่งประโยค
 
-**On-image/opening:** เช้านี้ท้องฟ้าเป็นแบบไหน?
+**On-image:** LOOK UP! / sunny / cloudy
 
 **Caption**
 
-เช้านี้ก่อนออกจากบ้าน ลองชวนลูกเงยหน้ามองท้องฟ้าด้วยกันสักครู่ ☁️
+เช้านี้ก่อนออกจากบ้าน ลองเงยหน้ามองฟ้ากับลูกสักครู่ ☁️☀️
 
+ชี้สิ่งที่เห็นแล้วพูดสั้น ๆ
 “Look up!” — มองขึ้นไปสิ
-“It looks cloudy.” — วันนี้ดูมีเมฆ
-“It looks sunny.” — วันนี้แดดออก
+“It looks cloudy.” — ดูเหมือนจะมีเมฆ
+“It looks sunny.” — ดูเหมือนจะมีแดด
 
-เด็กเล็กอาจเริ่มจากชี้แล้วพูดแค่ “cloud” หรือ “sun” ก็ได้ครับ ไม่ต้องเร่งให้พูดเป็นประโยคยาว ๆ ประเด็นคือภาษาอังกฤษใช้บอกสิ่งที่ลูกเห็นอยู่ตรงหน้าได้จริง
+สำหรับเด็กวัย 3–5 ปี ถ้ายังไม่พร้อมพูดเป็นประโยค แค่ชี้แล้วบอก “cloud” หรือ “sun” ก็พอครับ ไม่ต้องรีบแก้ทุกคำ ให้ลูกสนุกกับการสังเกตท้องฟ้าจริง ๆ ก่อน
 
-วันนี้ท้องฟ้าแถวบ้านเป็นอย่างไรบ้างครับ? 🌿
+เช้านี้ลองชวนลูกเลือกพูดเพียง 1 คำจากท้องฟ้าที่เห็นด้วยกันนะครับ 🌿
 
-**Design:** ผู้ใหญ่กับเด็กมองท้องฟ้าจากพื้นที่จริง ไม่ใส่ภาพเด็กที่สร้างใหม่; ข้อความภาพ: Look up!
+**Design:** [Finished 4:5 illustrated single image](https://chatgpt.com/api/library/files/libfile_6b0f1ce42e388191963e2df507b22721/download), 1080 × 1350 px. The child is clearly illustrated, not a real BEV child/location photo. The approved official logo is composited from the original file, not redrawn.
 
-**Status:** Copy drafted; artwork and Facebook publication still need verified assets and publishing access.
+**Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881f683e4eef5cd97b2fd); Facebook publication not verified, no live post URL.
 
 ### 2026-09-25 12:00 · นักสืบผิวสัมผัส
 
