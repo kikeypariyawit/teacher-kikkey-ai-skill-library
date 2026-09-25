@@ -16,7 +16,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 |---|---|---|---|---|---|---|---|
 | 2026-09-25 | 07:00 | มองฟ้าแล้วพูดหนึ่งประโยค | Kids 3-5 | Engagement · Single Image | เช้านี้ท้องฟ้าเป็นแบบไหน? | ภาพประกอบผู้ใหญ่กับเด็กมองท้องฟ้า 4:5; ไม่ใช่ภาพสถานที่จริง; ข้อความ LOOK UP! / sunny / cloudy และโลโก้ต้นฉบับ | ชวนลูกเลือกพูด 1 คำจากท้องฟ้าที่เห็นด้วยกัน |
 | 2026-09-25 | 12:00 | นักสืบผิวสัมผัส | Kids 6-8 | Shareability · Carousel | ใบไม้กับเปลือกไม้ ต่างกันตรงไหน? | รายละเอียดวัสดุธรรมชาติที่ปลอดภัยจากภาพจริง 3 ภาพหรือการ์ดข้อความ; smooth / rough | ชวนเด็กลองเปรียบเทียบของที่ปลอดภัยสองชิ้น |
-| 2026-09-25 | 19:00 | รูปหนึ่งใบ ชื่อเรื่องหนึ่งบรรทัด | Kids 9-11 | Engagement · Long Caption | ถ้ารูปนี้เป็นหนังสือ ลูกจะตั้งชื่อว่าอะไร? | ภาพกิจกรรมจริงที่ได้รับอนุญาต หรือภาพมือเลือกภาพถ่าย ไม่แต่งหน้าหรือเปลี่ยนตัวเด็ก | ชวนลูกตั้งชื่อภาพโปรดหนึ่งภาพในบ้าน |
+| 2026-09-25 | 19:00 | รูปหนึ่งใบ ชื่อเรื่องหนึ่งบรรทัด | Kids 9-11 | Engagement · Single Image | ถ้ารูปนี้เป็นหนังสือ ลูกจะตั้งชื่อว่าอะไร? | ภาพประกอบ editorial 4:5 สมุดเรื่องราวเปิดบนโต๊ะ ใช้สิ่งของเท่านั้น ไม่มีคนหรือเด็ก ไม่อ้างว่าเป็นภาพกิจกรรมจริง; เว้นพื้นที่ใส่โลโก้ต้นฉบับภายหลัง | คืนนี้ลองให้ลูกตั้งชื่อรูปโปรด 1 ใบ แล้วฟังเรื่องที่เขาอยากเล่า |
 | 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Carousel | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพวงเล่นจริงที่ได้รับอนุญาต; ข้อความ Want to play? | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
 | 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Reel | ก่อนเริ่มเกม ลองฟังว่ามีเสียงอะไรบ้าง | คลิปเสียงและภาพสถานที่จริง สลับภาพมือชี้แหล่งเสียง ไม่แต่งเสียงปลอมว่าเกิดจริง | ลองหลับตาฟัง 10 วินาทีแล้วบอก I hear… |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
@@ -92,9 +92,9 @@ rough = ขรุขระ
 
 รูปโปรดของบ้านคุณวันนี้จะชื่อเรื่องว่าอะไรครับ? 💚
 
-**Design:** ภาพกิจกรรมจริงที่ได้รับอนุญาต หรือภาพมือเลือกภาพถ่าย ไม่แต่งหน้าหรือเปลี่ยนตัวเด็ก
+**Design:** Finished 4:5 editorial illustration, `BEV_2026-09-25_1900_one-photo-one-title.png`: open scrapbook, object-only outdoor memory, no people or children, and no claim of a real BEV activity. A clean lower-right area is reserved for the official logo.
 
-**Status:** Copy drafted; artwork and Facebook publication still need verified assets and publishing access.
+**Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881d49272d2637b93c046). The official logo still needs to be inserted from its original verified asset before Ready. Facebook publication is not verified and there is no live post URL.
 
 ## Production and learning loop
 
