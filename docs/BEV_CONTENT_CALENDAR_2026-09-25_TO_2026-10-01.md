@@ -17,7 +17,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 | 2026-09-25 | 07:00 | มองฟ้าแล้วพูดหนึ่งประโยค | Kids 3-5 | Engagement · Single Image | เช้านี้ท้องฟ้าเป็นแบบไหน? | ภาพประกอบผู้ใหญ่กับเด็กมองท้องฟ้า 4:5; ไม่ใช่ภาพสถานที่จริง; ข้อความ LOOK UP! / sunny / cloudy และโลโก้ต้นฉบับ | ชวนลูกเลือกพูด 1 คำจากท้องฟ้าที่เห็นด้วยกัน |
 | 2026-09-25 | 12:00 | นักสืบผิวสัมผัส | Kids 6-8 | Shareability · Carousel | ใบไม้กับเปลือกไม้ ต่างกันตรงไหน? | รายละเอียดวัสดุธรรมชาติที่ปลอดภัยจากภาพจริง 3 ภาพหรือการ์ดข้อความ; smooth / rough | ชวนเด็กลองเปรียบเทียบของที่ปลอดภัยสองชิ้น |
 | 2026-09-25 | 19:00 | รูปหนึ่งใบ ชื่อเรื่องหนึ่งบรรทัด | Kids 9-11 | Engagement · Single Image | ถ้ารูปนี้เป็นหนังสือ ลูกจะตั้งชื่อว่าอะไร? | ภาพประกอบ editorial 4:5 สมุดเรื่องราวเปิดบนโต๊ะ ใช้สิ่งของเท่านั้น ไม่มีคนหรือเด็ก ไม่อ้างว่าเป็นภาพกิจกรรมจริง; เว้นพื้นที่ใส่โลโก้ต้นฉบับภายหลัง | คืนนี้ลองให้ลูกตั้งชื่อรูปโปรด 1 ใบ แล้วฟังเรื่องที่เขาอยากเล่า |
-| 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Single Image | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพประกอบ object-led 4:5 ไม่มีคนหรือเด็ก; ข้อความ WANT TO PLAY? / ASK • WAIT • LISTEN; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
+| 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Single Image | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพประกอบ object-led 4:5 ไม่มีคนหรือเด็ก; ข้อความ WANT TO PLAY? / ASK • WAIT • LISTEN; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
 | 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Reel | ก่อนเริ่มเกม ลองฟังว่ามีเสียงอะไรบ้าง | คลิปเสียงและภาพสถานที่จริง สลับภาพมือชี้แหล่งเสียง ไม่แต่งเสียงปลอมว่าเกิดจริง | ลองหลับตาฟัง 10 วินาทีแล้วบอก I hear… |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
 | 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Reel | เงาเราตอนเช้าเหมือนตอนบ่ายหรือเปล่า | เงาบนพื้นสนามจากภาพจริงหรือภาพวัตถุที่ไม่ต้องมีเด็ก | ชวนสังเกตเงาอีกครั้งในเวลาต่างกัน |
@@ -118,9 +118,9 @@ rough = ขรุขระ
 
 เช้านี้ลองพูด “Want to play?” กับลูก แล้วเว้นจังหวะให้ลูกเป็นคนตอบครับ
 
-**Design:** Finished 4:5 object-led illustration, 1080 × 1350 px, filename `BEV_2026-09-26_0700_want-to-play.png`. No people or children; not represented as a real BEV activity. The official BEV logo is not included.
+**Design:** Finished 4:5 object-led illustration, 1080 × 1350 px, filename `BEV_2026-09-26_0700_want-to-play.png`. No people or children; not represented as a real BEV activity. The approved official BEV logo from `IMG_5566(3).jpeg` is composited once without redrawing.
 
-**Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881f19030ca0301b1cfaf). Insert the verified official logo and run final QA before Ready. Facebook publication is not verified and there is no live post URL.
+**Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881f19030ca0301b1cfaf). Facebook publication is not verified and there is no live post URL.
 
 ## Production and learning loop
 
