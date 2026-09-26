@@ -150,6 +150,32 @@ rough = ขรุขระ
 
 **Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd12788140a5f3dde87e60f873). Content Performance contained no rows at preparation time. Facebook publication is not verified and there is no live post URL.
 
+### 2026-09-26 19:00 · ชมสิ่งที่เห็นจริง
+
+**On-image:** คำชมที่บอกลูกว่า “เราเห็นเขา” / แทนคำกว้าง ๆ ว่า “เก่งมาก!” / ลองบอกสิ่งที่เราเห็นจริง / “แม่เห็นหนูรอคิวอยู่นะ”
+
+**Caption**
+
+บางครั้งคำว่า “เก่งมาก” อาจจบเร็วเกินไป จนลูกยังไม่รู้ว่าเรากำลังชื่นชมอะไรครับ 🌿
+
+ลองเปลี่ยนเป็นการบอก “สิ่งที่เราเห็นจริง” เช่น
+
+“แม่เห็นหนูรอให้เพื่อนเล่นเสร็จก่อนนะ”
+“I saw you wait for your turn.”
+
+หรือถ้าลูกช่วยเก็บของ ลองพูดว่า
+“พ่อเห็นหนูเอาของกลับไปไว้ที่เดิมนะ”
+
+ประโยคแบบนี้ไม่ต้องยาว และไม่จำเป็นต้องพูดทุกครั้ง แค่เลือกช่วงเวลาที่เราอยากให้ลูกรู้ว่า การกระทำเล็ก ๆ ของเขามีคนมองเห็นอยู่
+
+เหมาะสำหรับผู้ปกครองของเด็กวัย 3–11 ปี โดยเด็กเล็กใช้ประโยคสั้นและชัด ส่วนเด็กโตอาจชวนเล่าต่อได้ว่า ตอนนั้นเขาคิดหรือรู้สึกอย่างไร
+
+คืนนี้ลองเลือกการกระทำจริงของลูก 1 อย่าง แล้วพูดสิ่งที่คุณเห็นให้เขาฟังนะครับ 💚
+
+**Design:** Finished 4:5 object-led editorial illustration, 1080 × 1350 px, filename `BEV_2026-09-26_1900_specific-praise.png`. Three wooden play tokens represent waiting for a turn; no people or children; not represented as a real BEV activity. The approved official BEV logo is composited once from the original file. Full-size and 360 px phone-size checks completed.
+
+**Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd12788192b047d91e037259cb). Content Performance contained no rows at preparation time. Facebook publication is not verified and there is no live post URL.
+
 ## Production and learning loop
 
 1. At each slot, read Notion Content Pipeline first. Reuse the matching dated slot rather than adding a duplicate; review recent Facebook posts and current event facts if access permits.
