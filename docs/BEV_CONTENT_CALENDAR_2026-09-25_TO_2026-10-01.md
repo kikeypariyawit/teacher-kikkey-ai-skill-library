@@ -17,7 +17,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 | 2026-09-25 | 07:00 | มองฟ้าแล้วพูดหนึ่งประโยค | Kids 3-5 | Engagement · Single Image | เช้านี้ท้องฟ้าเป็นแบบไหน? | ภาพประกอบผู้ใหญ่กับเด็กมองท้องฟ้า 4:5; ไม่ใช่ภาพสถานที่จริง; ข้อความ LOOK UP! / sunny / cloudy และโลโก้ต้นฉบับ | ชวนลูกเลือกพูด 1 คำจากท้องฟ้าที่เห็นด้วยกัน |
 | 2026-09-25 | 12:00 | นักสืบผิวสัมผัส | Kids 6-8 | Shareability · Carousel | ใบไม้กับเปลือกไม้ ต่างกันตรงไหน? | รายละเอียดวัสดุธรรมชาติที่ปลอดภัยจากภาพจริง 3 ภาพหรือการ์ดข้อความ; smooth / rough | ชวนเด็กลองเปรียบเทียบของที่ปลอดภัยสองชิ้น |
 | 2026-09-25 | 19:00 | รูปหนึ่งใบ ชื่อเรื่องหนึ่งบรรทัด | Kids 9-11 | Engagement · Single Image | ถ้ารูปนี้เป็นหนังสือ ลูกจะตั้งชื่อว่าอะไร? | ภาพประกอบ editorial 4:5 สมุดเรื่องราวเปิดบนโต๊ะ ใช้สิ่งของเท่านั้น ไม่มีคนหรือเด็ก ไม่อ้างว่าเป็นภาพกิจกรรมจริง; เว้นพื้นที่ใส่โลโก้ต้นฉบับภายหลัง | คืนนี้ลองให้ลูกตั้งชื่อรูปโปรด 1 ใบ แล้วฟังเรื่องที่เขาอยากเล่า |
-| 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Carousel | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพวงเล่นจริงที่ได้รับอนุญาต; ข้อความ Want to play? | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
+| 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Single Image | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพประกอบ object-led 4:5 ไม่มีคนหรือเด็ก; ข้อความ WANT TO PLAY? / ASK • WAIT • LISTEN; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
 | 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Reel | ก่อนเริ่มเกม ลองฟังว่ามีเสียงอะไรบ้าง | คลิปเสียงและภาพสถานที่จริง สลับภาพมือชี้แหล่งเสียง ไม่แต่งเสียงปลอมว่าเกิดจริง | ลองหลับตาฟัง 10 วินาทีแล้วบอก I hear… |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
 | 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Reel | เงาเราตอนเช้าเหมือนตอนบ่ายหรือเปล่า | เงาบนพื้นสนามจากภาพจริงหรือภาพวัตถุที่ไม่ต้องมีเด็ก | ชวนสังเกตเงาอีกครั้งในเวลาต่างกัน |
@@ -36,7 +36,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 | 2026-10-01 | 12:00 | ก่อนถึงเทศกาล ชวนลูกออกแบบเครื่องหมายทีม | Kids 6-8 | Shareability · Carousel | สัญลักษณ์ทีมของเราคืออะไร | ภาพมือวาดตราทีมบนกระดาษ ไม่มีการแอบอ้างว่าเป็น event ที่ยืนยันแล้ว | ลองวาดและตั้งชื่อทีม 1 ชื่อ |
 | 2026-10-01 | 19:00 | ถามก่อนจองกิจกรรมสุดสัปดาห์ | Parents | Inquiry · Single Image | เลือกช่วงเวลาแบบไหนให้เหมาะกับจังหวะลูก | ภาพกิจกรรมจริงหรือพื้นที่จริง ข้อมูลเวลา/ราคาใส่เมื่อเช็กปัจจุบันเท่านั้น | ทัก Messenger เพจเพื่อสอบถามรอบที่เปิดและความเหมาะกับวัย |
 
-## First day · ready copy
+## Prepared slot copy
 
 ### 2026-09-25 07:00 · มองฟ้าแล้วพูดหนึ่งประโยค
 
@@ -95,6 +95,32 @@ rough = ขรุขระ
 **Design:** Finished 4:5 editorial illustration, `BEV_2026-09-25_1900_one-photo-one-title.png`: open scrapbook, object-only outdoor memory, no people or children, and no claim of a real BEV activity. A clean lower-right area is reserved for the official logo.
 
 **Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881d49272d2637b93c046). The official logo still needs to be inserted from its original verified asset before Ready. Facebook publication is not verified and there is no live post URL.
+
+### 2026-09-26 07:00 · ประโยคชวนเพื่อนเข้าวง
+
+**On-image:** WANT TO PLAY? / ASK • WAIT • LISTEN
+
+**Caption**
+
+อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง? 🧸
+
+สำหรับเด็กวัย 3–5 ปี ลองเริ่มด้วยประโยคสั้น ๆ:
+“Want to play?” — เล่นด้วยกันไหม?
+
+ชวนลูกจำ 3 จังหวะง่าย ๆ
+1️⃣ Ask — ชวนด้วยเสียงเป็นมิตร
+2️⃣ Wait — รอให้เพื่อนตอบ
+3️⃣ Listen — ฟังคำตอบของเพื่อน
+
+ถ้าลูกยังพูดไม่เต็มประโยค แค่ชี้ของเล่นแล้วพูด “Play?” ก็ได้ ผู้ใหญ่ค่อยพูดเป็นแบบให้ฟังว่า “Want to play?” โดยไม่ต้องบังคับให้พูดตามทันที
+
+เพื่อนอาจตอบ “Yes!” หรือ “Not yet.” ได้ทั้งคู่ เพราะการชวนเล่นไม่ได้มีแค่การเริ่มบทสนทนา แต่รวมถึงการรับฟังพื้นที่ของเพื่อนด้วย 🌿
+
+เช้านี้ลองพูด “Want to play?” กับลูก แล้วเว้นจังหวะให้ลูกเป็นคนตอบครับ
+
+**Design:** Finished 4:5 object-led illustration, 1080 × 1350 px, filename `BEV_2026-09-26_0700_want-to-play.png`. No people or children; not represented as a real BEV activity. The official BEV logo is not included.
+
+**Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881f19030ca0301b1cfaf). Insert the verified official logo and run final QA before Ready. Facebook publication is not verified and there is no live post URL.
 
 ## Production and learning loop
 
