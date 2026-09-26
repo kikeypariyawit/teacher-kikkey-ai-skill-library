@@ -18,7 +18,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 | 2026-09-25 | 12:00 | นักสืบผิวสัมผัส | Kids 6-8 | Shareability · Carousel | ใบไม้กับเปลือกไม้ ต่างกันตรงไหน? | รายละเอียดวัสดุธรรมชาติที่ปลอดภัยจากภาพจริง 3 ภาพหรือการ์ดข้อความ; smooth / rough | ชวนเด็กลองเปรียบเทียบของที่ปลอดภัยสองชิ้น |
 | 2026-09-25 | 19:00 | รูปหนึ่งใบ ชื่อเรื่องหนึ่งบรรทัด | Kids 9-11 | Engagement · Single Image | ถ้ารูปนี้เป็นหนังสือ ลูกจะตั้งชื่อว่าอะไร? | ภาพประกอบ editorial 4:5 สมุดเรื่องราวเปิดบนโต๊ะ ใช้สิ่งของเท่านั้น ไม่มีคนหรือเด็ก ไม่อ้างว่าเป็นภาพกิจกรรมจริง; เว้นพื้นที่ใส่โลโก้ต้นฉบับภายหลัง | คืนนี้ลองให้ลูกตั้งชื่อรูปโปรด 1 ใบ แล้วฟังเรื่องที่เขาอยากเล่า |
 | 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Single Image | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพประกอบ object-led 4:5 ไม่มีคนหรือเด็ก; ข้อความ WANT TO PLAY? / ASK • WAIT • LISTEN; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
-| 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Reel | ก่อนเริ่มเกม ลองฟังว่ามีเสียงอะไรบ้าง | คลิปเสียงและภาพสถานที่จริง สลับภาพมือชี้แหล่งเสียง ไม่แต่งเสียงปลอมว่าเกิดจริง | ลองหลับตาฟัง 10 วินาทีแล้วบอก I hear… |
+| 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Single Image | หยุดฟัง 10 วินาที แล้วลองบอกว่าได้ยินอะไร | ภาพประกอบ object-led 4:5: ทางเดินสวน นก ใบไม้ และรอยเท้า ไม่มีคนหรือเด็ก; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองหลับตาฟัง 10 วินาที แล้วเติมประโยค I hear… ด้วยกัน |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
 | 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Reel | เงาเราตอนเช้าเหมือนตอนบ่ายหรือเปล่า | เงาบนพื้นสนามจากภาพจริงหรือภาพวัตถุที่ไม่ต้องมีเด็ก | ชวนสังเกตเงาอีกครั้งในเวลาต่างกัน |
 | 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Carousel | Round, long, tiny — หาของจากคำใบ้กัน | ภาพวัตถุธรรมชาติและบัตรคำขนาดใหญ่; แยกชัดว่าเป็นเกมเสนอให้ลอง | ลองให้คำใบ้ 1 คำแล้วให้ลูกชี้วัตถุ |
@@ -121,6 +121,34 @@ rough = ขรุขระ
 **Design:** Finished 4:5 object-led illustration, 1080 × 1350 px, filename `BEV_2026-09-26_0700_want-to-play.png`. No people or children; not represented as a real BEV activity. The approved official BEV logo from `IMG_5566(3).jpeg` is composited once without redrawing.
 
 **Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881f19030ca0301b1cfaf). Facebook publication is not verified and there is no live post URL.
+
+### 2026-09-26 12:00 · หยุดฟัง 10 วินาทีกลางสวน
+
+**On-image:** หยุดฟัง 10 วินาที / หลับตา • ฟัง • บอกสิ่งที่ได้ยิน / I HEAR…
+
+**Caption**
+
+ก่อนเริ่มกิจกรรม ลองชวนลูก “หยุดฟัง” รอบตัวเพียง 10 วินาทีครับ 🌿👂
+
+1️⃣ หยุดนิ่งสักครู่  
+2️⃣ หลับตาได้ถ้าลูกรู้สึกสบาย  
+3️⃣ ฟังเสียงใกล้–ไกล  
+4️⃣ เติมประโยคสั้น ๆ ว่า “I hear…”
+
+ตัวอย่าง:
+“I hear a bird.” — ฉันได้ยินเสียงนก  
+“I hear leaves.” — ฉันได้ยินเสียงใบไม้  
+“I hear footsteps.” — ฉันได้ยินเสียงฝีเท้า
+
+สำหรับเด็กวัย 6–8 ปี ไม่จำเป็นต้องเดาถูกว่าเสียงมาจากอะไรทันที จะชี้ เลียนเสียง หรือพูดภาษาไทยก่อนก็ได้ แล้วผู้ใหญ่ค่อยช่วยต่อเป็นประโยคอังกฤษสั้น ๆ
+
+ภาษาอังกฤษเริ่มได้จากสิ่งเล็ก ๆ ที่เด็กกำลังสังเกตอยู่ตรงหน้าครับ
+
+ลองหลับตาฟัง 10 วินาที แล้วเติมประโยค “I hear…” ด้วยกันนะครับ 💚
+
+**Design:** Finished 4:5 object-led editorial illustration, 1080 × 1350 px, filename `BEV_2026-09-26_1200_listen-10-seconds.png`. No people or children; not represented as a real BEV activity. The approved official BEV logo is inserted once from the original asset. Full-size and 360 px phone-size checks completed.
+
+**Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd12788140a5f3dde87e60f873). Content Performance contained no rows at preparation time. Facebook publication is not verified and there is no live post URL.
 
 ## Production and learning loop
 
