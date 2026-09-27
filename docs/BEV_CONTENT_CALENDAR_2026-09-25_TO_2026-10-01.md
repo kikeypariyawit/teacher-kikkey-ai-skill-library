@@ -20,7 +20,7 @@ Status: editorial plan. Times are intended Facebook publishing slots in Asia/Ban
 | 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Single Image | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพประกอบ object-led 4:5 ไม่มีคนหรือเด็ก; ข้อความ WANT TO PLAY? / ASK • WAIT • LISTEN; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
 | 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Single Image | หยุดฟัง 10 วินาที แล้วลองบอกว่าได้ยินอะไร | ภาพประกอบ object-led 4:5: ทางเดินสวน นก ใบไม้ และรอยเท้า ไม่มีคนหรือเด็ก; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองหลับตาฟัง 10 วินาที แล้วเติมประโยค I hear… ด้วยกัน |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
-| 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Reel | เงาเราตอนเช้าเหมือนตอนบ่ายหรือเปล่า | เงาบนพื้นสนามจากภาพจริงหรือภาพวัตถุที่ไม่ต้องมีเด็ก | ชวนสังเกตเงาอีกครั้งในเวลาต่างกัน |
+| 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Single Image | เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? | ภาพประกอบ object-led แบ่ง NOW/LATER ไม่มีเด็ก ไม่อ้างว่าเป็นกิจกรรมจริง เว้นที่ใส่โลโก้ทางการ | ถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไป |
 | 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Carousel | Round, long, tiny — หาของจากคำใบ้กัน | ภาพวัตถุธรรมชาติและบัตรคำขนาดใหญ่; แยกชัดว่าเป็นเกมเสนอให้ลอง | ลองให้คำใบ้ 1 คำแล้วให้ลูกชี้วัตถุ |
 | 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Carousel | ถามอะไรดี ก่อนพาลูกไปลองกิจกรรมใหม่ | การ์ดคำถามอ่านง่ายพร้อมภาพพื้นที่จริงที่ตรวจสอบแล้ว | ส่งคำถามที่อยากรู้มาใน Messenger เพจ |
 | 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Carousel | สามคำเล็ก ๆ ใช้ได้ตั้งแต่เช้า | ภาพกิจวัตรจากของใช้จริง ไม่อ้างว่าเป็นคลาส BEV | ลองบอกลำดับ 3 ขั้นตอนง่าย ๆ กับลูก |
@@ -175,6 +175,34 @@ rough = ขรุขระ
 **Design:** Finished 4:5 object-led editorial illustration, 1080 × 1350 px, filename `BEV_2026-09-26_1900_specific-praise.png`. Three wooden play tokens represent waiting for a turn; no people or children; not represented as a real BEV activity. The approved official BEV logo is composited once from the original file. Full-size and 360 px phone-size checks completed.
 
 **Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd12788192b047d91e037259cb). Content Performance contained no rows at preparation time. Facebook publication is not verified and there is no live post URL.
+
+
+### 2026-09-27 07:00 · เงาเปลี่ยนรูปได้ไหม
+
+**On-image:** CAN SHADOWS CHANGE? / NOW / LATER
+
+**Caption**
+
+เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? ☀️
+
+ชวนลูกวัย 6–8 ปีทดลองสังเกต “เงา” จากวัตถุชิ้นเดิมแบบง่าย ๆ ครับ
+
+1️⃣ เลือกวัตถุที่อยู่นิ่งและปลอดภัย เช่น กระถางต้นไม้หรือเสารั้ว  
+2️⃣ มองเงาบนพื้น แล้วพูดว่า “Look at the shadow.” — ดูเงาสิ  
+3️⃣ กลับมาดูวัตถุเดิมอีกครั้งในเวลาที่ต่างกัน  
+4️⃣ ชวนเปรียบเทียบด้วยคำถามสั้น ๆ:  
+“Did it move?” — เงาขยับไหม?  
+“Is it longer or shorter?” — เงายาวขึ้นหรือสั้นลง?
+
+ลูกจะตอบเป็นไทย ชี้ หรือพูดเพียง “longer / shorter” ก็ได้ครับ จุดสำคัญคือให้เขาได้สังเกตและบอกสิ่งที่เห็นด้วยตัวเอง
+
+เพื่อความปลอดภัย ให้มองเงาบนพื้นและไม่จ้องดวงอาทิตย์โดยตรงนะครับ
+
+ลองถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไปครับ 🌿
+
+**Design:** Generated 4:5 object-led editorial illustration with the same wooden peg shown at NOW and LATER, no people or children, and no claim of a real BEV activity. A lower-right area is reserved for the official logo. The original verified logo was not available in this run, so the design is not Ready.
+
+**Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881e2be4ac4e46a567b20). Content Performance contained no rows at preparation time. Facebook publication is not verified and there is no live post URL.
 
 ## Production and learning loop
 
