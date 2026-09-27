@@ -2,6 +2,19 @@
 
 Status: editorial plan. Times are intended Facebook publishing slots in Asia/Bangkok, not verified scheduled posts. The Notion Content Pipeline tracks production status; this file versions the plan. Source check: 20 existing pipeline topics, Content Performance empty at setup (24 Sep 2026). Do not mark Posted without the actual Facebook post URL.
 
+## Scheduled visual correction · 27 September 2026
+
+User feedback: scheduled images are unattractive. This revision changes the production direction; it is not evidence of approval of a new rendered image.
+
+- For general parent/family posts, use a warm, colorful storybook illustration: a wide outdoor garden/adventure scene within a 4:5 canvas, clear foreground/middle/background, one meaningful shared action, and natural light. Clearly illustrated children and families are allowed. Do not mistake the prohibition on fabricated documentary child photos for a prohibition on cartoon characters.
+- For documentary activity posts, use approved real BEV photos, preserving faces, bodies, clothes, equipment and the actual activity. Do not create photorealistic fictional children or pretend an illustrated setting documents BEV.
+- Avoid defaulting to wooden peg dolls, isolated objects, empty beige backgrounds, text cards, or generic worksheet-like layouts. Objects remain useful when the topic specifically needs them; integrate them into a meaningful scene.
+- Use one short Thai headline, normally 1–2 lines, and at most one short support line. Keep explanations and language examples in the caption. Strong readable typography; lively green/sky-blue/yellow/coral accents without neon saturation.
+- Resolve and inspect one relevant approved style reference before production when available. Preserve the visual qualities the user liked while varying composition, gesture, perspective and subject. Do not copy prices, dates, offers or imitation logos from reference posters.
+- Retrieve the official logo IMG_5566(3).jpeg from its original verified asset. Current attachment: Library ID libfile_8cd148cd3d1081919b7117fb2cf8f7bc; a scratch path is not a durable reference. Check current attachment mappings/files before declaring assets missing. Preserve the logo and use it once. Never synthesize a replacement logo.
+- Use the available image-generation tool for finished artwork; a prompt is not an image. Inspect actual output for visual story, hierarchy, Thai text, anatomy, logo accuracy and mobile readability. Repair material defects before Ready. If essential tools/assets are unavailable, retain Draft/Design and state the exact limitation; do not silently replace the intended style with basic code-drawn artwork.
+- This direction governs future production and revisions where older visual briefs conflict. Preserve completed history and captions; do not mark previous artwork as newly approved. Keep topics and posting times intact.
+
 ## Editorial rules
 
 - Three distinct jobs per day: a quick useful idea at 07:00, an activity or language example at 12:00, and a parent reflection, trust or inquiry post at 19:00. These are planning hypotheses; review results after comparable exposure.
