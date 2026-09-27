@@ -34,7 +34,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Single Image | หยุดฟัง 10 วินาที แล้วลองบอกว่าได้ยินอะไร | ภาพประกอบ object-led 4:5: ทางเดินสวน นก ใบไม้ และรอยเท้า ไม่มีคนหรือเด็ก; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองหลับตาฟัง 10 วินาที แล้วเติมประโยค I hear… ด้วยกัน |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
 | 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Single Image | เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? | ภาพประกอบ storybook v2 ครอบครัวสังเกตเงากระถางในสวนผจญภัย มีเชือกปีนป่ายและเรือสีฟ้า; ไม่ใช่ภาพกิจกรรมจริง; Design รอตรวจโลโก้ต้นฉบับ | ถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไป |
-| 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Carousel | Round, long, tiny — หาของจากคำใบ้กัน | ภาพวัตถุธรรมชาติและบัตรคำขนาดใหญ่; แยกชัดว่าเป็นเกมเสนอให้ลอง | ลองให้คำใบ้ 1 คำแล้วให้ลูกชี้วัตถุ |
+| 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Single Image | แม่ใบ้ว่า…กลม หนูเห็นอะไรบ้าง? | ภาพประกอบ storybook ครอบครัวหาของจากคำใบ้ในสวนผจญภัย เด็กชี้ลูกบอล; ข้อความ คำใบ้หนึ่งคำ / พาลูกสนุกทั้งสวน; Design รอวางโลโก้ต้นฉบับแบบไม่สร้างใหม่ | วันนี้ลองให้คำใบ้ 1 คำ แล้วรอดูว่าลูกจะชี้ไปที่อะไร |
 | 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Carousel | ถามอะไรดี ก่อนพาลูกไปลองกิจกรรมใหม่ | การ์ดคำถามอ่านง่ายพร้อมภาพพื้นที่จริงที่ตรวจสอบแล้ว | ส่งคำถามที่อยากรู้มาใน Messenger เพจ |
 | 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Carousel | สามคำเล็ก ๆ ใช้ได้ตั้งแต่เช้า | ภาพกิจวัตรจากของใช้จริง ไม่อ้างว่าเป็นคลาส BEV | ลองบอกลำดับ 3 ขั้นตอนง่าย ๆ กับลูก |
 | 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Reel | คำว่า My turn พูดอย่างไรให้เพื่อนอยากฟัง | วิดีโอสาธิตโดยผู้ใหญ่หรือกราฟิกเสียง ไม่แอบอ้างคำพูดเด็กจริง | ลองพูด My turn, please ด้วยน้ำเสียงสองแบบ |
@@ -227,6 +227,40 @@ User requested a stronger Bangyai English Village atmosphere. Generated a replac
 **Current artwork:** generated in this conversation, 1122 × 1402 px (approximately 4:5); generation ID exec-4b8e9d82-46c1-49aa-813e-86a4edf0e987. Official logo IMG_5566(3).jpeg supplied as reference. The logo was rendered within the generative edit; exact unchanged-source preservation is not verified. Do not claim it was deterministically composited.
 
 **Current status:** Design, superseding the earlier Needs Revision. New artwork has been visually inspected for headline, subject and setting; final exact-logo check remains. User approval of the new image has not yet been received. Facebook not published. Caption and topic unchanged. See the existing Notion item for the revision record.
+
+### 2026-09-27 12:00 · คำใบ้รูปทรงพาไปหาอะไร
+
+**On-image:** คำใบ้หนึ่งคำ / พาลูกสนุกทั้งสวน / กลม • ยาว • เล็กจิ๋ว. Footer: ภาพประกอบ.
+
+**Caption**
+
+“แม่ใบ้ว่า…กลม หนูเห็นอะไรบ้าง?” 🔎🌿
+
+ระหว่างเดินเล่น ลองเปลี่ยนของรอบตัวให้เป็นเกมหาของจากคำใบ้ สำหรับเด็กวัย 3–5 ปีครับ
+
+เลือกสิ่งที่ลูกมองเห็นได้ชัด แล้วให้คำใบ้ทีละคำ เช่น
+
+🔴 round = กลม → ลูกบอล
+🌿 long = ยาว → ใบไม้ยาว ๆ
+🌼 tiny = เล็กจิ๋ว → ดอกไม้เล็ก ๆ ที่มองดูโดยไม่ต้องเด็ด
+
+อยากเติมภาษาอังกฤษ ลองพูดว่า
+“Can you find something round?”
+— หาของที่มีลักษณะกลมได้ไหม?
+
+ลูกจะชี้ ตอบเป็นไทย หรือพูดสั้น ๆ ว่า “A ball!” ก็ได้ ไม่ต้องแข่งกับเวลา และถ้าเจอของอีกชิ้นที่ตรงคำใบ้ ก็เป็นคำตอบได้เหมือนกันครับ
+
+ให้ผู้ใหญ่อยู่ใกล้ ๆ และใช้การมองกับชี้ โดยไม่ต้องหยิบของชิ้นเล็กหรือพืชที่ไม่รู้จัก
+
+Bangyai English Village ชวนให้ช่วงเวลาเล่นกลางแจ้งมีบทสนทนาเล็ก ๆ ระหว่างทาง 💚
+
+วันนี้ลองให้คำใบ้ 1 คำ แล้วรอดูว่าลูกจะชี้ไปที่อะไรครับ
+
+#BangyaiEnglishVillage #กิจกรรมพ่อแม่ลูก #เรียนรู้ผ่านการเล่น
+
+**Design:** One generated storybook illustration, 1122 × 1402 px (approximately 4:5), fictional cartoon family discovering a round ball in an outdoor adventure garden. Adapted from the carousel plan to one coherent scene; examples are in the caption. Original logo IMG_5566(3).jpeg was inspected and supplied as reference; unchanged-source preservation is not established because it was generatively rendered. Full-size and 360 px visual checks completed. Exact original-logo insertion remains before Ready. Image attached to the existing Notion item.
+
+**Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881339406fede74f6a8d3). No new user approval assumed. Content Performance had zero rows. Facebook not published. Related vocabulary topics were identified in the calendar; this slot remains a preschool clue-to-object pointing game, with Duplicate Check = Similar.
 
 ## Production and learning loop
 
