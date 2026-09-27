@@ -35,7 +35,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
 | 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Single Image | เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? | ภาพประกอบ storybook v2 ครอบครัวสังเกตเงากระถางในสวนผจญภัย มีเชือกปีนป่ายและเรือสีฟ้า; ไม่ใช่ภาพกิจกรรมจริง; Design รอตรวจโลโก้ต้นฉบับ | ถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไป |
 | 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Single Image | แม่ใบ้ว่า…กลม หนูเห็นอะไรบ้าง? | ภาพประกอบ storybook ครอบครัวหาของจากคำใบ้ในสวนผจญภัย เด็กชี้ลูกบอล; ข้อความ คำใบ้หนึ่งคำ / พาลูกสนุกทั้งสวน; Design รอวางโลโก้ต้นฉบับแบบไม่สร้างใหม่ | วันนี้ลองให้คำใบ้ 1 คำ แล้วรอดูว่าลูกจะชี้ไปที่อะไร |
-| 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Carousel | ถามอะไรดี ก่อนพาลูกไปลองกิจกรรมใหม่ | การ์ดคำถามอ่านง่ายพร้อมภาพพื้นที่จริงที่ตรวจสอบแล้ว | ส่งคำถามที่อยากรู้มาใน Messenger เพจ |
+| 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Single Image | ก่อนเลือกคลาส outdoor ถาม 3 เรื่องนี้ก่อน | ภาพประกอบ storybook แสงเย็น ผู้ปกครองและลูกคุยกับผู้ดูแลในสวนผจญภัย; ลูกชี้กิจกรรมที่สนใจ; โลโก้ต้นฉบับวางเป็นชั้นภาพ 1 ครั้ง; 1080×1350 | ทัก Messenger พร้อมบอกอายุและกิจกรรมที่น้องชอบ |
 | 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Carousel | สามคำเล็ก ๆ ใช้ได้ตั้งแต่เช้า | ภาพกิจวัตรจากของใช้จริง ไม่อ้างว่าเป็นคลาส BEV | ลองบอกลำดับ 3 ขั้นตอนง่าย ๆ กับลูก |
 | 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Reel | คำว่า My turn พูดอย่างไรให้เพื่อนอยากฟัง | วิดีโอสาธิตโดยผู้ใหญ่หรือกราฟิกเสียง ไม่แอบอ้างคำพูดเด็กจริง | ลองพูด My turn, please ด้วยน้ำเสียงสองแบบ |
 | 2026-09-28 | 19:00 | คืนนี้วาดแผนที่วันหยุด | Kids 9-11 | Trust · Carousel | จำทางที่เดินได้ไหม ลองวาดเส้นทางเล่น | กระดาษวาดเส้นทางเป็นภาพอุปกรณ์จริงไม่ใช้ภาพเด็กสร้างใหม่ | วาดเส้นทางโปรด 1 ทางแล้วเล่าให้คนที่บ้านฟัง |
@@ -261,6 +261,33 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 **Design:** One generated storybook illustration, 1122 × 1402 px (approximately 4:5), fictional cartoon family discovering a round ball in an outdoor adventure garden. Adapted from the carousel plan to one coherent scene; examples are in the caption. Original logo IMG_5566(3).jpeg was inspected and supplied as reference; unchanged-source preservation is not established because it was generatively rendered. Full-size and 360 px visual checks completed. Exact original-logo insertion remains before Ready. Image attached to the existing Notion item.
 
 **Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881339406fede74f6a8d3). No new user approval assumed. Content Performance had zero rows. Facebook not published. Related vocabulary topics were identified in the calendar; this slot remains a preschool clue-to-object pointing game, with Duplicate Check = Similar.
+
+### 2026-09-27 19:00 · สามคำถามก่อนเลือกคลาส outdoor
+
+**On-image:** ก่อนเลือกคลาส outdoor / ถาม 3 เรื่องนี้ก่อน / วัย • การดูแล • ความสนใจของลูก. Footer: ภาพประกอบ.
+
+**Caption**
+
+ก่อนพาลูกไปลองคลาส outdoor… “ความสนุก” สำคัญ แต่ยังมีอีก 3 เรื่องที่ควรถามก่อนตัดสินใจครับ 🌿
+
+1️⃣ เหมาะกับวัยและประสบการณ์ของลูกไหม?
+กิจกรรมเดียวกันอาจเหมาะกับเด็กแต่ละคนไม่เหมือนกัน ลองถามว่าปรับระดับความยากหรือวิธีเข้าร่วมได้อย่างไร
+
+2️⃣ ถ้าลูกยังไม่พร้อม กลัว หรืออยากพัก ผู้ใหญ่ดูแลอย่างไร?
+คำตอบจะช่วยให้เราเห็นภาพว่า ลูกมีพื้นที่ค่อย ๆ สังเกต ลอง และพักได้หรือไม่
+
+3️⃣ ลูกสนใจอะไร และมีโอกาสเลือกแค่ไหน?
+ลองสังเกตว่าลูกตื่นเต้นกับการปีน การเคลื่อนไหว งานสร้างสรรค์ ธรรมชาติ หรือการเล่นกับเพื่อนมากกว่ากัน แล้วใช้ความสนใจนั้นเป็นจุดเริ่มต้น
+
+ไม่จำเป็นต้องมองหาคลาสที่ “มีกิจกรรมเยอะที่สุด” เสมอไปครับ สิ่งสำคัญคือรูปแบบกิจกรรมและการดูแลสอดคล้องกับจังหวะของลูกแค่ไหน
+
+หากอยากสอบถามความเหมาะสมก่อนพาน้องมาลองที่ Bangyai English Village ทัก Messenger พร้อมบอกอายุและกิจกรรมที่น้องชอบได้เลยครับ 💚
+
+#BangyaiEnglishVillage #OutdoorLearning #กิจกรรมเด็ก #เรียนรู้ผ่านการเล่น
+
+**Design:** Finished single 4:5 storybook illustration, 1080 × 1350 px. Late-afternoon side-angle scene of parents and child talking with an activity guide in a dimensional outdoor adventure garden; the child points toward an activity of interest. Clearly illustrated, not documentary evidence of a BEV session. Official IMG_5566(3).jpeg was visually inspected and inserted once as an unchanged proportional image layer after generation. Full-size and 360 px checks completed.
+
+**Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881039e67c1066e1e1e6e). User approval is not inferred. Content Performance returned zero rows. Facebook not published and no live post URL exists. The 1 October 19:00 booking-time item is the closest related planned post; this item retains its broader age-fit/support/interest checklist and is marked Similar.
 
 ## Production and learning loop
 
