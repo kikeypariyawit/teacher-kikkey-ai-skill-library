@@ -33,7 +33,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-26 | 07:00 | ประโยคชวนเพื่อนเข้าวง | Kids 3-5 | Shareability · Single Image | อยากชวนเพื่อนเล่น แต่ไม่รู้จะเริ่มยังไง | ภาพประกอบ object-led 4:5 ไม่มีคนหรือเด็ก; ข้อความ WANT TO PLAY? / ASK • WAIT • LISTEN; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองพูด Want to play? พร้อมเว้นพื้นที่ให้เพื่อนตอบ |
 | 2026-09-26 | 12:00 | หยุดฟัง 10 วินาทีกลางสวน | Kids 6-8 | Engagement · Single Image | หยุดฟัง 10 วินาที แล้วลองบอกว่าได้ยินอะไร | ภาพประกอบ object-led 4:5: ทางเดินสวน นก ใบไม้ และรอยเท้า ไม่มีคนหรือเด็ก; ใช้โลโก้ BEV ทางการ; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ลองหลับตาฟัง 10 วินาที แล้วเติมประโยค I hear… ด้วยกัน |
 | 2026-09-26 | 19:00 | ชมสิ่งที่เห็นจริง | Parents | Trust · Long Caption | คำชมแบบไหนที่บอกลูกว่าเรามองเห็นเขา | ภาพผู้ใหญ่รับฟังเด็กจากภาพจริง หรือกราฟิกคำพูดเรียบง่าย | ลองพูด I saw you wait for your turn. |
-| 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Single Image | เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? | ภาพประกอบ object-led แบ่ง NOW/LATER ไม่มีเด็ก ไม่อ้างว่าเป็นกิจกรรมจริง เว้นที่ใส่โลโก้ทางการ | ถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไป |
+| 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Single Image | เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? | ภาพประกอบ storybook v2 ครอบครัวสังเกตเงากระถางในสวนผจญภัย มีเชือกปีนป่ายและเรือสีฟ้า; ไม่ใช่ภาพกิจกรรมจริง; Design รอตรวจโลโก้ต้นฉบับ | ถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไป |
 | 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Carousel | Round, long, tiny — หาของจากคำใบ้กัน | ภาพวัตถุธรรมชาติและบัตรคำขนาดใหญ่; แยกชัดว่าเป็นเกมเสนอให้ลอง | ลองให้คำใบ้ 1 คำแล้วให้ลูกชี้วัตถุ |
 | 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Carousel | ถามอะไรดี ก่อนพาลูกไปลองกิจกรรมใหม่ | การ์ดคำถามอ่านง่ายพร้อมภาพพื้นที่จริงที่ตรวจสอบแล้ว | ส่งคำถามที่อยากรู้มาใน Messenger เพจ |
 | 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Carousel | สามคำเล็ก ๆ ใช้ได้ตั้งแต่เช้า | ภาพกิจวัตรจากของใช้จริง ไม่อ้างว่าเป็นคลาส BEV | ลองบอกลำดับ 3 ขั้นตอนง่าย ๆ กับลูก |
@@ -216,6 +216,17 @@ rough = ขรุขระ
 **Design:** Generated 4:5 object-led editorial illustration with the same wooden peg shown at NOW and LATER, no people or children, and no claim of a real BEV activity. A lower-right area is reserved for the official logo. The original verified logo was not available in this run, so the design is not Ready.
 
 **Status:** Design in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881e2be4ac4e46a567b20). Content Performance contained no rows at preparation time. Facebook publication is not verified and there is no live post URL.
+
+
+#### Visual revision v2 · 27 September 2026
+
+User requested a stronger Bangyai English Village atmosphere. Generated a replacement storybook illustration: parent and two cartoon children observing a potted-plant shadow in a lush adventure garden with rope structures and a blue boat. This is clearly illustrative, not evidence of a real BEV event. The original peg-board design remains historical.
+
+**Current on-image copy:** เงาเดิม… / เปลี่ยนไปได้ไหม? / ชวนลูกสังเกต ระหว่างเล่นกลางแจ้ง / ภาพประกอบ
+
+**Current artwork:** generated in this conversation, 1122 × 1402 px (approximately 4:5); generation ID exec-4b8e9d82-46c1-49aa-813e-86a4edf0e987. Official logo IMG_5566(3).jpeg supplied as reference. The logo was rendered within the generative edit; exact unchanged-source preservation is not verified. Do not claim it was deterministically composited.
+
+**Current status:** Design, superseding the earlier Needs Revision. New artwork has been visually inspected for headline, subject and setting; final exact-logo check remains. User approval of the new image has not yet been received. Facebook not published. Caption and topic unchanged. See the existing Notion item for the revision record.
 
 ## Production and learning loop
 
