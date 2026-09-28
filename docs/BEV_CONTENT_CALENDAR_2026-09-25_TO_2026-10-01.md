@@ -37,7 +37,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Single Image | แม่ใบ้ว่า…กลม หนูเห็นอะไรบ้าง? | ภาพประกอบ storybook ครอบครัวหาของจากคำใบ้ในสวนผจญภัย เด็กชี้ลูกบอล; ข้อความ คำใบ้หนึ่งคำ / พาลูกสนุกทั้งสวน; Design รอวางโลโก้ต้นฉบับแบบไม่สร้างใหม่ | วันนี้ลองให้คำใบ้ 1 คำ แล้วรอดูว่าลูกจะชี้ไปที่อะไร |
 | 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Single Image | ก่อนเลือกคลาส outdoor ถาม 3 เรื่องนี้ก่อน | ภาพประกอบ storybook แสงเย็น ผู้ปกครองและลูกคุยกับผู้ดูแลในสวนผจญภัย; ลูกชี้กิจกรรมที่สนใจ; โลโก้ต้นฉบับวางเป็นชั้นภาพ 1 ครั้ง; 1080×1350 | ทัก Messenger พร้อมบอกอายุและกิจกรรมที่น้องชอบ |
 | 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Single Image | ก่อนออกไปเล่น ชวนลูกเรียง 3 ขั้นตอน | ภาพประกอบ storybook 4:5 แม่รอลูกใส่รองเท้าก่อนออกไปสวน; Design รอวางโลโก้ต้นฉบับ ไม่อ้างว่าเป็นภาพกิจกรรมจริง | เลือกกิจวัตร 1 อย่าง แล้วชวนลูกทำทีละขั้นด้วย First • Next • Last |
-| 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Reel | คำว่า My turn พูดอย่างไรให้เพื่อนอยากฟัง | วิดีโอสาธิตโดยผู้ใหญ่หรือกราฟิกเสียง ไม่แอบอ้างคำพูดเด็กจริง | ลองพูด My turn, please ด้วยน้ำเสียงสองแบบ |
+| 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Single Image | พูดแบบไหน เพื่อนอยากฟัง? | ภาพประกอบ storybook 4:5 เด็กส่งถุงถั่วให้เพื่อนในสวนผจญภัย; Design เนื่องจากโลโก้ถูกวางผ่าน generative compositing และยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | ลองพูด My turn, please. สองน้ำเสียง แล้วให้ลูกเลือกแบบที่อยากได้ยิน |
 | 2026-09-28 | 19:00 | คืนนี้วาดแผนที่วันหยุด | Kids 9-11 | Trust · Carousel | จำทางที่เดินได้ไหม ลองวาดเส้นทางเล่น | กระดาษวาดเส้นทางเป็นภาพอุปกรณ์จริงไม่ใช้ภาพเด็กสร้างใหม่ | วาดเส้นทางโปรด 1 ทางแล้วเล่าให้คนที่บ้านฟัง |
 | 2026-09-29 | 07:00 | ของหนึ่งชิ้นเล่าได้หลายคำ | Kids 9-11 | Engagement · Single Image | ลองบรรยายเชือกหนึ่งเส้นโดยไม่บอกชื่อมัน | close-up อุปกรณ์จริงที่ปลอดภัยและได้รับอนุญาต | ลองให้คำใบ้สองคำแล้วให้คนอื่นทาย |
 | 2026-09-29 | 12:00 | จากวัสดุเหลือใช้เป็นเกมเล็ก | Kids 3-5 | Shareability · Carousel | แกนกระดาษหนึ่งอัน เล่นได้กี่แบบ | ถ่ายมือกับวัสดุสะอาด ไม่มีชิ้นเล็กเสี่ยงกลืน | ลองคิดวิธีเล่นหนึ่งแบบแล้วบอกกติกาง่าย ๆ |
@@ -317,6 +317,35 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #กิจกรรมพ่อแม่ลูก #ภาษาอังกฤษในชีวิตประจำวัน
 
 **Design:** One 4:5 storybook family illustration generated and visually inspected. Mother waits while child fastens shoes on a porch facing an adventure garden; bottle in bag and hat support the routine. Clearly cartoon, not a real BEV event. Both user style reference and original logo retrieved and inspected. Original logo still needs unchanged-layer insertion; no substitute logo generated. This is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881f88082e6304e4cdc37) updated. Content Performance empty; Facebook NOT published.
+
+### 2026-09-28 12:00 · เสียงเดียวกัน น้ำเสียงต่างกัน
+
+**On-image:** พูดแบบไหน / เพื่อนอยากฟัง? / My turn, please.
+
+**Caption**
+
+ประโยคเดียวกัน…แต่พอฟังคนละน้ำเสียง ความรู้สึกก็ต่างกันได้ครับ 🎭🌿
+
+ชวนเด็กวัย 6–8 ปีเล่นเกม “นักพากย์สองเสียง” ง่าย ๆ โดยพูดประโยคเดิมสองครั้ง:
+
+“My turn, please.” — ขอเป็นตาของฉันนะ
+
+ครั้งแรก ลองพูดเร็วและเสียงดัง
+ครั้งที่สอง ลองพูดช้า ชัด และเป็นมิตร
+
+แล้วถามลูกว่า
+“แบบไหนหนูอยากได้ยินมากกว่า?”
+“สีหน้าหรือเสียงตรงไหนที่ต่างกัน?”
+
+ไม่มีคำตอบที่ต้องท่องครับ จุดสำคัญคือให้ลูกได้ฟัง สังเกต และลองเลือกวิธีพูดของตัวเอง จะทดลองกับการส่งลูกบอลหรือถุงถั่วให้กันก็ได้
+
+ถ้าลูกยังไม่อยากพูด ให้ผู้ใหญ่แสดงสองแบบ แล้วให้ลูกชี้เลือกก่อนก็ได้ครับ 💚
+
+วันนี้ลองพูด “My turn, please.” สองน้ำเสียง แล้วให้ลูกเลือกแบบที่เขาอยากได้ยินครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เรียนรู้ผ่านการเล่น
+
+**Design:** One 4:5 storybook illustration generated and visually inspected. Two illustrated children exchange a yellow beanbag after a balance activity in a dimensional outdoor adventure garden. It is not a real BEV event. Current style reference and official IMG_5566(3).jpeg were retrieved and inspected; both were supplied with separate roles. Text and action are readable and lower corners remain full-bleed. Exact unchanged-source logo preservation cannot be established through generative compositing, so status is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881e7a969c1f786472097) updated. Content Performance empty; Facebook NOT published.
 
 ## Production and learning loop
 
