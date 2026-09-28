@@ -36,7 +36,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-27 | 07:00 | เงาเปลี่ยนรูปได้ไหม | Kids 6-8 | Engagement · Single Image | เงาเดิม…แต่ทำไมดูไม่เหมือนเดิม? | ภาพประกอบ storybook v2 ครอบครัวสังเกตเงากระถางในสวนผจญภัย มีเชือกปีนป่ายและเรือสีฟ้า; ไม่ใช่ภาพกิจกรรมจริง; Design รอตรวจโลโก้ต้นฉบับ | ถ่ายภาพเงาของวัตถุเดิม 2 เวลา แล้วชวนลูกบอก 1 อย่างที่เปลี่ยนไป |
 | 2026-09-27 | 12:00 | คำใบ้รูปทรงพาไปหาอะไร | Kids 3-5 | Shareability · Single Image | แม่ใบ้ว่า…กลม หนูเห็นอะไรบ้าง? | ภาพประกอบ storybook ครอบครัวหาของจากคำใบ้ในสวนผจญภัย เด็กชี้ลูกบอล; ข้อความ คำใบ้หนึ่งคำ / พาลูกสนุกทั้งสวน; Design รอวางโลโก้ต้นฉบับแบบไม่สร้างใหม่ | วันนี้ลองให้คำใบ้ 1 คำ แล้วรอดูว่าลูกจะชี้ไปที่อะไร |
 | 2026-09-27 | 19:00 | สามคำถามก่อนเลือกคลาส outdoor | Parents | Inquiry · Single Image | ก่อนเลือกคลาส outdoor ถาม 3 เรื่องนี้ก่อน | ภาพประกอบ storybook แสงเย็น ผู้ปกครองและลูกคุยกับผู้ดูแลในสวนผจญภัย; ลูกชี้กิจกรรมที่สนใจ; โลโก้ต้นฉบับวางเป็นชั้นภาพ 1 ครั้ง; 1080×1350 | ทัก Messenger พร้อมบอกอายุและกิจกรรมที่น้องชอบ |
-| 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Carousel | สามคำเล็ก ๆ ใช้ได้ตั้งแต่เช้า | ภาพกิจวัตรจากของใช้จริง ไม่อ้างว่าเป็นคลาส BEV | ลองบอกลำดับ 3 ขั้นตอนง่าย ๆ กับลูก |
+| 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Single Image | ก่อนออกไปเล่น ชวนลูกเรียง 3 ขั้นตอน | ภาพประกอบ storybook 4:5 แม่รอลูกใส่รองเท้าก่อนออกไปสวน; Design รอวางโลโก้ต้นฉบับ ไม่อ้างว่าเป็นภาพกิจกรรมจริง | เลือกกิจวัตร 1 อย่าง แล้วชวนลูกทำทีละขั้นด้วย First • Next • Last |
 | 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Reel | คำว่า My turn พูดอย่างไรให้เพื่อนอยากฟัง | วิดีโอสาธิตโดยผู้ใหญ่หรือกราฟิกเสียง ไม่แอบอ้างคำพูดเด็กจริง | ลองพูด My turn, please ด้วยน้ำเสียงสองแบบ |
 | 2026-09-28 | 19:00 | คืนนี้วาดแผนที่วันหยุด | Kids 9-11 | Trust · Carousel | จำทางที่เดินได้ไหม ลองวาดเส้นทางเล่น | กระดาษวาดเส้นทางเป็นภาพอุปกรณ์จริงไม่ใช้ภาพเด็กสร้างใหม่ | วาดเส้นทางโปรด 1 ทางแล้วเล่าให้คนที่บ้านฟัง |
 | 2026-09-29 | 07:00 | ของหนึ่งชิ้นเล่าได้หลายคำ | Kids 9-11 | Engagement · Single Image | ลองบรรยายเชือกหนึ่งเส้นโดยไม่บอกชื่อมัน | close-up อุปกรณ์จริงที่ปลอดภัยและได้รับอนุญาต | ลองให้คำใบ้สองคำแล้วให้คนอื่นทาย |
@@ -288,6 +288,35 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 **Design:** Finished single 4:5 storybook illustration, 1080 × 1350 px. Late-afternoon side-angle scene of parents and child talking with an activity guide in a dimensional outdoor adventure garden; the child points toward an activity of interest. Clearly illustrated, not documentary evidence of a BEV session. Official IMG_5566(3).jpeg was visually inspected and inserted once as an unchanged proportional image layer after generation. Full-size and 360 px checks completed.
 
 **Status:** Ready creative in [existing Notion item](https://app.notion.com/p/3e5a8bdd127881039e67c1066e1e1e6e). User approval is not inferred. Content Performance returned zero rows. Facebook not published and no live post URL exists. The 1 October 19:00 booking-time item is the closest related planned post; this item retains its broader age-fit/support/interest checklist and is marked Similar.
+
+### 2026-09-28 07:00 · First, next, last ตอนเตรียมตัว
+
+**On-image:** ก่อนออกไปเล่น / ชวนลูกเรียง 3 ขั้นตอน / First • Next • Last
+
+**Caption**
+
+ก่อนออกไปเล่น…ชวนลูกเรียงเรื่องเล็ก ๆ ให้เป็น 3 ขั้นตอน 🌿
+
+สำหรับเด็กวัย 3–5 ปี ลองใช้คำว่า First, Next, Last กับสิ่งที่กำลังทำจริง เช่น เตรียมตัวไปเดินเล่น
+
+🎒 First, put your water bottle in your bag.
+ก่อนอื่น ใส่ขวดน้ำลงในกระเป๋า
+
+👒 Next, put on your hat.
+ต่อไป ใส่หมวก
+
+👟 Last, put on your shoes.
+สุดท้าย ใส่รองเท้า
+
+ผู้ใหญ่พูดทีละขั้น แล้วเว้นเวลาให้ลูกลองทำ ไม่จำเป็นต้องบอกทั้งหมดรวดเดียวหรือให้ลูกพูดตามทุกคำ จะชี้ หยิบของ หรือพูดแค่ “Next!” ก็ร่วมสนุกได้ครับ
+
+ลำดับนี้เป็นเพียงตัวอย่าง ปรับให้ตรงกับกิจวัตรของบ้านเราได้ ภาษาอังกฤษจึงอยู่ในช่วงเวลาธรรมดาที่พ่อแม่กับลูกทำด้วยกัน 💚
+
+เช้านี้ลองเลือกกิจวัตร 1 อย่าง แล้วชวนลูกทำทีละขั้นด้วย First • Next • Last ครับ
+
+#BangyaiEnglishVillage #กิจกรรมพ่อแม่ลูก #ภาษาอังกฤษในชีวิตประจำวัน
+
+**Design:** One 4:5 storybook family illustration generated and visually inspected. Mother waits while child fastens shoes on a porch facing an adventure garden; bottle in bag and hat support the routine. Clearly cartoon, not a real BEV event. Both user style reference and original logo retrieved and inspected. Original logo still needs unchanged-layer insertion; no substitute logo generated. This is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881f88082e6304e4cdc37) updated. Content Performance empty; Facebook NOT published.
 
 ## Production and learning loop
 
