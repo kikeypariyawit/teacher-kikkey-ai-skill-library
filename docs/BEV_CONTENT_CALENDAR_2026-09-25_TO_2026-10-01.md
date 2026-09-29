@@ -40,7 +40,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Single Image | พูดแบบไหน เพื่อนอยากฟัง? | ภาพประกอบ storybook 4:5 เด็กส่งถุงถั่วให้เพื่อนในสวนผจญภัย; Design เนื่องจากโลโก้ถูกวางผ่าน generative compositing และยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | ลองพูด My turn, please. สองน้ำเสียง แล้วให้ลูกเลือกแบบที่อยากได้ยิน |
 | 2026-09-28 | 19:00 | คืนนี้วาดแผนที่วันหยุด | Kids 9-11 | Trust · Single Image | จำทางที่เดินได้ไหม ลองวาดเส้นทางจากความทรงจำ | ภาพประกอบ storybook 4:5 พ่อแม่กับเด็กวัยประมาณ 10 ปีวาดแผนที่ร่วมกันในสวนผจญภัยยามเย็น; ภาพเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | คืนนี้ลองให้ลูกวาด 1 เส้นทาง แล้วเล่า 1 จุดที่จำได้ให้คนที่บ้านฟัง |
 | 2026-09-29 | 07:00 | ของหนึ่งชิ้นเล่าได้หลายคำ | Kids 9-11 | Engagement · Single Image | ห้ามบอกชื่อ ลองบรรยายของหนึ่งชิ้นด้วยคำใบ้ 2 คำ | ภาพประกอบ storybook 4:5 เด็กถือเชือกม้วนอย่างปลอดภัย ขณะที่ผู้ปกครองและเด็กอีกคนทาย ในสวนผจญภัยเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | เช้านี้เลือกของปลอดภัย 1 ชิ้น แล้วให้ลูกใบ้ 2 คำโดยไม่บอกชื่อ |
-| 2026-09-29 | 12:00 | จากวัสดุเหลือใช้เป็นเกมเล็ก | Kids 3-5 | Shareability · Carousel | แกนกระดาษหนึ่งอัน เล่นได้กี่แบบ | ถ่ายมือกับวัสดุสะอาด ไม่มีชิ้นเล็กเสี่ยงกลืน | ลองคิดวิธีเล่นหนึ่งแบบแล้วบอกกติกาง่าย ๆ |
+| 2026-09-29 | 12:00 | จากวัสดุเหลือใช้เป็นเกมเล็ก | Kids 3-5 | Shareability · Single Image | แกนกระดาษหนึ่งอัน เปลี่ยนเป็นกล้องนักสำรวจได้ไหม | ภาพประกอบ storybook 4:5 เด็กใช้แกนกระดาษสะอาดเป็นกล้องนักสำรวจและชี้หาสีร่วมกับผู้ปกครองในสวนผจญภัยเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | วันนี้ลองเปลี่ยนแกนกระดาษสะอาด 1 อันเป็นกล้องนักสำรวจ แล้วชวนลูกหา 1 สี |
 | 2026-09-29 | 19:00 | เวลาลูกอยากพักจากเกม | Parents | Trust · Single Image | พักได้ แล้วกลับมาเล่นต่อแบบไหน | มุมพักในพื้นที่จริงเฉพาะเมื่อมีภาพยืนยัน หรือกราฟิกคำพูด | ลองถาม Ready for a break? แล้วให้ทางเลือกที่เหมาะสม |
 | 2026-09-30 | 07:00 | คำทักทายธรรมชาติ | Kids 6-8 | Engagement · Single Image | วันนี้เห็นอะไรใหม่จากทางเดิม | ภาพทางเดินจริงและวัตถุหนึ่งชิ้น หลีกเลี่ยงใบไม้เป็นพระเอกซ้ำ | ชวนลูกชี้สิ่งใหม่หนึ่งอย่างระหว่างทาง |
 | 2026-09-30 | 12:00 | กล้าบอกว่าไม่ชอบแบบสุภาพ | Kids 9-11 | Shareability · Single Image | I prefer this one ใช้ตอนไหนดี | ภาพเปรียบเทียบอุปกรณ์สองชนิด ไม่อ้างว่าลูกในภาพเลือกจริง | ลองเลือกของสองอย่างพร้อมบอก I prefer… |
@@ -401,6 +401,35 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เรียนรู้ผ่านการเล่น
 
 **Design:** One 4:5 storybook illustration generated and inspected. An illustrated child aged about 10 safely holds a coiled rope and gives two clues while a parent and another child guess in a dimensional outdoor adventure garden. This is not a real BEV event. The current approved style reference and official IMG_5566(3).jpeg were retrieved and inspected; both were supplied with separate roles. Thai/English copy, action, anatomy, rope safety, 4:5 ratio and lower corners were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881ca8268c57c911b6db8) updated. Content Performance empty; Facebook NOT published.
+
+### 2026-09-29 12:00 · จากวัสดุเหลือใช้เป็นเกมเล็ก
+
+**On-image:** แกนกระดาษ / เป็นกล้องนักสำรวจ! / LOOK • FIND • TELL
+
+**Caption**
+
+ของเล่นชิ้นใหม่ ไม่จำเป็นต้องเริ่มจากการซื้อเสมอไปครับ 🌿🔭
+
+แกนกระดาษสะอาด 1 อัน เปลี่ยนเป็น “กล้องนักสำรวจ” สำหรับเด็กวัย 3–5 ปีได้ง่าย ๆ
+
+ก่อนเล่น ผู้ใหญ่ช่วยตรวจว่าแกนแห้ง สะอาด ขอบเรียบ และไม่มีลวดเย็บ จากนั้นให้ลูกตกแต่งด้วยกระดาษชิ้นใหญ่ แล้วพาไปส่องหาสีรอบบ้านหรือในสวน
+
+ลองชวนคุยด้วยประโยคสั้น ๆ:
+
+“Can you find something yellow?”
+— หนูหาของสีเหลืองเจอไหม?
+
+ลูกจะชี้ให้ดู หรือพูดว่า
+“I found a yellow flower!”
+— หนูเจอดอกไม้สีเหลืองแล้ว!
+
+ไม่ต้องหาของให้ครบหลายสีครับ เลือกเพียงสีเดียวแล้วให้ลูกมีเวลาเป็นคนค้นหาเอง ระหว่างเล่นให้ผู้ใหญ่อยู่ใกล้ ๆ และไม่ใช้กล้องกระดาษมองดวงอาทิตย์โดยตรง 💚
+
+วันนี้ลองเปลี่ยนแกนกระดาษสะอาด 1 อันเป็นกล้องนักสำรวจ แล้วชวนลูกหา 1 สีครับ
+
+#BangyaiEnglishVillage #กิจกรรมพ่อแม่ลูก #ของเล่นจากวัสดุเหลือใช้ #EnglishThroughPlay
+
+**Design:** One 4:5 storybook illustration generated and inspected. An illustrated child aged about 4 uses a clean cardboard tube as a pretend explorer telescope and points to a yellow flower while a parent joins the search in a dimensional outdoor adventure garden. This is not a real BEV event. The current approved style reference and official IMG_5566(3).jpeg were retrieved and inspected; both were supplied with separate roles. Thai/English copy, action, anatomy, craft safety, 4:5 ratio and lower corners were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd12788112923fdc73548fa56f) updated. Content Performance empty; Facebook NOT published.
 
 ## Production and learning loop
 
