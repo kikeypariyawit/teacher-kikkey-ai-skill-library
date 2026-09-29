@@ -39,7 +39,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-28 | 07:00 | First, next, last ตอนเตรียมตัว | Kids 3-5 | Shareability · Single Image | ก่อนออกไปเล่น ชวนลูกเรียง 3 ขั้นตอน | ภาพประกอบ storybook 4:5 แม่รอลูกใส่รองเท้าก่อนออกไปสวน; Design รอวางโลโก้ต้นฉบับ ไม่อ้างว่าเป็นภาพกิจกรรมจริง | เลือกกิจวัตร 1 อย่าง แล้วชวนลูกทำทีละขั้นด้วย First • Next • Last |
 | 2026-09-28 | 12:00 | เสียงเดียวกัน น้ำเสียงต่างกัน | Kids 6-8 | Engagement · Single Image | พูดแบบไหน เพื่อนอยากฟัง? | ภาพประกอบ storybook 4:5 เด็กส่งถุงถั่วให้เพื่อนในสวนผจญภัย; Design เนื่องจากโลโก้ถูกวางผ่าน generative compositing และยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | ลองพูด My turn, please. สองน้ำเสียง แล้วให้ลูกเลือกแบบที่อยากได้ยิน |
 | 2026-09-28 | 19:00 | คืนนี้วาดแผนที่วันหยุด | Kids 9-11 | Trust · Single Image | จำทางที่เดินได้ไหม ลองวาดเส้นทางจากความทรงจำ | ภาพประกอบ storybook 4:5 พ่อแม่กับเด็กวัยประมาณ 10 ปีวาดแผนที่ร่วมกันในสวนผจญภัยยามเย็น; ภาพเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | คืนนี้ลองให้ลูกวาด 1 เส้นทาง แล้วเล่า 1 จุดที่จำได้ให้คนที่บ้านฟัง |
-| 2026-09-29 | 07:00 | ของหนึ่งชิ้นเล่าได้หลายคำ | Kids 9-11 | Engagement · Single Image | ลองบรรยายเชือกหนึ่งเส้นโดยไม่บอกชื่อมัน | close-up อุปกรณ์จริงที่ปลอดภัยและได้รับอนุญาต | ลองให้คำใบ้สองคำแล้วให้คนอื่นทาย |
+| 2026-09-29 | 07:00 | ของหนึ่งชิ้นเล่าได้หลายคำ | Kids 9-11 | Engagement · Single Image | ห้ามบอกชื่อ ลองบรรยายของหนึ่งชิ้นด้วยคำใบ้ 2 คำ | ภาพประกอบ storybook 4:5 เด็กถือเชือกม้วนอย่างปลอดภัย ขณะที่ผู้ปกครองและเด็กอีกคนทาย ในสวนผจญภัยเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | เช้านี้เลือกของปลอดภัย 1 ชิ้น แล้วให้ลูกใบ้ 2 คำโดยไม่บอกชื่อ |
 | 2026-09-29 | 12:00 | จากวัสดุเหลือใช้เป็นเกมเล็ก | Kids 3-5 | Shareability · Carousel | แกนกระดาษหนึ่งอัน เล่นได้กี่แบบ | ถ่ายมือกับวัสดุสะอาด ไม่มีชิ้นเล็กเสี่ยงกลืน | ลองคิดวิธีเล่นหนึ่งแบบแล้วบอกกติกาง่าย ๆ |
 | 2026-09-29 | 19:00 | เวลาลูกอยากพักจากเกม | Parents | Trust · Single Image | พักได้ แล้วกลับมาเล่นต่อแบบไหน | มุมพักในพื้นที่จริงเฉพาะเมื่อมีภาพยืนยัน หรือกราฟิกคำพูด | ลองถาม Ready for a break? แล้วให้ทางเลือกที่เหมาะสม |
 | 2026-09-30 | 07:00 | คำทักทายธรรมชาติ | Kids 6-8 | Engagement · Single Image | วันนี้เห็นอะไรใหม่จากทางเดิม | ภาพทางเดินจริงและวัตถุหนึ่งชิ้น หลีกเลี่ยงใบไม้เป็นพระเอกซ้ำ | ชวนลูกชี้สิ่งใหม่หนึ่งอย่างระหว่างทาง |
@@ -374,6 +374,33 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #กิจกรรมพ่อแม่ลูก #EnglishThroughPlay #เรียนรู้ผ่านการเล่น
 
 **Design:** One 4:5 storybook illustration generated and inspected. A parent and an illustrated child aged about 10 draw and narrate a weekend route together in a dimensional outdoor adventure garden at warm dusk. This is not a real BEV event. The current approved style reference and official IMG_5566(3).jpeg were retrieved and inspected; both were supplied with separate roles. The rendered Thai copy, action, anatomy, 4:5 ratio and lower corners were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd1278812695e6cef3c04d1302) updated. Content Performance empty; Facebook NOT published.
+
+### 2026-09-29 07:00 · ของหนึ่งชิ้นเล่าได้หลายคำ
+
+**On-image:** ห้ามบอกชื่อ! / ลองใบ้ 2 คำ / It’s rough. It’s long.
+
+**Caption**
+
+“ห้ามบอกชื่อ!” แล้วลองให้คนที่บ้านทายดูครับ 🕵️‍♀️🌿
+
+เกมเช้านี้สำหรับเด็กวัย 9–11 ปี ใช้ของใกล้ตัวเพียง 1 ชิ้น แล้วชวนลูกบอกลักษณะ 2 อย่างโดยยังไม่พูดชื่อของชิ้นนั้น
+
+ตัวอย่าง ถ้าเลือกเชือก:
+“It’s rough.” — มันมีผิวหยาบ
+“It’s long.” — มันยาว
+
+จากนั้นคนทายลองถามว่า
+“Is it a rope?” — มันคือเชือกใช่ไหม?
+
+ลูกจะเริ่มจากคำไทยก่อน แล้วค่อยเลือกคำอังกฤษที่รู้ก็ได้ หรือเปลี่ยนเป็นสี รูปร่าง น้ำหนัก และวัสดุ เช่น soft, round, heavy หรือ wooden ตามของที่เลือกครับ
+
+ถ้าใช้เชือก ให้วางหรือถือเป็นม้วนสำหรับสังเกตเท่านั้น ไม่พันรอบตัวและมีผู้ใหญ่อยู่ใกล้ ๆ 💚
+
+เช้านี้เลือกของปลอดภัย 1 ชิ้น แล้วให้ลูกใบ้ 2 คำโดยไม่บอกชื่อครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เรียนรู้ผ่านการเล่น
+
+**Design:** One 4:5 storybook illustration generated and inspected. An illustrated child aged about 10 safely holds a coiled rope and gives two clues while a parent and another child guess in a dimensional outdoor adventure garden. This is not a real BEV event. The current approved style reference and official IMG_5566(3).jpeg were retrieved and inspected; both were supplied with separate roles. Thai/English copy, action, anatomy, rope safety, 4:5 ratio and lower corners were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status is Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881ca8268c57c911b6db8) updated. Content Performance empty; Facebook NOT published.
 
 ## Production and learning loop
 
