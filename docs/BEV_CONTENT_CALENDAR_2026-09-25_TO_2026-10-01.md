@@ -42,7 +42,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-29 | 07:00 | ของหนึ่งชิ้นเล่าได้หลายคำ | Kids 9-11 | Engagement · Single Image | ห้ามบอกชื่อ ลองบรรยายของหนึ่งชิ้นด้วยคำใบ้ 2 คำ | ภาพประกอบ storybook 4:5 เด็กถือเชือกม้วนอย่างปลอดภัย ขณะที่ผู้ปกครองและเด็กอีกคนทาย ในสวนผจญภัยเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | เช้านี้เลือกของปลอดภัย 1 ชิ้น แล้วให้ลูกใบ้ 2 คำโดยไม่บอกชื่อ |
 | 2026-09-29 | 12:00 | จากวัสดุเหลือใช้เป็นเกมเล็ก | Kids 3-5 | Shareability · Single Image | แกนกระดาษหนึ่งอัน เปลี่ยนเป็นกล้องนักสำรวจได้ไหม | ภาพประกอบ storybook 4:5 เด็กใช้แกนกระดาษสะอาดเป็นกล้องนักสำรวจและชี้หาสีร่วมกับผู้ปกครองในสวนผจญภัยเต็มขอบ; โลโก้ต้นฉบับเป็น reference ครั้งเดียว; ยังยืนยัน unchanged pixels ไม่ได้ | วันนี้ลองเปลี่ยนแกนกระดาษสะอาด 1 อันเป็นกล้องนักสำรวจ แล้วชวนลูกหา 1 สี |
 | 2026-09-29 | 19:00 | เวลาลูกอยากพักจากเกม | Parents · Kids 3–8 | Trust · Single Image | พักได้ แล้วค่อยกลับมาเล่น | ภาพประกอบการ์ตูน storybook 4:5 เด็กพักบนตอไม้ ผู้ปกครองนั่งระดับสายตา เสนอน้ำและที่นั่ง ขณะเกมดำเนินอยู่ด้านหลังในสวนผจญภัยยามเย็น; โลโก้ต้นฉบับเป็น reference 1 ครั้ง; generative compositing ยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | คืนนี้ลองถาม Ready for a break? แล้วรอฟังคำตอบของลูกหนึ่งครั้ง |
-| 2026-09-30 | 07:00 | คำทักทายธรรมชาติ | Kids 6-8 | Engagement · Single Image | วันนี้เห็นอะไรใหม่จากทางเดิม | ภาพทางเดินจริงและวัตถุหนึ่งชิ้น หลีกเลี่ยงใบไม้เป็นพระเอกซ้ำ | ชวนลูกชี้สิ่งใหม่หนึ่งอย่างระหว่างทาง |
+| 2026-09-30 | 07:00 | คำทักทายธรรมชาติ | Parents · Kids 6–8 | Engagement · Single Image | ทางเดิม...วันนี้เจออะไรใหม่? | ภาพประกอบการ์ตูน storybook 4:5 มุมกล้องต่ำข้างใยแมงมุมมีหยดน้ำ เด็กชี้จากระยะปลอดภัย ผู้ปกครองก้มตามสายตา มีทางเดินและสะพานเชือกในสวนผจญภัยยามเช้า; โลโก้ต้นฉบับเป็น reference 1 ครั้ง; generative compositing ยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | เช้านี้ชวนลูกชี้สิ่งใหม่ 1 อย่าง แล้วต่อประโยค I found… ด้วยกัน |
 | 2026-09-30 | 12:00 | กล้าบอกว่าไม่ชอบแบบสุภาพ | Kids 9-11 | Shareability · Single Image | I prefer this one ใช้ตอนไหนดี | ภาพเปรียบเทียบอุปกรณ์สองชนิด ไม่อ้างว่าลูกในภาพเลือกจริง | ลองเลือกของสองอย่างพร้อมบอก I prefer… |
 | 2026-09-30 | 19:00 | เบื้องหลังภาพสนุกมีการเตรียม | Parents | Trust · Carousel | ก่อนเริ่มกิจกรรม ผู้ใหญ่ดูอะไรบ้าง | ใช้ภาพพื้นที่หรืออุปกรณ์จริงที่ตรวจสอบแล้ว; อย่าระบุขั้นตอนความปลอดภัยที่ไม่ได้ยืนยัน | ส่งคำถามเกี่ยวกับกิจกรรมที่อยากให้ทีมตอบ |
 | 2026-10-01 | 07:00 | October mini mission | Kids 3-5 | Engagement · Single Image | ต้นเดือนนี้ ลองมีภารกิจภาษาอังกฤษเล็ก ๆ | ตัวเลข 1–3 และภาพของจริงไม่ซ้ำธีมโพสต์เก่า | ชวนลูกบอกสิ่งที่เห็น 1 อย่างเป็น English |
@@ -452,6 +452,32 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #ภาษาอังกฤษกับลูก #ParentingTip
 
 **Design:** Finished 4:5 illustrated single image, 1122 × 1402 px. A clearly illustrated child raises a relaxed pause hand while a parent offers water and a quiet seat; another family member continues the game in the layered evening garden. This is not a real BEV event. Current official logo and style reference were retrieved and inspected. Thai/English copy, story, anatomy, ratio and 360 px mobile legibility were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status remains Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881a7bc00ed6c2afb609c) updated. Content Performance empty; Facebook NOT published.
+
+### 2026-09-30 07:00 · คำทักทายธรรมชาติ
+
+**On-image:** ทางเดิม... / วันนี้เจออะไรใหม่?  
+**Support:** I found something new!
+
+**Caption**
+
+ทางเดิม…ก็มีสิ่งใหม่ให้เจอได้ทุกเช้าครับ 🌿✨
+
+ระหว่างเดินเส้นทางที่คุ้นเคย ชวนเด็กวัย 6–8 ปีชะลอฝีเท้า แล้วสังเกตรายละเอียดที่เมื่อวานอาจยังไม่ได้เห็น
+
+ประโยคเริ่มบทสนทนาง่าย ๆ:  
+“What is new today?” — วันนี้มีอะไรใหม่?  
+“I found a spider web.” — หนูเจอใยแมงมุม  
+“It has tiny drops.” — มีหยดน้ำเล็ก ๆ เกาะอยู่
+
+ไม่จำเป็นต้องเจอใยแมงมุมครับ สิ่งใหม่อาจเป็นแอ่งน้ำ เงาที่เปลี่ยนไป ดอกไม้ที่เพิ่งบาน หรือเสียงนกที่ดังมาจากอีกมุมหนึ่ง ให้ลูกชี้ก่อน แล้วค่อยเลือกคำอังกฤษสั้น ๆ มาต่อกับ “I found…”
+
+สังเกตจากระยะที่เหมาะสม ไม่จับใยแมงมุม ไม่แตะสัตว์ และมีผู้ใหญ่อยู่ใกล้ ๆ เสมอ 💚
+
+เช้านี้ชวนลูกชี้สิ่งใหม่ 1 อย่าง แล้วต่อประโยค “I found…” ด้วยกันครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เรียนรู้ผ่านธรรมชาติ
+
+**Design:** Finished 4:5 storybook illustration, 1122 × 1402 px. A child points from a safe distance at a dew-covered spider web while a parent follows the child’s gaze along a layered morning adventure-garden path. This is not a real BEV event. The current official logo and style reference were retrieved and inspected. Thai/English copy, story, illustrated medium, anatomy, safe gesture, ratio, clean lower corners and 360 px mobile legibility were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status remains Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881d99563ebcb45b318c9) updated. Content Performance empty; Facebook NOT published.
 
 ## Production and learning loop
 
