@@ -44,7 +44,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-29 | 19:00 | เวลาลูกอยากพักจากเกม | Parents · Kids 3–8 | Trust · Single Image | พักได้ แล้วค่อยกลับมาเล่น | ภาพประกอบการ์ตูน storybook 4:5 เด็กพักบนตอไม้ ผู้ปกครองนั่งระดับสายตา เสนอน้ำและที่นั่ง ขณะเกมดำเนินอยู่ด้านหลังในสวนผจญภัยยามเย็น; โลโก้ต้นฉบับเป็น reference 1 ครั้ง; generative compositing ยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | คืนนี้ลองถาม Ready for a break? แล้วรอฟังคำตอบของลูกหนึ่งครั้ง |
 | 2026-09-30 | 07:00 | คำทักทายธรรมชาติ | Parents · Kids 6–8 | Engagement · Single Image | ทางเดิม...วันนี้เจออะไรใหม่? | ภาพประกอบการ์ตูน storybook 4:5 มุมกล้องต่ำข้างใยแมงมุมมีหยดน้ำ เด็กชี้จากระยะปลอดภัย ผู้ปกครองก้มตามสายตา มีทางเดินและสะพานเชือกในสวนผจญภัยยามเช้า; โลโก้ต้นฉบับเป็น reference 1 ครั้ง; generative compositing ยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | เช้านี้ชวนลูกชี้สิ่งใหม่ 1 อย่าง แล้วต่อประโยค I found… ด้วยกัน |
 | 2026-09-30 | 12:00 | กล้าบอกว่าไม่ชอบแบบสุภาพ | Kids 9-11 | Shareability · Single Image | I prefer this one ใช้ตอนไหนดี | ภาพเปรียบเทียบอุปกรณ์สองชนิด ไม่อ้างว่าลูกในภาพเลือกจริง | ลองเลือกของสองอย่างพร้อมบอก I prefer… |
-| 2026-09-30 | 19:00 | เบื้องหลังภาพสนุกมีการเตรียม | Parents | Trust · Carousel | ก่อนเริ่มกิจกรรม ผู้ใหญ่ดูอะไรบ้าง | ใช้ภาพพื้นที่หรืออุปกรณ์จริงที่ตรวจสอบแล้ว; อย่าระบุขั้นตอนความปลอดภัยที่ไม่ได้ยืนยัน | ส่งคำถามเกี่ยวกับกิจกรรมที่อยากให้ทีมตอบ |
+| 2026-09-30 | 19:00 | เบื้องหลังภาพสนุกมีการเตรียม | Parents · Kids 3–11 | Trust · Single Image | ก่อนลูกเริ่มเล่น ถามให้ชัด 3 เรื่อง | ภาพประกอบ storybook 4:5 แม่และเด็กดูผู้ใหญ่สาธิตเกมโยนห่วง; ข้อความอุปกรณ์ / วิธีเล่น / แผนเมื่อฝนมา; Design รอวางโลโก้ต้นฉบับในช่องที่เว้นไว้; ไม่ใช่ภาพขั้นตอนจริงของ BEV | ฝากคำถามเรื่องการเตรียมกิจกรรมที่อยากให้ทีม BEV ตอบในคอมเมนต์ |
 | 2026-10-01 | 07:00 | October mini mission | Kids 3-5 | Engagement · Single Image | ต้นเดือนนี้ ลองมีภารกิจภาษาอังกฤษเล็ก ๆ | ตัวเลข 1–3 และภาพของจริงไม่ซ้ำธีมโพสต์เก่า | ชวนลูกบอกสิ่งที่เห็น 1 อย่างเป็น English |
 | 2026-10-01 | 12:00 | ก่อนถึงเทศกาล ชวนลูกออกแบบเครื่องหมายทีม | Kids 6-8 | Shareability · Carousel | สัญลักษณ์ทีมของเราคืออะไร | ภาพมือวาดตราทีมบนกระดาษ ไม่มีการแอบอ้างว่าเป็น event ที่ยืนยันแล้ว | ลองวาดและตั้งชื่อทีม 1 ชื่อ |
 | 2026-10-01 | 19:00 | ถามก่อนจองกิจกรรมสุดสัปดาห์ | Parents | Inquiry · Single Image | เลือกช่วงเวลาแบบไหนให้เหมาะกับจังหวะลูก | ภาพกิจกรรมจริงหรือพื้นที่จริง ข้อมูลเวลา/ราคาใส่เมื่อเช็กปัจจุบันเท่านั้น | ทัก Messenger เพจเพื่อสอบถามรอบที่เปิดและความเหมาะกับวัย |
@@ -478,6 +478,41 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เรียนรู้ผ่านธรรมชาติ
 
 **Design:** Finished 4:5 storybook illustration, 1122 × 1402 px. A child points from a safe distance at a dew-covered spider web while a parent follows the child’s gaze along a layered morning adventure-garden path. This is not a real BEV event. The current official logo and style reference were retrieved and inspected. Thai/English copy, story, illustrated medium, anatomy, safe gesture, ratio, clean lower corners and 360 px mobile legibility were checked. Exact unchanged-source logo preservation cannot be established through generative compositing, so status remains Design, not Ready or user-approved. Existing [Notion item](https://app.notion.com/p/3e5a8bdd127881d99563ebcb45b318c9) updated. Content Performance empty; Facebook NOT published.
+
+
+### 2026-09-30 19:00 · เบื้องหลังภาพสนุกมีการเตรียม
+
+**On-image:** ก่อนลูกเริ่มเล่น / ถามให้ชัด 3 เรื่อง
+
+1. อุปกรณ์ — ใช้อะไร ใครตรวจให้?
+2. วิธีเล่น — ใครสาธิตก่อนลอง?
+3. แผนเมื่อฝนมา — ฝนตก เปลี่ยนแผนอย่างไร?
+
+**Caption**
+
+ภาพตอนลูกเล่นสนุก คือช่วงหนึ่งของกิจกรรม 🌿
+อีกช่วงที่พ่อแม่ถามให้ชัดได้ คือการเตรียมก่อนเริ่มเล่น
+
+สำหรับครอบครัวที่มีเด็กวัย 3–11 ปี ลองถามผู้จัดกิจกรรมให้เห็นภาพ 3 เรื่องนี้ครับ
+
+🎒 อุปกรณ์
+“กิจกรรมนี้ใช้อุปกรณ์อะไร และใครช่วยตรวจความพร้อมก่อนเริ่ม?”
+
+👣 วิธีเล่น
+“มีใครสาธิตให้เด็กดูก่อนลอง และถ้าไม่เข้าใจ ต้องถามใคร?”
+
+🌦️ แผนเมื่อฝนมา
+“ถ้าฝนตกหรือพื้นที่เปียก จะปรับ เปลี่ยน หรือหยุดกิจกรรมอย่างไร?”
+
+คำตอบที่มีรายละเอียดช่วยให้พ่อแม่เข้าใจว่าเด็กจะเจออะไร ก่อนพาไปทำกิจกรรมจริงครับ
+
+โพสต์นี้เป็นคำถามชวนคุยทั่วไป ภาพเป็นภาพประกอบ ไม่ใช่ภาพบันทึกการตรวจอุปกรณ์หรือการดูแลจริงของ BEV
+
+💬 มีคำถามเรื่องการเตรียมกิจกรรมข้อไหนที่อยากให้ทีม BEV ตอบ? ฝากไว้ในคอมเมนต์ได้ครับ
+
+#BangyaiEnglishVillage #กิจกรรมเด็ก #ครอบครัว
+
+**Design:** Changed the planned carousel to one information-rich storybook image following the latest user correction. Topic/time retained. Illustration, approximately 4:5 (1122 × 1402 px), inspected at full size and 360 px display width. Current approved visual reference and original logo retrieved and inspected. No invented logo: draft leaves the top-right slot blank; original-logo layer insertion remains before Ready. General questions, not documentary proof of BEV procedures. Compared 41 Pipeline entries; no Content Performance rows. Existing [Notion item](https://app.notion.com/p/3e5a8bdd12788101bac1cb178ec28b58) updated with artwork/copy, status Design. Facebook NOT published.
 
 ## Production and learning loop
 
