@@ -47,7 +47,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-30 | 19:00 | เบื้องหลังภาพสนุกมีการเตรียม | Parents · Kids 3–11 | Trust · Single Image | ก่อนลูกเริ่มเล่น ถามให้ชัด 3 เรื่อง | ภาพประกอบ storybook 4:5 แม่และเด็กดูผู้ใหญ่สาธิตเกมโยนห่วง; ข้อความอุปกรณ์ / วิธีเล่น / แผนเมื่อฝนมา; Design รอวางโลโก้ต้นฉบับในช่องที่เว้นไว้; ไม่ใช่ภาพขั้นตอนจริงของ BEV | ฝากคำถามเรื่องการเตรียมกิจกรรมที่อยากให้ทีม BEV ตอบในคอมเมนต์ |
 | 2026-10-01 | 07:00 | October mini mission | Parents · Kids 3–5 | Engagement · Single Image | เริ่มเดือนใหม่ ด้วยภารกิจเล็ก ๆ | ภาพประกอบ storybook 4:5 มุมกล้องต่ำ แม่กับเด็กชี้หาใบไม้ในสวน; 3 ขั้น LOOK • SAY • FIND พร้อมประโยคอังกฤษ; Design รอวางโลโก้ต้นฉบับในช่องขวาบน; ไม่ใช่ภาพกิจกรรมจริงของ BEV | เช้านี้เลือก 1 สี แล้วทำภารกิจ LOOK • SAY • FIND กับลูก |
 | 2026-10-01 | 12:00 | ก่อนถึงเทศกาล ชวนลูกออกแบบเครื่องหมายทีม | Kids 6-8 | Shareability · Carousel | สัญลักษณ์ทีมของเราคืออะไร | ภาพมือวาดตราทีมบนกระดาษ ไม่มีการแอบอ้างว่าเป็น event ที่ยืนยันแล้ว | ลองวาดและตั้งชื่อทีม 1 ชื่อ |
-| 2026-10-01 | 19:00 | ถามก่อนจองกิจกรรมสุดสัปดาห์ | Parents | Inquiry · Single Image | เลือกช่วงเวลาแบบไหนให้เหมาะกับจังหวะลูก | ภาพกิจกรรมจริงหรือพื้นที่จริง ข้อมูลเวลา/ราคาใส่เมื่อเช็กปัจจุบันเท่านั้น | ทัก Messenger เพจเพื่อสอบถามรอบที่เปิดและความเหมาะกับวัย |
+| 2026-10-01 | 19:00 | ถามก่อนจองกิจกรรมสุดสัปดาห์ | Parents · Kids 3–11 | Inquiry · Single Image | เลือกช่วงเวลาให้เข้ากับจังหวะลูก | อินโฟกราฟิก storybook 4:5 ครอบครัวเลือกจังหวะกิจกรรมในสวนผจญภัย มี 3 คำถาม ตื่นตัว / พัก / พร้อมเริ่ม; Design รอวางโลโก้ต้นฉบับในช่องขวาบน; ไม่ใช่ภาพกิจกรรมจริงของ BEV | ทักเพจพร้อมบอกอายุ + เวลาที่ลูกสดชื่น |
 
 ## Prepared slot copy
 
@@ -547,6 +547,38 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เด็กวัย3ถึง5ปี
 
 **Design:** One information-rich storybook illustration, approximately 4:5 (1122 × 1402 px), created and inspected at full size and 360 px display width. A parent and clearly illustrated child complete a colour-search mission along a dimensional morning garden path. This is not documentary proof of a BEV activity. Current approved visual reference and original IMG_5566(3).jpeg were freshly retrieved and inspected. No imitation logo was generated; the original-logo layer remains to be inserted in the reserved top-right area before Ready. Compared all Pipeline rows; angle differs from the preceding I found… post through a three-step colour mission and one-word participation option. Content Performance returned zero rows. Existing [Notion item](https://app.notion.com/p/3e5a8bdd12788166a5dcdcf0d8f29d05) updated with artwork and caption; status Design. Facebook NOT published.
+
+### 2026-10-01 19:00 · ถามก่อนจองกิจกรรมสุดสัปดาห์
+
+**On-image:** เลือกช่วงเวลา / ให้เข้ากับจังหวะลูก
+
+1. ตื่นตัวเวลาไหน? — เช้า • สาย • บ่าย
+2. ต้องพักเมื่อไร? — หลังเดินทาง • ก่อนอาหาร
+3. พร้อมเริ่มแบบไหน? — ดู • ชี้ • ลองเล่น
+
+**CTA:** ทักเพจพร้อมบอกอายุ + เวลาที่ลูกสดชื่น
+
+**Age:** ครอบครัวเด็ก 3–11 ปี
+
+**Caption**
+
+ก่อนจองกิจกรรมสุดสัปดาห์ ลองดู “จังหวะประจำวัน” ของลูกก่อนครับ 🌿
+
+เด็กวัย 3–11 ปีแต่ละคนพร้อมไม่เหมือนกัน บางคนตื่นตัวตอนเช้า บางคนต้องใช้เวลาหลังเดินทาง และบางคนอยากยืนดูก่อนค่อยลองเล่น
+
+ลองเช็ก 3 เรื่องง่าย ๆ
+
+🌞 ตื่นตัวเวลาไหน — เช้า สาย หรือบ่าย  
+🥤 ต้องพักเมื่อไร — หลังเดินทาง หรือก่อนอาหาร  
+👀 พร้อมเริ่มแบบไหน — ดู ชี้ หรือทดลองทีละน้อย
+
+เมื่อติดต่อสอบถาม ลองบอกอายุและเวลาที่ลูกสดชื่นที่สุด เพื่อสอบถามรอบที่เปิดและความเหมาะกับวัยได้ตรงขึ้นครับ
+
+ทัก Messenger เพจ พร้อมบอกอายุ + เวลาที่ลูกสดชื่นครับ
+
+#BangyaiEnglishVillage #กิจกรรมเด็ก #ครอบครัว #ภาษาอังกฤษผ่านการเล่น
+
+**Design:** Information-rich storybook illustration, approximately 4:5 (1122 × 1402 px), created and inspected at full size and 360 px display width. The family is clearly illustrated; this is not documentary proof of a BEV activity or current schedule. Current approved visual reference and original IMG_5566(3).jpeg were freshly retrieved and inspected. No imitation logo was generated; the original-logo layer remains to be inserted in the reserved top-right area before Ready. No unverified price or session time was used. Notion and Content Performance were temporarily unavailable during this run, so no metric or Notion status was inferred. Facebook NOT published.
 
 ## Production and learning loop
 
