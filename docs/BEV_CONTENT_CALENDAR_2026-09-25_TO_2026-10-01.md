@@ -45,7 +45,7 @@ User feedback: scheduled images are unattractive. This revision changes the prod
 | 2026-09-30 | 07:00 | คำทักทายธรรมชาติ | Parents · Kids 6–8 | Engagement · Single Image | ทางเดิม...วันนี้เจออะไรใหม่? | ภาพประกอบการ์ตูน storybook 4:5 มุมกล้องต่ำข้างใยแมงมุมมีหยดน้ำ เด็กชี้จากระยะปลอดภัย ผู้ปกครองก้มตามสายตา มีทางเดินและสะพานเชือกในสวนผจญภัยยามเช้า; โลโก้ต้นฉบับเป็น reference 1 ครั้ง; generative compositing ยังยืนยัน unchanged pixels ไม่ได้; ไม่ใช่ภาพกิจกรรมจริง | เช้านี้ชวนลูกชี้สิ่งใหม่ 1 อย่าง แล้วต่อประโยค I found… ด้วยกัน |
 | 2026-09-30 | 12:00 | กล้าบอกว่าไม่ชอบแบบสุภาพ | Kids 9-11 | Shareability · Single Image | I prefer this one ใช้ตอนไหนดี | ภาพเปรียบเทียบอุปกรณ์สองชนิด ไม่อ้างว่าลูกในภาพเลือกจริง | ลองเลือกของสองอย่างพร้อมบอก I prefer… |
 | 2026-09-30 | 19:00 | เบื้องหลังภาพสนุกมีการเตรียม | Parents · Kids 3–11 | Trust · Single Image | ก่อนลูกเริ่มเล่น ถามให้ชัด 3 เรื่อง | ภาพประกอบ storybook 4:5 แม่และเด็กดูผู้ใหญ่สาธิตเกมโยนห่วง; ข้อความอุปกรณ์ / วิธีเล่น / แผนเมื่อฝนมา; Design รอวางโลโก้ต้นฉบับในช่องที่เว้นไว้; ไม่ใช่ภาพขั้นตอนจริงของ BEV | ฝากคำถามเรื่องการเตรียมกิจกรรมที่อยากให้ทีม BEV ตอบในคอมเมนต์ |
-| 2026-10-01 | 07:00 | October mini mission | Kids 3-5 | Engagement · Single Image | ต้นเดือนนี้ ลองมีภารกิจภาษาอังกฤษเล็ก ๆ | ตัวเลข 1–3 และภาพของจริงไม่ซ้ำธีมโพสต์เก่า | ชวนลูกบอกสิ่งที่เห็น 1 อย่างเป็น English |
+| 2026-10-01 | 07:00 | October mini mission | Parents · Kids 3–5 | Engagement · Single Image | เริ่มเดือนใหม่ ด้วยภารกิจเล็ก ๆ | ภาพประกอบ storybook 4:5 มุมกล้องต่ำ แม่กับเด็กชี้หาใบไม้ในสวน; 3 ขั้น LOOK • SAY • FIND พร้อมประโยคอังกฤษ; Design รอวางโลโก้ต้นฉบับในช่องขวาบน; ไม่ใช่ภาพกิจกรรมจริงของ BEV | เช้านี้เลือก 1 สี แล้วทำภารกิจ LOOK • SAY • FIND กับลูก |
 | 2026-10-01 | 12:00 | ก่อนถึงเทศกาล ชวนลูกออกแบบเครื่องหมายทีม | Kids 6-8 | Shareability · Carousel | สัญลักษณ์ทีมของเราคืออะไร | ภาพมือวาดตราทีมบนกระดาษ ไม่มีการแอบอ้างว่าเป็น event ที่ยืนยันแล้ว | ลองวาดและตั้งชื่อทีม 1 ชื่อ |
 | 2026-10-01 | 19:00 | ถามก่อนจองกิจกรรมสุดสัปดาห์ | Parents | Inquiry · Single Image | เลือกช่วงเวลาแบบไหนให้เหมาะกับจังหวะลูก | ภาพกิจกรรมจริงหรือพื้นที่จริง ข้อมูลเวลา/ราคาใส่เมื่อเช็กปัจจุบันเท่านั้น | ทัก Messenger เพจเพื่อสอบถามรอบที่เปิดและความเหมาะกับวัย |
 
@@ -513,6 +513,40 @@ Bangyai English Village ชวนให้ช่วงเวลาเล่น�
 #BangyaiEnglishVillage #กิจกรรมเด็ก #ครอบครัว
 
 **Design:** Changed the planned carousel to one information-rich storybook image following the latest user correction. Topic/time retained. Illustration, approximately 4:5 (1122 × 1402 px), inspected at full size and 360 px display width. Current approved visual reference and original logo retrieved and inspected. No invented logo: draft leaves the top-right slot blank; original-logo layer insertion remains before Ready. General questions, not documentary proof of BEV procedures. Compared 41 Pipeline entries; no Content Performance rows. Existing [Notion item](https://app.notion.com/p/3e5a8bdd12788101bac1cb178ec28b58) updated with artwork/copy, status Design. Facebook NOT published.
+
+### 2026-10-01 07:00 · October mini mission
+
+**On-image:** เริ่มเดือนใหม่ / ด้วยภารกิจเล็ก ๆ
+
+1. มองหา 1 สี — Find something green.
+2. พูด 1 คำ — Green leaf!
+3. หาเพิ่มอีก 1 อย่าง — Can you find one more?
+
+**Support:** LOOK • SAY • FIND
+
+**Caption**
+
+เริ่มเดือนใหม่ ไม่ต้องตั้งเป้าใหญ่ก็ได้ครับ 🌿
+
+สำหรับเด็กวัย 3–5 ปี ลองเริ่มด้วย “ภารกิจภาษาอังกฤษเล็ก ๆ” ระหว่างเดินเล่นรอบบ้านหรือในสวน
+
+👀 1. มองหา 1 สี
+พูดว่า “Find something green.” — ลองหาของสีเขียวดูสิ
+
+💬 2. พูด 1 คำ
+ลูกจะชี้แล้วพูดแค่ “leaf” หรือ “green” ก็ได้
+ถ้าพร้อม ค่อยลอง “Green leaf!”
+
+🔎 3. หาเพิ่มอีก 1 อย่าง
+ถามว่า “Can you find one more?” — หาเพิ่มอีกหนึ่งอย่างได้ไหม?
+
+ไม่ต้องรีบให้ลูกพูดครบประโยคครับ การชี้ หยิบ หรือพูดเพียงคำเดียวก็นับว่าเข้าร่วมภารกิจแล้ว 💚
+
+เช้านี้ลองเลือก 1 สี แล้วทำภารกิจ LOOK • SAY • FIND กับลูกครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #เด็กวัย3ถึง5ปี
+
+**Design:** One information-rich storybook illustration, approximately 4:5 (1122 × 1402 px), created and inspected at full size and 360 px display width. A parent and clearly illustrated child complete a colour-search mission along a dimensional morning garden path. This is not documentary proof of a BEV activity. Current approved visual reference and original IMG_5566(3).jpeg were freshly retrieved and inspected. No imitation logo was generated; the original-logo layer remains to be inserted in the reserved top-right area before Ready. Compared all Pipeline rows; angle differs from the preceding I found… post through a three-step colour mission and one-word participation option. Content Performance returned zero rows. Existing [Notion item](https://app.notion.com/p/3e5a8bdd12788166a5dcdcf0d8f29d05) updated with artwork and caption; status Design. Facebook NOT published.
 
 ## Production and learning loop
 
