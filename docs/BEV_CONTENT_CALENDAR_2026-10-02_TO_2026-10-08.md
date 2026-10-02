@@ -10,7 +10,7 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 |---|---:|---|---|---|---|---|---|
 | 2026-10-02 | 07:00 | ก่อนพูดแทนลูก ลองให้เวลาอีกนิด | 3–8 | Real-life language / Single image | ก่อนพูดแทนลูก<br>ลองให้เวลาอีกนิด | 4:5 warm storybook garden; parent at child eye level, child points to a butterfly; show 3 beats: wait, follow, invite | เช้านี้ลองเว้น 3 วินาทีก่อนช่วยลูกพูดหนึ่งครั้ง |
 | 2026-10-02 | 12:00 | ริบบิ้นเส้นไหนยาวกว่า | 6–8 | Thinking skills / Carousel | Which one is longer? | Hands compare two ribbons along the same start line; garden craft table; clear before/compare/result sequence | ลองเทียบของปลอดภัย 2 ชิ้น |
-| 2026-10-02 | 19:00 | จัดกระเป๋าเอง 3 อย่าง | 3–5 | Independence / Story | What do we need? | Tap-to-choose packing scene with hat, water bottle, spare shirt; child makes one choice | ให้ลูกเลือกของใส่กระเป๋าเอง 1 ชิ้น |
+| 2026-10-02 | 19:00 | จัดกระเป๋าเอง 3 อย่าง | 3–5 | Real-life language / Single image | จัดกระเป๋าเอง 3 อย่าง · What do we need? | Warm 4:5 storybook garden; child chooses a hat, water bottle and spare shirt while a parent supports without taking over | คืนนี้ลองให้ลูกเลือกและใส่ของลงกระเป๋าเอง 1 ชิ้น |
 | 2026-10-03 | 07:00 | ซ้ายหรือขวา ลองเป็นคนนำทาง | 6–8 | Real-life language / Single image | Left, right, straight | Overhead garden path; child guides adult with arrows and landmarks | ให้ลูกบอกทาง 2 จังหวะ |
 | 2026-10-03 | 12:00 | บอกตำแหน่งให้เพื่อนหาเจอ | 9–11 | Real-life language / Reel | beside · under · behind | Hide-and-find movement sequence with one safe object and a clear garden marker | ซ่อนของ 1 ชิ้นแล้วบอกตำแหน่ง |
 | 2026-10-03 | 19:00 | ยังไม่พูดทันที ก็เข้าร่วมได้ | 3–8 | Inclusion / Single image | ดู ชี้ แล้วค่อยลอง ก็ได้ | Wide group garden scene; a child watches, points, then joins with agency; no forced speaking | ทักเพจพร้อมวัยและวิธีเข้าร่วมที่ลูกสบายใจ |
@@ -77,6 +77,55 @@ Take your time.
 - The approved source logo is `IMG_5566(3).jpeg` (Library ID `libfile_8cd148cd3d1081919b7117fb2cf8f7bc`). It still needs to be placed once as an unchanged original layer in the reserved upper-right area, then rechecked before the item can move to Ready.
 - The generated scene does not claim to document a real BEV activity and does not contain a generated BEV logo.
 - Current Content Performance query returned no rows, so no performance numbers or causal claims were used.
+
+## Prepared slot — 2026-10-02 19:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3eda8bdd127881bfa02dd4b54e7f32b4?pvs=204  
+**Facebook:** Not published; no live Facebook URL was available in this run.
+
+### On-image copy
+
+จัดกระเป๋าเอง  
+3 อย่าง
+
+What do we need?
+
+1 หมวก · 2 น้ำ · 3 เสื้อสำรอง  
+สำหรับเด็ก 3–5 ปี
+
+### Caption
+
+ก่อนออกจากบ้าน งานเล็ก ๆ อย่าง “จัดกระเป๋า” ก็เป็นช่วงฝึกภาษาอังกฤษได้ครับ 🎒🌿
+
+สำหรับเด็กวัย 3–5 ปี ลองวางของที่ต้องใช้ไว้ให้เห็น 3 อย่าง แล้วชวนลูกเป็นคนเลือกใส่กระเป๋าทีละชิ้น
+
+ถามสั้น ๆ ว่า  
+“What do we need?” — เราต้องใช้อะไรบ้าง?
+
+🧢 หมวก  
+“We need a hat.”
+
+💧 น้ำ  
+“We need water.”
+
+👕 เสื้อสำรอง  
+“We need a spare shirt.”
+
+ลูกจะชี้ หยิบของ หรือพูดเพียงคำว่า “hat” หรือ “water” ก็ได้ครับ ผู้ใหญ่ค่อยพูดประโยคเต็มเป็นตัวอย่าง โดยไม่ต้องรีบให้ลูกพูดตามทุกคำ
+
+ก่อนสะพาย ผู้ใหญ่ช่วยตรวจฝาขวด น้ำหนักกระเป๋า และของจำเป็นอีกครั้งนะครับ 💚
+
+คืนนี้ลองให้ลูกเลือกและใส่ของลงกระเป๋าเอง 1 ชิ้นครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #ฝึกภาษาอังกฤษในชีวิตประจำวัน
+
+### Production note
+
+- Generated 4:5 storybook garden visual is 1122 × 1402 px and was checked at full size and a 360 × 450 px mobile preview; the action and all visible Thai/English copy are legible.
+- The approved source logo is `IMG_5566(3).jpeg` (Library ID `libfile_8cd148cd3d1081919b7117fb2cf8f7bc`). It still needs to be placed once as an unchanged original layer in the reserved upper-right area, then rechecked before the item can move to Ready.
+- The illustration does not claim to document a real BEV activity and contains no generated BEV logo.
+- Content Performance returned no rows, so no performance numbers or causal claims were used.
 
 ## Scheduled visual correction — carry-forward
 
