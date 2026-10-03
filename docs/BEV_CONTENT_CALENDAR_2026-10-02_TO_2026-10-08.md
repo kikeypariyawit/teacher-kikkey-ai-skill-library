@@ -11,7 +11,7 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 | 2026-10-02 | 07:00 | ก่อนพูดแทนลูก ลองให้เวลาอีกนิด | 3–8 | Real-life language / Single image | ก่อนพูดแทนลูก<br>ลองให้เวลาอีกนิด | 4:5 warm storybook garden; parent at child eye level, child points to a butterfly; show 3 beats: wait, follow, invite | เช้านี้ลองเว้น 3 วินาทีก่อนช่วยลูกพูดหนึ่งครั้ง |
 | 2026-10-02 | 12:00 | ริบบิ้นเส้นไหนยาวกว่า | 6–8 | Thinking skills / Carousel | Which one is longer? | Hands compare two ribbons along the same start line; garden craft table; clear before/compare/result sequence | ลองเทียบของปลอดภัย 2 ชิ้น |
 | 2026-10-02 | 19:00 | จัดกระเป๋าเอง 3 อย่าง | 3–5 | Real-life language / Single image | จัดกระเป๋าเอง 3 อย่าง · What do we need? | Warm 4:5 storybook garden; child chooses a hat, water bottle and spare shirt while a parent supports without taking over | คืนนี้ลองให้ลูกเลือกและใส่ของลงกระเป๋าเอง 1 ชิ้น |
-| 2026-10-03 | 07:00 | ซ้ายหรือขวา ลองเป็นคนนำทาง | 6–8 | Real-life language / Single image | Left, right, straight | Overhead garden path; child guides adult with arrows and landmarks | ให้ลูกบอกทาง 2 จังหวะ |
+| 2026-10-03 | 07:00 | ซ้ายหรือขวา ลองเป็นคนนำทาง | 6–8 | Real-life language / Single image | ให้ลูกเป็นคนนำทาง<br>LEFT • RIGHT • STRAIGHT | 4:5 high-angle storybook garden adventure; child leads adult through a fork, bridge and gazebo using three integrated direction arrows | เช้านี้ให้ลูกนำทาง 2 จังหวะ แล้วผู้ใหญ่ลองเดินตามครับ |
 | 2026-10-03 | 12:00 | บอกตำแหน่งให้เพื่อนหาเจอ | 9–11 | Real-life language / Reel | beside · under · behind | Hide-and-find movement sequence with one safe object and a clear garden marker | ซ่อนของ 1 ชิ้นแล้วบอกตำแหน่ง |
 | 2026-10-03 | 19:00 | ยังไม่พูดทันที ก็เข้าร่วมได้ | 3–8 | Inclusion / Single image | ดู ชี้ แล้วค่อยลอง ก็ได้ | Wide group garden scene; a child watches, points, then joins with agency; no forced speaking | ทักเพจพร้อมวัยและวิธีเข้าร่วมที่ลูกสบายใจ |
 | 2026-10-04 | 07:00 | เปียกหรือแห้ง ลองแตะด้วยตา | 3–5 | Nature / Reel | Wet or dry? | After-rain garden detail shots; compare path and leaf visually without touching unsafe surfaces | ชวนลูกบอกของเปียก 1 อย่างและของแห้ง 1 อย่าง |
@@ -125,6 +125,46 @@ What do we need?
 - Generated 4:5 storybook garden visual is 1122 × 1402 px and was checked at full size and a 360 × 450 px mobile preview; the action and all visible Thai/English copy are legible.
 - The approved source logo is `IMG_5566(3).jpeg` (Library ID `libfile_8cd148cd3d1081919b7117fb2cf8f7bc`). It still needs to be placed once as an unchanged original layer in the reserved upper-right area, then rechecked before the item can move to Ready.
 - The illustration does not claim to document a real BEV activity and contains no generated BEV logo.
+- Content Performance returned no rows, so no performance numbers or causal claims were used.
+
+## Prepared slot — 2026-10-03 07:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3eea8bdd1278819a9769c8f9a2074e51?pvs=204  
+**Facebook:** Not published; no live Facebook URL was available in this run.
+
+### On-image copy
+
+ให้ลูกเป็นคนนำทาง  
+LEFT • RIGHT • STRAIGHT
+
+1 เลี้ยวซ้าย · 2 ตรงไป · 3 เลี้ยวขวา  
+สำหรับเด็ก 6–8 ปี
+
+### Caption
+
+เช้านี้ลองสลับบทบาท ให้ลูกเป็น “คนนำทาง” ดูครับ 🧭🌿
+
+สำหรับเด็กวัย 6–8 ปี เลือกเส้นทางสั้น ๆ ที่ปลอดภัย เช่น จากหน้าบ้านไปต้นไม้ จากประตูไปโต๊ะ หรือเดินตามทางในสวน แล้วให้ลูกบอกทิศทางทีละจังหวะ
+
+⬅️ “Turn left.” — เลี้ยวซ้าย  
+⬆️ “Go straight.” — ตรงไป  
+➡️ “Turn right.” — เลี้ยวขวา
+
+ผู้ใหญ่เดินตามจริง แล้วหยุดรอคำสั่งถัดไป หากลูกนึกคำไม่ออก ให้ชี้ลูกศรก่อน หรือเลือกจาก “left or right?” ได้ ไม่จำเป็นต้องพูดครบทั้งสามคำครับ
+
+เริ่มจากเส้นทางที่มองเห็นปลายทาง ไม่มีรถหรือพื้นลื่น และมีผู้ใหญ่อยู่ใกล้ตลอด 💚
+
+เช้านี้ให้ลูกนำทาง 2 จังหวะ แล้วผู้ใหญ่ลองเดินตามครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #ภาษาอังกฤษในชีวิตประจำวัน
+
+### Production note
+
+- Generated 4:5 storybook garden visual is 1122 × 1402 px and was checked at full size and a 360 × 450 px mobile preview; the story, Thai/English copy, hierarchy, ratio, and logo are legible.
+- The original `IMG_5566(3).jpeg` logo was placed once as the source layer; no generated or redrawn logo is present.
+- The illustration does not claim to document a real BEV activity.
+- Status remains Design because the new visual has not yet received user approval; it is not Ready or Posted.
 - Content Performance returned no rows, so no performance numbers or causal claims were used.
 
 ## Scheduled visual correction — carry-forward
