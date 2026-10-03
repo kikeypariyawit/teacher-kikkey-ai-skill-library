@@ -13,7 +13,7 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 | 2026-10-02 | 19:00 | จัดกระเป๋าเอง 3 อย่าง | 3–5 | Real-life language / Single image | จัดกระเป๋าเอง 3 อย่าง · What do we need? | Warm 4:5 storybook garden; child chooses a hat, water bottle and spare shirt while a parent supports without taking over | คืนนี้ลองให้ลูกเลือกและใส่ของลงกระเป๋าเอง 1 ชิ้น |
 | 2026-10-03 | 07:00 | ซ้ายหรือขวา ลองเป็นคนนำทาง | 6–8 | Real-life language / Single image | ให้ลูกเป็นคนนำทาง<br>LEFT • RIGHT • STRAIGHT | 4:5 high-angle storybook garden adventure; child leads adult through a fork, bridge and gazebo using three integrated direction arrows | เช้านี้ให้ลูกนำทาง 2 จังหวะ แล้วผู้ใหญ่ลองเดินตามครับ |
 | 2026-10-03 | 12:00 | บอกตำแหน่งให้เพื่อนหาเจอ | 9–11 | Real-life language / Reel | beside · under · behind | Hide-and-find movement sequence with one safe object and a clear garden marker | ซ่อนของ 1 ชิ้นแล้วบอกตำแหน่ง |
-| 2026-10-03 | 19:00 | ยังไม่พูดทันที ก็เข้าร่วมได้ | 3–8 | Inclusion / Single image | ดู ชี้ แล้วค่อยลอง ก็ได้ | Wide group garden scene; a child watches, points, then joins with agency; no forced speaking | ทักเพจพร้อมวัยและวิธีเข้าร่วมที่ลูกสบายใจ |
+| 2026-10-03 | 19:00 | ยังไม่พูดทันที ก็เข้าร่วมได้ | 3–8 | Inclusion / Single image | ยังไม่พูด ก็เข้าร่วมได้<br>ดู • ชี้ • ค่อยลอง | 4:5 eye-level wide storybook garden; child points toward a preferred activity while an adult waits supportively; three integrated fabric-pennant steps | ทัก Messenger พร้อมบอกอายุ + วิธีเข้าร่วมที่ลูกสบายใจครับ |
 | 2026-10-04 | 07:00 | เปียกหรือแห้ง ลองแตะด้วยตา | 3–5 | Nature / Reel | Wet or dry? | After-rain garden detail shots; compare path and leaf visually without touching unsafe surfaces | ชวนลูกบอกของเปียก 1 อย่างและของแห้ง 1 อย่าง |
 | 2026-10-04 | 12:00 | ภารกิจผ้าผืนเดียว ไปด้วยกัน | 6–8 | Relationships / Reel | Slow down. Together. | Two children carry a soft ball on a towel through a short outdoor route | ลองเล่นร่วมมือกัน 1 รอบ |
 | 2026-10-04 | 19:00 | แทนคำถามว่าสนุกไหม ลองถาม 3 แบบ | 6–11 | Parenting / Carousel | อะไรทำให้แปลกใจ ใครช่วยเรา ต่อไปอยากลองอะไร | Warm evening family conversation with three distinct moments, not text cards | เย็นนี้เลือกถามลูก 1 ข้อ |
@@ -158,6 +158,53 @@ LEFT • RIGHT • STRAIGHT
 เช้านี้ให้ลูกนำทาง 2 จังหวะ แล้วผู้ใหญ่ลองเดินตามครับ
 
 #BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมพ่อแม่ลูก #ภาษาอังกฤษในชีวิตประจำวัน
+
+### Production note
+
+- Generated 4:5 storybook garden visual is 1122 × 1402 px and was checked at full size and a 360 × 450 px mobile preview; the story, Thai/English copy, hierarchy, ratio, and logo are legible.
+- The original `IMG_5566(3).jpeg` logo was placed once as the source layer; no generated or redrawn logo is present.
+- The illustration does not claim to document a real BEV activity.
+- Status remains Design because the new visual has not yet received user approval; it is not Ready or Posted.
+- Content Performance returned no rows, so no performance numbers or causal claims were used.
+
+## Prepared slot — 2026-10-03 19:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3eea8bdd127881b5895af5ce14cf4d4d?pvs=204  
+**Facebook:** Not published; no live Facebook URL was available in this run.
+
+### On-image copy
+
+ยังไม่พูด ก็เข้าร่วมได้
+
+1 ดูก่อน — I can watch.  
+2 ชี้เลือก — This one.  
+3 ค่อยลอง — I want to try.
+
+สำหรับเด็ก 3–8 ปี
+
+### Caption
+
+เด็กบางคนเริ่มเข้าร่วมด้วยการ “ดู” ก่อน ไม่ใช่การพูดทันทีครับ 🌿
+
+สำหรับเด็กวัย 3–8 ปี ลองเปิดทางให้ลูกเลือกวิธีเข้าร่วมตามจังหวะของตัวเอง
+
+👀 ดูก่อน  
+“I can watch.” — หนูขอดูก่อนได้
+
+👉 ชี้เลือก  
+“This one.” — อันนี้
+
+🌱 ค่อยลอง  
+“I want to try.” — หนูอยากลอง
+
+ผู้ใหญ่ช่วยได้ด้วยการอยู่ใกล้ ๆ ให้ตัวเลือกสั้น ๆ เพียง 2 ทาง แล้วรอคำตอบที่อาจมาในรูปของการชี้ พยักหน้า หรือขยับเข้าไปใกล้กิจกรรม ไม่จำเป็นต้องรีบถามซ้ำหรือเร่งให้ลูกพูดครับ
+
+ภาพนี้เป็นแนวทางทั่วไปสำหรับครอบครัว ไม่ใช่ภาพบันทึกกิจกรรมจริงของ BEV
+
+ทัก Messenger พร้อมบอกอายุ + วิธีเข้าร่วมที่ลูกสบายใจครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #กิจกรรมเด็ก #เข้าใจจังหวะลูก
 
 ### Production note
 
