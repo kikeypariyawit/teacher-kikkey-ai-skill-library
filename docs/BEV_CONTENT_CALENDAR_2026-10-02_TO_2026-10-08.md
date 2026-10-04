@@ -16,7 +16,7 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 | 2026-10-03 | 19:00 | ยังไม่พูดทันที ก็เข้าร่วมได้ | 3–8 | Inclusion / Single image | ยังไม่พูด ก็เข้าร่วมได้<br>ดู • ชี้ • ค่อยลอง | 4:5 eye-level wide storybook garden; child points toward a preferred activity while an adult waits supportively; three integrated fabric-pennant steps | ทัก Messenger พร้อมบอกอายุ + วิธีเข้าร่วมที่ลูกสบายใจครับ |
 | 2026-10-04 | 07:00 | เปียกหรือแห้ง ลองสังเกตด้วยตา | 3–5 | Nature / Single image | เปียกหรือแห้ง? · Wet or dry? | 4:5 storybook garden; family on dry sheltered deck; two integrated wet/dry leaf close-ups with English examples; original official logo once | วันนี้ชวนลูกชี้ของเปียก 1 อย่าง และของแห้ง 1 อย่างครับ |
 | 2026-10-04 | 12:00 | ภารกิจผ้าผืนเดียว ไปด้วยกัน | 6–8 | Relationships / Reel | Slow down. Together. | Two children carry a soft ball on a towel through a short outdoor route | ลองเล่นร่วมมือกัน 1 รอบ |
-| 2026-10-04 | 19:00 | แทนคำถามว่าสนุกไหม ลองถาม 3 แบบ | 6–11 | Parenting / Carousel | อะไรทำให้แปลกใจ ใครช่วยเรา ต่อไปอยากลองอะไร | Warm evening family conversation with three distinct moments, not text cards | เย็นนี้เลือกถามลูก 1 ข้อ |
+| 2026-10-04 | 19:00 | แทนคำถามว่าสนุกไหม ลองถาม 3 แบบ | 6–11 | Parenting / Single image | แทนคำถามว่า “สนุกไหม?”<br>ลองถามลูก 3 แบบ | 4:5 warm storybook evening garden; parent listens while child tells a story; three integrated question signs; original official logo once | เย็นนี้เลือกถามลูก 1 ข้อ แล้วฟังจนจบครับ |
 | 2026-10-05 | 07:00 | ของชิ้นนี้กลับบ้านไหน | 3–5 | Independence / Single image | Where does this go? | Playful cleanup trail; child carries materials back to labeled baskets | ชวนลูกเก็บของกลับที่ 3 ชิ้น |
 | 2026-10-05 | 12:00 | ชิ้นไหนพอดี | 6–8 | Thinking skills / Single image | fits · too long · too short | Garden maker table; compare paper strips against one box in a clear action scene | ลองทดสอบแถบกระดาษ 2 ชิ้น |
 | 2026-10-05 | 19:00 | ทีมไม่ได้ต้องการหัวหน้าคนเดียว | 6–11 | Relationships / Carousel | คนนำทาง คนช่วย คนให้กำลังใจ | One shared outdoor mission shown through three useful micro-roles | ถามลูกว่าวันนี้เขาช่วยทีมแบบไหน |
@@ -264,6 +264,58 @@ DRY • แห้ง — It's dry.
 - Final export: 1080 × 1350 px. Inspected full size and at 360 × 450 px for text, story, anatomy, aspect ratio, logo and readability.
 - Used the original logo once as a proportionally resized source layer; removed only surrounding white margin, without redrawing or generative recreation.
 - Status remains Design because this new visual has not received user approval.
+
+## Prepared slot — 2026-10-04 19:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3efa8bdd127881918baae2b348eff3f3?pvs=204  
+**Facebook:** Not published; no Facebook page publishing tool or permission was used in this run.
+
+### On-image copy
+
+แทนคำถามว่า “สนุกไหม?”  
+ลองถามลูก 3 แบบ
+
+1 อะไรทำให้หนูแปลกใจ?  
+2 วันนี้ใครช่วยหนูบ้าง?  
+3 ครั้งหน้าอยากลองอะไร?
+
+เย็นนี้เลือกถาม 1 ข้อ แล้วฟังจนจบ  
+วัย 6–11 ปี
+
+### Caption
+
+ถ้าถามว่า “วันนี้สนุกไหม?” ลูกอาจตอบสั้น ๆ ว่า “สนุก” แล้วบทสนทนาก็จบเร็ว 😊
+
+เย็นนี้ลองเปลี่ยนเป็นคำถามที่ชวนลูกเล่าทีละมุม เหมาะกับเด็กวัย 6–11 ปีครับ
+
+💡 “What surprised you today?”  
+วันนี้มีอะไรทำให้หนูแปลกใจ?
+
+🤝 “Who helped you today?”  
+วันนี้ใครช่วยหนูบ้าง?
+
+🌱 “What would you like to try next?”  
+ครั้งหน้าอยากลองอะไร?
+
+ไม่ต้องถามทั้ง 3 ข้อ เลือกเพียง 1 ข้อ แล้วเว้นจังหวะให้ลูกคิด คำตอบจะสั้นหรือยาวก็ฟังต่อโดยยังไม่รีบสรุปแทนครับ
+
+ภาพนี้เป็นภาพประกอบแนวทางทั่วไปสำหรับครอบครัว ไม่ใช่ภาพบันทึกกิจกรรมจริงของ BEV
+
+เย็นนี้เลือกถามลูก 1 ข้อ แล้วฟังจนจบครับ
+
+#BangyaiEnglishVillage #ภาษาอังกฤษกับลูก #ParentChildTalk #กิจกรรมพ่อแม่ลูก
+
+### Production note
+
+- Retained the existing 2026-10-04 19:00 topic and slot; changed the format from Carousel to Single Image to deliver one completed 4:5 visual.
+- The Pipeline query showed no existing item for this date/time, so one item was created instead of duplicating the slot.
+- Content Performance returned zero rows; no invented metrics or performance conclusions were used.
+- Opened the current authorized approved style reference and the original `IMG_5566(3).jpeg` logo.
+- The scene is a clearly illustrated general-parenting storybook graphic, not a real BEV activity photo.
+- Final export: 1080 × 1350 px. Checked full size and at 360 × 450 px for story, aesthetics, Thai text, 4:5 ratio, logo, and mobile readability.
+- The original logo source was placed once as an unchanged proportionally resized layer; no additional BEV mark is visible.
+- Status remains Design because this new visual has not received user approval. It is not Ready or Posted.
 
 ## Scheduled visual correction — carry-forward
 
