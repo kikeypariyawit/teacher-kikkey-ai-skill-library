@@ -14,7 +14,7 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 | 2026-10-03 | 07:00 | ซ้ายหรือขวา ลองเป็นคนนำทาง | 6–8 | Real-life language / Single image | ให้ลูกเป็นคนนำทาง<br>LEFT • RIGHT • STRAIGHT | 4:5 high-angle storybook garden adventure; child leads adult through a fork, bridge and gazebo using three integrated direction arrows | เช้านี้ให้ลูกนำทาง 2 จังหวะ แล้วผู้ใหญ่ลองเดินตามครับ |
 | 2026-10-03 | 12:00 | บอกตำแหน่งให้เพื่อนหาเจอ | 9–11 | Real-life language / Reel | beside · under · behind | Hide-and-find movement sequence with one safe object and a clear garden marker | ซ่อนของ 1 ชิ้นแล้วบอกตำแหน่ง |
 | 2026-10-03 | 19:00 | ยังไม่พูดทันที ก็เข้าร่วมได้ | 3–8 | Inclusion / Single image | ยังไม่พูด ก็เข้าร่วมได้<br>ดู • ชี้ • ค่อยลอง | 4:5 eye-level wide storybook garden; child points toward a preferred activity while an adult waits supportively; three integrated fabric-pennant steps | ทัก Messenger พร้อมบอกอายุ + วิธีเข้าร่วมที่ลูกสบายใจครับ |
-| 2026-10-04 | 07:00 | เปียกหรือแห้ง ลองแตะด้วยตา | 3–5 | Nature / Reel | Wet or dry? | After-rain garden detail shots; compare path and leaf visually without touching unsafe surfaces | ชวนลูกบอกของเปียก 1 อย่างและของแห้ง 1 อย่าง |
+| 2026-10-04 | 07:00 | เปียกหรือแห้ง ลองสังเกตด้วยตา | 3–5 | Nature / Single image | เปียกหรือแห้ง? · Wet or dry? | 4:5 storybook garden; family on dry sheltered deck; two integrated wet/dry leaf close-ups with English examples; original official logo once | วันนี้ชวนลูกชี้ของเปียก 1 อย่าง และของแห้ง 1 อย่างครับ |
 | 2026-10-04 | 12:00 | ภารกิจผ้าผืนเดียว ไปด้วยกัน | 6–8 | Relationships / Reel | Slow down. Together. | Two children carry a soft ball on a towel through a short outdoor route | ลองเล่นร่วมมือกัน 1 รอบ |
 | 2026-10-04 | 19:00 | แทนคำถามว่าสนุกไหม ลองถาม 3 แบบ | 6–11 | Parenting / Carousel | อะไรทำให้แปลกใจ ใครช่วยเรา ต่อไปอยากลองอะไร | Warm evening family conversation with three distinct moments, not text cards | เย็นนี้เลือกถามลูก 1 ข้อ |
 | 2026-10-05 | 07:00 | ของชิ้นนี้กลับบ้านไหน | 3–5 | Independence / Single image | Where does this go? | Playful cleanup trail; child carries materials back to labeled baskets | ชวนลูกเก็บของกลับที่ 3 ชิ้น |
@@ -214,11 +214,62 @@ LEFT • RIGHT • STRAIGHT
 - Status remains Design because the new visual has not yet received user approval; it is not Ready or Posted.
 - Content Performance returned no rows, so no performance numbers or causal claims were used.
 
+## Prepared slot — 2026-10-04 07:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3efa8bdd127881218251de40def46394?pvs=204  
+**Facebook:** Not published; no Facebook page publishing tool or permission was available in this run.
+
+### On-image copy
+
+เปียกหรือแห้ง?
+Wet or dry?
+WET • เปียก — It's wet.
+DRY • แห้ง — It's dry.
+มองแล้วชี้ ไม่ต้องแตะ
+สำหรับเด็ก 3–5 ปี
+
+### Caption
+
+ใบไม้สองใบดูคล้ายกัน…แต่ใบไหนมีหยดน้ำ? 🌿💧
+
+ชวนลูกวัย 3–5 ปีเล่นเกม “เปียกหรือแห้ง?” ระหว่างมองต้นไม้ในสวน หรือจากใต้ชายคาที่แห้งและปลอดภัยครับ
+
+เลือกใบไม้ที่มีหยดน้ำ 1 ใบ และใบไม้ที่แห้ง 1 ใบ แล้วถามสั้น ๆ
+“Wet or dry?” — เปียกหรือแห้ง?
+
+💧 มีหยดน้ำ
+“It's wet.” — มันเปียก
+
+🍃 ไม่มีหยดน้ำและแห้ง
+“It's dry.” — มันแห้ง
+
+ลูกจะตอบแค่ “wet” / “dry” หรือชี้ให้ดูก่อนได้ พ่อแม่ค่อยพูดประโยคสั้น ๆ เป็นตัวอย่าง แล้วลองสลับให้ลูกเป็นคนถามบ้างครับ
+
+เลือกจุดยืนที่แห้ง มีผู้ใหญ่อยู่ใกล้ และใช้สายตาสังเกตโดยไม่ต้องจับใบไม้หรือเดินลงพื้นลื่น 💚
+
+วันนี้ชวนลูกชี้ของเปียก 1 อย่าง และของแห้ง 1 อย่างครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #ภาษาอังกฤษกับลูก #กิจกรรมพ่อแม่ลูก
+
+### Production note
+
+- Retains the planned wet/dry topic and the 07:00 slot. Changed the format from Reel to Single Image to deliver the requested 4:5 readable infographic.
+- Current Pipeline query returned 45 rows, has_more=false; no existing item for this date/time was present. Created one pipeline item, BEV-46, rather than duplicating an existing slot.
+- The useful comparison is wet/dry surface condition, distinct from recent colour hunts, texture comparison, direction commands and participation-choice posts.
+- Current Content Performance view returned zero rows, has_more=false; no invented metrics or performance conclusions.
+- Opened the approved style reference ED4242CF-A9A3-4C5D-A963-14A303BF5F01.jpeg and original logo IMG_5566(3).jpeg from current authorized files.
+- The garden and cartoon family are clearly illustrative; the image makes no claim about actual BEV activity or the day's weather.
+- Corrected the sheltered standing area to dry timber so the pictured action matches the caption.
+- Final export: 1080 × 1350 px. Inspected full size and at 360 × 450 px for text, story, anatomy, aspect ratio, logo and readability.
+- Used the original logo once as a proportionally resized source layer; removed only surrounding white margin, without redrawing or generative recreation.
+- Status remains Design because this new visual has not received user approval.
+
 ## Scheduled visual correction — carry-forward
 
 - For family or general knowledge posts, use a 4:5 storybook outdoor-adventure garden scene with depth, warm bright color, and a meaningful action or interaction.
 - Avoid defaulting to wooden dolls, isolated objects, empty cream backgrounds, or text-card layouts. If an object is essential, connect it to a scene and story.
-- Keep Thai headline to 1–2 short lines; at most one supporting line. Move detail into the caption.
+- Keep Thai headline to 1–2 short lines. Latest user direction requests readable information in the image: add brief Thai/English examples or small purposeful steps when the topic needs them; keep longer explanation in the caption.
 - Vary composition, viewpoint, and action between posts.
 - For posts claiming a real BEV activity, use only verified approved real BEV photography and preserve the original child, face, and event.
 - Use the original `IMG_5566(3).jpeg` logo once only; never redraw it. If the original layer cannot be inserted and checked, keep status at Design.
