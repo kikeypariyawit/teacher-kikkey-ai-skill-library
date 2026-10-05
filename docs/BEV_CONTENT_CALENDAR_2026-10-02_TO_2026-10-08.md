@@ -317,6 +317,56 @@ DRY • แห้ง — It's dry.
 - The original logo source was placed once as an unchanged proportionally resized layer; no additional BEV mark is visible.
 - Status remains Design because this new visual has not received user approval. It is not Ready or Posted.
 
+## Prepared slot — 2026-10-05 19:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3daa8bdd127881f9813cf1e2e920b9cd?pvs=204  
+**Facebook:** Not published; no Facebook publishing action was used in this run.
+
+### On-image copy
+
+ถ้าเพื่อนไม่เข้าใจ…  
+ลองใหม่ได้
+
+บทสนทนายังไม่จบ
+
+1 พูดใหม่ — Let me try again.  
+2 เติมความหมาย — I mean…  
+3 ชี้ให้ดู — This one.
+
+### Caption
+
+พูดครั้งเดียวแล้วเพื่อนไม่เข้าใจ ไม่ได้แปลว่าลูก “พูดอังกฤษไม่ได้” ครับ 🌿
+
+การสื่อสารจริงมีช่วงที่อีกฝ่ายฟังไม่ทัน เข้าใจคนละอย่าง หรือเรานึกคำไม่ออกได้เสมอ สำหรับเด็กวัย 6–11 ปี ลองให้ลูกมี 3 ทางเลือกง่าย ๆ เพื่อพาบทสนทนาไปต่อ
+
+🔁 “Let me try again.”
+ขอลองพูดใหม่อีกครั้ง
+
+💡 “I mean…”
+ที่หนูหมายถึงคือ…
+
+👉 “This one.”
+อันนี้ — พร้อมชี้สิ่งที่ต้องการ
+
+ลองฝึกแบบเป็นเกมที่บ้านได้ครับ วางของ 2 ชิ้นไว้บนโต๊ะ ให้ลูกบอกว่าต้องการชิ้นไหน แล้วผู้ใหญ่แกล้งทำเป็นยังไม่เข้าใจเล็กน้อย จากนั้นให้ลูกเลือกว่าจะพูดใหม่ เติมคำ หรือชี้ให้ดู
+
+ไม่ต้องจับผิดไวยากรณ์ทุกคำ เป้าหมายของเกมคือช่วยกันทำให้ความหมายไปถึงกัน ไม่ใช่พูดให้สมบูรณ์ตั้งแต่ครั้งแรกครับ 💚
+
+เย็นนี้ลองเล่นเกม “พูดใหม่ได้” คนละ 1 รอบครับ
+
+#BangyaiEnglishVillage #EnglishThroughPlay #ภาษาอังกฤษกับลูก #CommunicationSkills #กิจกรรมพ่อแม่ลูก
+
+### Production note
+
+- Reused the existing unscheduled Communication Repair idea and assigned it to 2026-10-05 19:00 instead of creating a duplicate pipeline item.
+- Compared against recent scheduled topics; this teaches how to repair a misunderstood message, distinct from the 4 Oct post about asking children to retell their day.
+- Content Performance returned zero rows, so no performance numbers or causal claims were used.
+- The visual is a clearly illustrated general language-learning situation, not documentary BEV photography.
+- Final export: 1080 × 1350 px. Inspected full size and at 360 × 450 px for copy, Thai marks, hierarchy, faces, hands, ratio, logo and readability.
+- The original `IMG_5566(3).jpeg` logo was placed once as a proportionally resized source layer; no generated or redrawn logo is present.
+- Status remains Design because the new visual has not received user approval.
+
 ## Scheduled visual correction — carry-forward
 
 - For family or general knowledge posts, use a 4:5 storybook outdoor-adventure garden scene with depth, warm bright color, and a meaningful action or interaction.
