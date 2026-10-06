@@ -22,7 +22,7 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 | 2026-10-05 | 19:00 | ทีมไม่ได้ต้องการหัวหน้าคนเดียว | 6–11 | Relationships / Carousel | คนนำทาง คนช่วย คนให้กำลังใจ | One shared outdoor mission shown through three useful micro-roles | ถามลูกว่าวันนี้เขาช่วยทีมแบบไหน |
 | 2026-10-06 | 07:00 | ไม่แน่ใจ เริ่มจากขอดูตัวอย่าง | 3–8 | Inclusion / Single image | Show me, please. | Storybook watch-copy-try scene; adult demonstrates one small step and child chooses when to begin | ลองซ้อมประโยคนี้ด้วยกัน 1 ครั้ง |
 | 2026-10-06 | 12:00 | ฐานล้ม แล้วลองเปลี่ยนอะไรหนึ่งอย่าง | 9–11 | Thinking skills / Carousel | Change one thing. Try again. | Paper structure in before-change-after sequence; focus on revision, not winning | เลือกเปลี่ยนเพียง 1 จุดแล้วลองใหม่ |
-| 2026-10-06 | 19:00 | แพ้เกมแล้วคุยต่อยังไง | 6–11 | Social-emotional / Long caption | พัก ตั้งชื่อความรู้สึก แล้วเลือกก้าวต่อไป | Quiet side-of-game interaction; adult nearby, child retains space and choice | ใช้ประโยคสงบกับลูก 1 ประโยค |
+| 2026-10-06 | 19:00 | แพ้เกมแล้วคุยต่อยังไง | 6–11 | Social-emotional / Single image | แพ้เกมแล้ว…คุยต่อยังไง?<br>พักก่อน • บอกความรู้สึก • เลือกก้าวต่อไป | 4:5 warm storybook evening garden; disappointed child sits after a beanbag target game, parent stays at eye level and gives space, another child waits calmly; original logo once | เย็นนี้ลองใช้ประโยคสงบกับลูก 1 ประโยค แล้วหยุดรอฟังครับ |
 | 2026-10-07 | 07:00 | ของอยู่ตรงไหน บอกด้วย 3 คำ | 6–8 | Real-life language / Story | on · under · next to | Top-down garden table search game with one object changing location | ซ่อนของปลอดภัย 1 ชิ้นให้ลูกบอกตำแหน่ง |
 | 2026-10-07 | 12:00 | ต่อเรื่องคนละหนึ่งประโยค | 9–11 | Creativity / Carousel | then · suddenly · finally | Story path through three outdoor scenes; family adds one sentence each | ต่อเรื่องให้ครบ 3 ประโยค |
 | 2026-10-07 | 19:00 | ยากแค่ไหนถึงพอดีกับลูก | 3–11 | Parent decision support / Single image | ไปต่อ · ปรับ · พัก | Garden challenge shown as three observable signals, not abstract traffic-light cards | สังเกตสัญญาณของลูก 1 อย่าง |
@@ -364,6 +364,56 @@ DRY • แห้ง — It's dry.
 - Content Performance returned zero rows, so no performance numbers or causal claims were used.
 - The visual is a clearly illustrated general language-learning situation, not documentary BEV photography.
 - Final export: 1080 × 1350 px. Inspected full size and at 360 × 450 px for copy, Thai marks, hierarchy, faces, hands, ratio, logo and readability.
+- The original `IMG_5566(3).jpeg` logo was placed once as a proportionally resized source layer; no generated or redrawn logo is present.
+- Status remains Design because the new visual has not received user approval.
+
+## Prepared slot — 2026-10-06 19:00
+
+**Status:** Design  
+**Notion:** https://app.notion.com/p/3f1a8bdd12788182816ec897c418674c?pvs=204  
+**Facebook:** Not published; no Facebook publishing action was used in this run.
+
+### On-image copy
+
+แพ้เกมแล้ว…  
+คุยต่อยังไง?
+
+พักก่อน • บอกความรู้สึก • เลือกก้าวต่อไป  
+วัย 6–11 ปี
+
+### Caption
+
+ลูกแพ้เกมแล้วเงียบ หน้างอ หรืออยากเลิกทันที ผู้ใหญ่ไม่จำเป็นต้องรีบสอนว่า “ต้องรู้จักแพ้” ครับ 🌿
+
+สำหรับเด็กวัย 6–11 ปี ลองเริ่มจากช่วยให้ช่วงหลังเกมสงบลงก่อน แล้วค่อยชวนคุยทีละขั้น
+
+1️⃣ พักก่อน  
+“Let’s take a break.” — พักกันก่อนนะ
+
+2️⃣ ชวนบอกความรู้สึก  
+“Are you disappointed?” — ตอนนี้รู้สึกผิดหวังอยู่ไหม?  
+ถ้าลูกยังไม่อยากตอบ แค่นั่งอยู่ใกล้ ๆ โดยไม่ซักต่อก็ได้ครับ
+
+3️⃣ ให้เลือกก้าวต่อไป  
+“Would you like to watch or try again later?”  
+— อยากดูต่อ หรือค่อยลองใหม่ทีหลัง?
+
+เป้าหมายไม่ใช่บังคับให้ลูกยิ้มทันที หรือรีบกลับไปเล่น แต่ช่วยให้เขามีคำและทางเลือกสำหรับพาตัวเองออกจากช่วงที่ผิดหวัง โดยยังเคารพกติกาและคนที่เล่นด้วยกันครับ 💚
+
+ภาพนี้เป็นภาพประกอบแนวทางทั่วไปสำหรับครอบครัว ไม่ใช่ภาพบันทึกกิจกรรมจริงของ BEV
+
+เย็นนี้ลองใช้ประโยคสงบกับลูก 1 ประโยค แล้วหยุดรอฟังครับ
+
+#BangyaiEnglishVillage #กิจกรรมพ่อแม่ลูก #ภาษาอังกฤษกับลูก #เรียนรู้เรื่องอารมณ์
+
+### Production note
+
+- Reused the planned 2026-10-06 19:00 topic and changed the format from Long caption to Single Image to deliver the requested finished 4:5 visual.
+- No matching Pipeline item existed for this date/time, so one new item was created instead of duplicating a record.
+- Compared recent scheduled topics; this focuses on the calm conversation after losing a game, distinct from communication repair, retelling the day, participation choice and waiting before speaking.
+- Content Performance returned zero rows, so no performance numbers or causal claims were used.
+- The scene is a clearly illustrated general family situation, not documentary BEV photography.
+- Final export: 1080 × 1350 px. Checked full size and at 360 × 450 px for story, Thai text, hierarchy, anatomy, ratio, logo and mobile readability.
 - The original `IMG_5566(3).jpeg` logo was placed once as a proportionally resized source layer; no generated or redrawn logo is present.
 - Status remains Design because the new visual has not received user approval.
 
