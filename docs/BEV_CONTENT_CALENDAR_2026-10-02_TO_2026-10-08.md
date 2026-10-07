@@ -432,3 +432,55 @@ DRY • แห้ง — It's dry.
 
 - Twenty-one ideas were checked against seven recent items with the anti-repetition scoring tool; all passed and the final format mix produced no warnings.
 - Content Performance contained no comparable rows at planning time; the calendar therefore uses no invented benchmarks or inferred results.
+
+
+## Prepared slot — 2026-10-07 19:00
+
+**Status:** Design — new image awaits user approval.  
+**Notion:** https://app.notion.com/p/3f2a8bdd12788189bfe4c622f2949d09?pvs=204  
+**Facebook:** Not published; draft for manual posting, no live URL.
+
+### On-image copy
+
+ยากแค่ไหน  
+ถึงพอดีกับลูก?
+
+ไปต่อ • ปรับ • พัก
+
+### Caption
+
+ลูกโยนถุงถั่วไม่ถึงตะกร้าสักที…ต้องฝึกต่อ หรือขยับตะกร้าเข้ามาดี? 🌿
+
+สำหรับเด็กวัย 3–11 ปี ลองใช้ “ไปต่อ • ปรับ • พัก” เป็นคำช่วยคิดระหว่างเล่น โดยดูทั้งสิ่งที่ลูกทำและสิ่งที่ลูกบอกครับ
+
+🌱 ไปต่อ
+ถ้าลูกยังสนใจ หยิบถุงถั่วกลับมาลองเอง และบอกว่าอยากเล่นต่อ ให้เขาลองในระยะเดิมได้ ยังไม่ต้องเพิ่มความยากทุกครั้งที่ทำสำเร็จ
+
+🧺 ปรับ
+ถ้าลูกอยากเล่น แต่ติดอยู่ตรงเดิม ลองถาม
+“Closer?” — ใกล้ขึ้นไหม?
+เมื่อลูกตกลง ค่อยเลื่อนตะกร้าเข้ามา โดยให้ลูกเป็นคนโยนเอง เปลี่ยนเพียงอย่างเดียวก่อน จะได้เห็นว่าจุดไหนช่วยให้เล่นต่อได้
+
+🍃 พัก
+ถ้าลูกบอกว่าเหนื่อย กลัว หรือไม่อยากเล่นแล้ว ให้หยุดได้
+“We can stop.” — เราหยุดได้นะ
+ไม่ต้องให้ทำสำเร็จก่อนถึงจะพักครับ
+
+เด็กเล็กอาจตอบด้วยการชี้ ส่วนเด็กโตอาจช่วยบอกได้ว่าอยากปรับระยะหรือเป้าหมายอย่างไร ความยากที่พอดีจึงปรับได้ระหว่างเล่น และไม่จำเป็นต้องเท่ากันทุกวัน 💚
+
+ตัวอย่างนี้ใช้กับเกมพื้นราบและอุปกรณ์นุ่มที่ปลอดภัย ไม่ใช้แทนกติกาหรือการประเมินความปลอดภัยของฐานปีนป่าย
+
+ครั้งหน้าที่เล่นด้วยกัน ลองสังเกตสัญญาณของลูก 1 อย่างก่อนตัดสินใจเพิ่มความยากครับ
+
+#BangyaiEnglishVillage #เล่นไปเรียนรู้ไป #กิจกรรมพ่อแม่ลูก #ภาษาอังกฤษกับลูก
+
+### Production note
+
+- Original calendar topic and 19:00 slot preserved. No existing Notion item was found by date/title checks, so one item was created for this slot.
+- Clearly illustrated storybook garden, one scene: child prepares to throw a soft beanbag while parent brings the basket closer. This is a general family illustration, not a documentary BEV event.
+- Final image: 1080 × 1350 px, checked full-size and at 360 × 450 px. Thai headline, anatomy/action and original logo placement were inspected. Logo IMG_5566(3).jpeg was retrieved from its verified Library record and inserted once as the original asset, not redrawn.
+- Final image: https://chatgpt.com/api/library/files/libfile_fa9e3bfa60448191972f0ba7210705d8/download
+- Style reference actually opened: BEV_2026-09-27_1900_three-questions-outdoor.png (linked item is Ready); newest user direction for an integrated image/text scene takes precedence over older card layouts.
+- Compared available Notion history from 27 September onward and this week's calendar. Different focus from 6 October's response to losing: adjust one concrete task parameter while the child is still interested.
+- Content Performance query returned zero rows; no metrics or effectiveness claims invented.
+- Source checked 7 October 2026: [AAP — The Importance of Playing With Your Child](https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/playing-with-your-child/). Supports general child-led, supportive play. The three-option frame and beanbag example are editorial suggestions, not a validated assessment.
