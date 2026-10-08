@@ -484,3 +484,53 @@ DRY • แห้ง — It's dry.
 - Compared available Notion history from 27 September onward and this week's calendar. Different focus from 6 October's response to losing: adjust one concrete task parameter while the child is still interested.
 - Content Performance query returned zero rows; no metrics or effectiveness claims invented.
 - Source checked 7 October 2026: [AAP — The Importance of Playing With Your Child](https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/playing-with-your-child/). Supports general child-led, supportive play. The three-option frame and beanbag example are editorial suggestions, not a validated assessment.
+
+## Prepared slot — 2026-10-08 19:00
+
+**Status:** Design — new image awaits user approval.  
+**Notion:** https://app.notion.com/p/3f3a8bdd127881b3bb9ac798139f977a?pvs=204  
+**Facebook:** Not published; draft for manual posting, no live URL.
+
+### On-image copy
+
+ก่อนมา…  
+ไม่ต้องซ้อมให้เก่ง
+
+แค่รู้ว่าจะเจออะไร ก็ช่วยได้
+
+### Caption
+
+ก่อนพาลูกไปสถานที่ใหม่ พ่อแม่ไม่จำเป็นต้องซ้อมให้ลูกตอบคล่อง หรือกล้าเข้าร่วมทันทีครับ 🌿
+
+สำหรับเด็กวัย 3–11 ปี ลองพรีวิวเหตุการณ์สั้น ๆ ให้เห็นเป็นลำดับแทน
+
+1️⃣ ถึงแล้วจะเจออะไร
+บอกเฉพาะข้อมูลที่รู้จริง เช่น จะเจอครู กลุ่มเด็ก และพื้นที่กิจกรรม
+
+2️⃣ ช่วงแรกทำอะไรได้บ้าง
+เด็กอาจดูรอบ ๆ ก่อน เดินไปพร้อมผู้ใหญ่ หรือเลือกกิจกรรมที่อยากเริ่ม
+
+3️⃣ ถ้าไม่แน่ใจ ทำอย่างไร
+เตรียมประโยคสั้น ๆ ไว้ใช้ได้ เช่น
+“We’ll look around first.” — เราจะดูก่อน
+“Then you can choose.” — แล้วลูกค่อยเลือกได้
+“Tell me if you need a break.” — บอกได้นะถ้าอยากพัก
+
+เด็กเล็กอาจดูภาพง่าย ๆ 3 รูป ส่วนเด็กโตช่วยเลือกคำถามที่อยากรู้ล่วงหน้าได้หนึ่งข้อ เป้าหมายไม่ใช่ท่องคำตอบ แต่ให้ลูกรู้คร่าว ๆ ว่าจะเกิดอะไรขึ้น และยังมีทางเลือกของตัวเองครับ 💚
+
+ภาพนี้เป็นภาพประกอบแนวทางทั่วไป ไม่ใช่ภาพบันทึกกิจกรรมจริงของ BEV
+
+ทักเพจพร้อมบอกอายุของลูก + เรื่องที่กังวลที่สุด 1 เรื่องครับ
+
+#BangyaiEnglishVillage #เตรียมตัวก่อนกิจกรรม #กิจกรรมพ่อแม่ลูก #EnglishThroughPlay
+
+### Production note
+
+- Preserved the planned 2026-10-08 19:00 topic and slot. No existing Pipeline item was found by date or “ก่อนมา” title checks, so one item was created for this slot.
+- Compared the available Pipeline history for 2–8 October. This post focuses on previewing what a child may encounter and what choices remain before arrival; it is distinct from communication repair, post-loss conversation and adjusting challenge during play.
+- Content Performance returned zero rows; no metrics or effectiveness claims were invented.
+- The visual is a clearly illustrated general family situation, not documentary BEV photography or a claim about a real BEV activity.
+- Final image: 1080 × 1350 px. Checked at full size and 360 × 450 px for story, Thai text, anatomy/action, aspect ratio, logo and mobile readability.
+- The original `IMG_5566(3).jpeg` logo was retrieved from the current authorized Library record and inserted once as the original artwork layer; no generated or redrawn logo is present.
+- Final image: https://chatgpt.com/api/library/files/libfile_66bb090036948191b8b7f98aee04a39f/download
+- Status remains Design because the new visual has not received user approval. It is not Ready or Posted.
