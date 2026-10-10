@@ -84,6 +84,69 @@ Status terms: Draft = copy/idea only, Design = visual exists but still needs pro
 - Final image: https://chatgpt.com/api/library/files/libfile_b1e106719ef481918c2cfb7372031110/download
 - Status remains Design because the new visual has not received user approval. It is not Ready or Posted.
 
+## Prepared slot — 2026-10-10 19:00
+
+**Status:** Design — final visual and caption are complete; new artwork still awaits user approval.  
+**Notion:** https://app.notion.com/p/3f5a8bdd12788176a12eedd980e9a971?pvs=204  
+**Facebook:** Not published; no Facebook publishing action or live URL was available.
+
+### On-image copy
+
+อยากได้ของไกลมือ  
+พูดว่าอะไรดี?
+
+Could you pass me the water, please?
+
+### Caption
+
+ของอยู่ไกลมือ…ไม่ต้องทำให้เป็น “แบบทดสอบภาษาอังกฤษ” ครับ 🍽️
+
+มื้ออาหารเป็นจังหวะเล็ก ๆ ที่เด็กได้ใช้ภาษาเพื่อขอสิ่งที่ต้องการจริง
+
+สำหรับวัย 3–5 ปี เริ่มสั้น ๆ ได้ว่า
+
+“Water, please.”  
+หรือ  
+“Pass me the water, please.”
+
+สำหรับวัย 6–8 ปี ลองขยายเป็น
+
+“Could you pass me the water, please?”  
+— ช่วยส่งน้ำให้หน่อยได้ไหมครับ/คะ
+
+ถ้าลูกยังชี้หรือพูดแค่คำเดียว ผู้ใหญ่พูดประโยคเต็มให้ฟังหนึ่งครั้ง แล้วส่งของให้ได้เลย ไม่จำเป็นต้องรอให้ลูกพูดสมบูรณ์ก่อนครับ
+
+ลองใช้ 3 จังหวะนี้
+
+1️⃣ ผู้ใหญ่พูดเป็นตัวอย่างหนึ่งครั้ง  
+“Could you pass me the water, please?”
+
+2️⃣ หยุดรอสั้น ๆ  
+ให้ลูกตอบด้วยการชี้ คำเดียว หรือประโยคตามที่เขาพร้อม
+
+3️⃣ รับของแล้วปิดบทสนทนา  
+“Thank you.”
+
+เลือกฝึกกับของที่ปลอดภัยและน้ำหนักเบา ส่วนของร้อน ของมีคม หรือภาชนะหนักให้ผู้ใหญ่เป็นคนจัดการครับ
+
+ภาพนี้เป็นภาพประกอบแนวทางทั่วไป ไม่ใช่ภาพกิจกรรมจริงของ BEV
+
+มื้อถัดไปลองใช้ “Could you pass me the water, please?” ด้วยกัน 1 ครั้งครับ 💚
+
+#BangyaiEnglishVillage #EnglishThroughRealLife #ภาษาอังกฤษกับลูก #กิจกรรมครอบครัว
+
+### Production note
+
+- No existing Content Pipeline item was found for 2026-10-10; one new item was created for the evening slot instead of duplicating a row.
+- Compared against the available Pipeline history from 3–9 October. This post focuses on making a polite request in a real meal interaction, distinct from receptive understanding, previewing a new place, adapting challenge, post-game conversation and communication repair.
+- Content Performance returned zero rows, so no metrics, winners or causal claims were invented.
+- Final image is a 4:5 (1080 × 1350 px) clearly illustrated family situation, not documentary BEV photography or a claim about a real BEV activity.
+- The original `IMG_5566(3).jpeg` logo was retrieved from its verified Library record and placed once as the original artwork layer; no generated or redrawn logo is present.
+- Approved reference actually opened before production: `BEV_2026-09-27_1900_three-questions-outdoor.png`. The new design keeps the warm layered outdoor storybook feel while changing viewpoint, family action, message and layout.
+- Checked the rendered image at full size and at 360 px display width for story, Thai/English copy, hierarchy, action, ratio, logo and mobile readability.
+- Final image Library ID: `libfile_fd6436bb54b08191a2c54b3928c78eb5`.
+- Status remains Design because the new visual has not received user approval. It is not Ready or Posted.
+
 ## Scheduled visual correction — carry-forward
 
 - For family or general knowledge posts, use a 4:5 storybook outdoor-adventure garden scene with depth, warm bright color, and a meaningful action or interaction.
