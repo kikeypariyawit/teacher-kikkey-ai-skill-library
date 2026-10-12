@@ -147,6 +147,58 @@ Could you pass me the water, please?
 - Final image Library ID: `libfile_fd6436bb54b08191a2c54b3928c78eb5`.
 - Status remains Design because the new visual has not received user approval. It is not Ready or Posted.
 
+## Prepared slot — 2026-10-12 19:00
+
+**Status:** Design — final visual and caption are complete; new artwork still awaits user approval.  
+**Notion:** https://app.notion.com/p/3f7a8bdd127881668f71fd513c176521?pvs=204  
+**Facebook:** Not published; no Facebook publishing action or live URL was available.
+
+### On-image copy
+
+“ไม่รู้เหมือนกัน”  
+แล้วหาเบาะแสด้วยกัน
+
+สังเกต • เดา • ตรวจสอบ
+
+### Caption
+
+ลูกถาม “ทำไม?” แล้วเราตอบไม่ได้…ไม่ต้องรีบเดาครับ 🔎
+
+ลองตอบอย่างซื่อสัตย์ว่า  
+“ยังไม่รู้เหมือนกัน เราหาเบาะแสด้วยกันไหม?”
+
+คู่มือสำหรับครอบครัวของ U.S. Department of Education ระบุว่า พ่อแม่ไม่จำเป็นต้องมีคำตอบทุกเรื่อง สิ่งสำคัญกว่าคือความพร้อมที่จะสังเกตและเรียนรู้ไปกับลูก ขณะที่กรอบการเรียนรู้วิทยาศาสตร์ของ National Academies เน้นให้เด็กมีส่วนร่วมกับการตั้งคำถาม วิเคราะห์ข้อมูล และสร้างคำอธิบาย—not just จำคำตอบสำเร็จรูป
+
+ลองใช้ 3 จังหวะง่าย ๆ
+
+👀 สังเกต — “เราเห็นอะไรจริง ๆ บ้าง?”  
+💭 เดา — “หนูคิดว่าอาจเกิดจากอะไร?”  
+🔎 ตรวจสอบ — ถ่ายรูป วาดสิ่งที่เห็น แล้วค่อยเปิดหนังสือหรือแหล่งข้อมูลที่น่าเชื่อถือ
+
+เช่น เมื่อเห็นรอยมันวาวบนใบไม้ เราไม่จำเป็นต้องเฉลยทันที ลองดูว่ารอยเริ่มตรงไหน ไปทางไหน และมีอะไรอยู่ใกล้ ๆ ก่อนครับ
+
+ไม่ต้องจับหรือรบกวนสัตว์ สังเกตจากระยะพอดี และล้างมือหลังเล่นนอกบ้าน
+
+ภาพนี้เป็นภาพประกอบแนวทางทั่วไป ไม่ใช่ภาพบันทึกกิจกรรมจริงของ BEV
+
+เย็นนี้เลือกคำถามของลูก 1 ข้อ แล้วช่วยกันหาเบาะแส 1 อย่างครับ 💚
+
+#BangyaiEnglishVillage #เรียนรู้ผ่านธรรมชาติ #กิจกรรมพ่อแม่ลูก #ชวนลูกคิด
+
+### Evidence and production note
+
+- U.S. Department of Education, *Helping Your Child Learn Science*: parents do not need every answer; observing and finding out together are appropriate ways to support children’s science questions.
+- National Academies, *A Framework for K–12 Science Education*: science learning includes asking questions, analyzing data and constructing explanations.
+- No Content Pipeline row existed for 2026-10-12; one new item was created for this planned evening slot.
+- Compared the available Pipeline history from 12 September through 11 October. The topic introduces honest uncertainty and joint evidence-seeking; it is distinct from prior posts about adapting game difficulty, waiting before helping a child speak, or previewing a new place.
+- Content Performance contained zero rows, so no metrics or performance claims were invented.
+- Final image is 4:5 (1080 × 1350 px), recomposed without stretching, and checked at full size and 360 × 450 px.
+- The image is a clearly illustrated general family situation, not documentary BEV photography.
+- The original `IMG_5566(3).jpeg` logo was retrieved from the verified approved asset and placed once as a proportional source layer; no generated replacement logo is present.
+- Approved reference `ED4242CF-A9A3-4C5D-A963-14A303BF5F01.jpeg` was opened before production. The new design preserves its warm garden energy, bold mobile hierarchy and controlled accent colors while using a different storybook medium, low viewpoint and shared investigation action.
+- Final image: https://chatgpt.com/api/library/files/libfile_b11daefd73e08191b905ae2be5dc98ba/download
+- Status remains Design because the new visual has not received user approval. It is not Ready or Posted.
+
 ## Scheduled visual correction — carry-forward
 
 - For family or general knowledge posts, use a 4:5 storybook outdoor-adventure garden scene with depth, warm bright color, and a meaningful action or interaction.
