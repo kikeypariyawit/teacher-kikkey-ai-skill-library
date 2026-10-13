@@ -213,3 +213,62 @@ Could you pass me the water, please?
 
 - The weekly plan was selected from 43 scored candidates after comparing seven recent evening items; every selected concept passed the freshness rules and the final format mix produced no warnings.
 - Content Performance contained no comparable rows at planning time; this calendar therefore uses no invented benchmarks or inferred outcomes.
+
+
+## Prepared slot — 2026-10-13 19:00
+
+**Status:** Design — caption complete; illustrated artwork produced. Exact original-logo insertion and user approval remain pending.  
+**Notion:** https://app.notion.com/p/3f8a8bdd127881cc994fe083d0e19e3e?pvs=204  
+**Facebook:** Not published. No Facebook publishing connection/action or live post URL was available.
+
+### On-image copy
+
+ก่อนเฉลย ลองถาม  
+หนูสังเกตจากอะไร?
+
+What did you notice?
+
+### Caption
+
+ลูกตอบผิด…ก่อนเฉลย ลองฟังว่าเขามองตรงไหนครับ 🍃
+
+สมมติเราวางใบไม้ 2 ใบ แล้วถามว่า “ใบไหนยาวกว่า?”
+ลูกเลือกใบที่กว้างกว่า ทั้งที่อีกใบยาวกว่า
+
+ลองถามด้วยน้ำเสียงอยากรู้ว่า
+“What did you notice?”
+“หนูสังเกตจากอะไร?”
+
+ลูกอาจตอบว่า “ใบนี้มันใหญ่”
+คราวนี้เราได้รู้ว่า ลูกกำลังมอง “ความกว้าง” ขณะที่คำถามถามถึง “ความยาว”
+
+จากนั้นค่อยช่วยให้เห็นจุดเปรียบเทียบ
+“ใบนี้กว้างกว่าจริง ๆ ลองวางโคนใบให้ตรงกัน แล้วดูว่าปลายใบไหนไปไกลกว่ากันนะ”
+
+เมื่อดูด้วยกันแล้ว ผู้ใหญ่สรุปสั้น ๆ ได้ว่า
+“This leaf is longer.” — ใบนี้ยาวกว่า
+“This leaf is wider.” — ใบนี้กว้างกว่า
+
+สำหรับวัย 6–8 ปี ให้ชี้หรืออธิบายเป็นภาษาไทยก่อนได้
+วัย 9–11 ปี อาจชวนบอกเพิ่มว่า “ตอนแรกหนูดูตรงไหน แล้วตอนนี้เห็นอะไรเพิ่ม?”
+
+ไม่ต้องถามต่อหลายข้อ ถ้าลูกยังอธิบายไม่ได้ ให้ช่วยวางเทียบและบอกคำตอบอย่างอ่อนโยนได้เลยครับ
+
+ใช้ใบไม้ที่ร่วงแล้ว สะอาด ไม่มีหนามหรือยางระคายเคือง และล้างมือหลังเล่น
+
+ภาพนี้เป็นภาพประกอบแนวทางทั่วไป ไม่ใช่ภาพกิจกรรมจริงของ BEV
+
+ครั้งหน้าที่ลูกตอบคลาดเคลื่อน ลองถาม “หนูสังเกตจากอะไร?” ก่อนเฉลยหนึ่งครั้งครับ 💚
+
+#BangyaiEnglishVillage #ภาษาอังกฤษผ่านการเล่น #ชวนลูกคิด #กิจกรรมพ่อแม่ลูก
+
+### Production and source note
+
+- Retained the planned topic for this slot in this current 9–15 October calendar. The original 25 September–1 October calendar is out of range; this already-existing weekly extension covers the run date, so no duplicate week was created.
+- No Pipeline item existed for this date/time in the retrieved current rows; created one item for the planned slot.
+- Compared the available recent Pipeline entries for 6–12 October and the current weekly plan. The concrete distinction from 12 October is listening to the criterion behind a child's incorrect answer, then directly comparing width and length, rather than an adult admitting an unknown answer and researching it together.
+- Content Performance returned zero rows. No performance numbers, winners, or enrollment outcomes are inferred.
+- This is an original low-risk family language activity, not a research-backed developmental claim or documentary BEV event.
+- Opened the approved original logo IMG_5566(3).jpeg and prior Ready style reference BEV_2026-09-27_1900_three-questions-outdoor.png. Asset Index identifies the logo as Approved.
+- Generated the warm outdoor storybook artwork and inspected the visible Thai/English text, family interaction and two-leaf example. The first generation altered logo details, so it is not approved for use; a localized correction was requested to remove the altered mark and leave the white corner reserved for original artwork insertion.
+- Keep Design. Do not claim original-logo pixel preservation or user approval. Exact 4:5 export and final mobile/logo checks remain required before Ready.
