@@ -272,3 +272,56 @@ What did you notice?
 - Opened the approved original logo IMG_5566(3).jpeg and prior Ready style reference BEV_2026-09-27_1900_three-questions-outdoor.png. Asset Index identifies the logo as Approved.
 - Generated the warm outdoor storybook artwork and inspected the visible Thai/English text, family interaction and two-leaf example. The first generation altered logo details, so it is not approved for use; the localized correction is complete: the altered logo was removed and the white lower-right corner remains reserved for insertion of the unchanged original.
 - Keep Design. Do not claim original-logo pixel preservation or user approval. Final image is 1122 × 1402 px (near 4:5). Full-size and 360 px-wide visual inspections confirm readable copy and the intended interaction. Exact 4:5 export, original-logo insertion and final logo checks remain required before Ready. Latest image: exec-af864eaa-5685-4286-8533-c98f3d3b6eb9.png, delivered with the post in the conversation; do not use the first render.
+
+
+## Prepared slot — 2026-10-15 19:00
+
+**Status:** Design — caption and final artwork complete; user approval pending.  
+**Notion:** https://app.notion.com/p/3e3a8bdd1278815fb16ddc4f5c8fe139  
+**Facebook:** Not published. No publishing connection/action or live post URL.
+
+### On-image copy
+
+วันนี้…  
+ให้ลูกเป็นคนสอน
+
+ลูกนำหนึ่งท่า ผู้ใหญ่ลองทำตาม
+
+### Caption
+
+วันนี้ให้ลูกเป็นคนสอน แล้วผู้ใหญ่เป็นคนลองทำตามบ้างครับ 🌿
+
+ไม่ต้องมีอุปกรณ์พิเศษ แค่เกม “ทำตามท่าของฉัน” บนพื้นที่ราบ โล่ง และไม่ลื่น
+
+เริ่มจากให้ลูกเลือกหนึ่งท่าที่สบายตัว เช่น กางแขนเป็นนก หรือยกมือเป็นกิ่งไม้ แล้วผู้ใหญ่ลองทำตามจริง ๆ ไม่ต้องแกล้งทำผิดเพื่อทดสอบลูก
+
+ถ้าอยากเติมภาษาอังกฤษ ใช้สั้น ๆ ได้ว่า
+“Show me.” — ทำให้ดูหน่อย
+“Like this?” — แบบนี้ใช่ไหม?
+“Yes!” — ใช่เลย!
+
+วัย 3–5 ปี ให้ลูกทำท่าให้ดูหรือชี้ก็ได้
+วัย 6–8 ปี ลองให้ลูกบอกคำสั้น ๆ เช่น “Arms out.” — กางแขน
+วัย 9–11 ปี อาจให้ลูกสอนท่าต่อเนื่องสองจังหวะ แล้วเลือกเองว่าจะอธิบายหรือสาธิต
+
+ผู้ใหญ่รอให้ลูกสอนจนจบก่อน ถ้ายังไม่เข้าใจ ค่อยขอให้ทำให้ดูอีกครั้ง ไม่จำเป็นต้องแก้ภาษาในทุกประโยค และถ้าวันนี้ลูกไม่อยากนำ ก็พักเกมไว้ก่อนได้ครับ
+
+รอบนี้ไม่ต้องมีคะแนนหรือผู้ชนะ แค่ให้สิ่งที่ลูกสอนมีคนตั้งใจฟังและลองทำตาม 💚
+
+ภาพนี้เป็นภาพประกอบกิจกรรมที่ครอบครัวลองเล่นได้ ไม่ใช่ภาพกิจกรรมจริงของ BEV
+
+คืนนี้ให้ลูกสอนหนึ่งท่า แล้วผู้ใหญ่ลองทำตามจนจบหนึ่งรอบครับ
+
+#BangyaiEnglishVillage #ภาษาอังกฤษผ่านการเล่น #กิจกรรมพ่อแม่ลูก
+
+### Production and source note
+
+- Reused existing undated BEV-19 (previously Needs Revision) for this slot instead of creating a duplicate. Today's dated Pipeline query found no existing slot row. Duplicate Check remains Similar because this is a concrete revision of the older concept.
+- Retained the planned weekly topic. The original 25 September–1 October file is out of range, but this existing 9–15 October extension already covers today; no duplicate week was created.
+- Compared available dated Pipeline entries for 8–15 October, the current weekly plan and the matching older BEV-19. The new concrete example is a child teaching one bird-wing pose, with an adult genuinely following, rather than recall after a class or map navigation.
+- Content Performance returned no rows; no metrics, winners or inferred engagement results are used.
+- Read current HQ, workflow, Asset Index, original Scheduled visual correction and AGENTS.md. Opened the actual style reference BEV_2026-09-27_1900_three-questions-outdoor.png and approved original IMG_5566(3).jpeg.
+- Built-in image generation produced a rich outdoor storybook illustration. Original logo artwork was placed once as a proportional source layer; only surrounding white margin was cropped. No redrawn logo, fabricated documentary child or real BEV event claim.
+- Corrected a cropped-logo issue during preflight, then inspected the corrected final at full size and 360 × 450 px for Thai text, logo, interaction, visual depth and mobile hierarchy. Final export: exactly 1080 × 1350 px, no stretching.
+- Final file: BEV_2026-10-15_1900_1080x1350.png. Library ID: libfile_37fafdd48a9881919719ec11e7ec0822. Delivered in the conversation.
+- Status is Design, not Ready or Posted: this new artwork has not received user approval.
