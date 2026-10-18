@@ -14,7 +14,24 @@ Status: editorial plan, not Facebook scheduling. Notion owns live production sta
 - Content Performance: zero rows; no comparative performance claims or invented metrics.
 - Source records may retain historic edit timestamps. These reads do not prove access to the live Facebook feed.
 
-## Scheduled visual correction
+## Scheduled visual correction · 18 October 2026 — Text-complete Facebook exports
+
+มาตรฐานแก้ไขภาพจากผู้ใช้ 18 ต.ค. 2569 — ข้อความต้องอยู่ในไฟล์ภาพจริง
+คำสั่งส่วนนี้แทนที่แนวทางเก่าที่ขัดกัน โดยเฉพาะการจำกัดภาพเหลือเพียง headline หรือส่งเฉพาะ brief/prompt
+เป้าหมายคือภาพ Facebook สำเร็จพร้อมโพสต์ที่มีสาระในตัวเอง ไม่ใช่ภาพประกอบว่างพร้อมแคปชันแยก
+- ขนาดมาตรฐานแนวตั้ง 4:5 1080×1350 px ส่ง PNG หรือ JPG ที่ฝัง/flatten ตัวอักษรไทยและอังกฤษลงในพิกเซลแล้ว เปิดไฟล์ภาพเพียงไฟล์เดียวต้องเห็นข้อความครบ ห้ามส่งเฉพาะภาพไร้ข้อความ, SVG/HTML, prompt, caption หรือคอนแทคชีตแล้วบอกว่าคือภาพพร้อมโพสต์
+- ก่อนผลิตให้ล็อกชุดข้อความบนภาพหนึ่งชุด: หัวเรื่อง, คำตอบ/ประโยชน์, รายละเอียด 3 ข้อสั้น (หรือ 3–5 ข้อสำหรับ infographic), ตัวอย่างภาษาอังกฤษเมื่อเหมาะ และข้อสรุป/CTA หนึ่งอย่าง จำนวนนี้ปรับตามสาระจริงได้โดยไม่ทำให้ภาพโล่งไร้ข้อมูลหรือแน่นจนอ่านไม่ได้ ไม่ยัดแคปชันทั้งชิ้นลงภาพ
+- หัวข้อและสาระในภาพต้องตรงกับ caption และรายการเดิมทุกครั้ง ห้ามเปลี่ยนหัวข้อไปเรื่องใหม่กลางงาน ห้ามสุ่มเขียนข้อความใหม่หลังล็อกแล้วเพื่อให้พอดีภาพ; หากต้องย่อให้ปรับชุดข้อความและ caption ที่เกี่ยวข้องให้ตรงกันก่อน export
+- ทำ artwork จริงด้วยเครื่องมือสร้างภาพเมื่อเหมาะ จัดตัวอักษรด้วยฟอนต์ไทยที่รองรับสระ/วรรณยุกต์เมื่อทำได้ ตรวจผลลัพธ์จริง อย่าเชื่อว่าใส่คำสั่งให้เจนตัวอักษรแล้วจะถูกโดยอัตโนมัติ ห้ามใช้ภาพวาดด้วยโค้ดง่ายๆ แทน artwork ที่ขอ
+- อ่านภาพที่ export แล้วเต็มขนาดและที่กว้างประมาณ 360 px ตรวจทุกบล็อกกับชุดข้อความ: ไม่หาย ไม่เปลี่ยนคำ ไม่ซ้อน ไม่ขาดสระ/วรรณยุกต์ ไม่ล้น ไม่จมหรือเล็กจนอ่านไม่ได้ และตรวจตัวเลข หน่วย อายุ โลโก้ สัดส่วนภาพจริง
+- คงแนวภาพตามซีรีส์ ไม่สลับไปเป็นงานคนละแนวเอง เปลี่ยนมุมภาพ/เรื่องราวให้ไม่จำเจได้ ใช้โลโก้ BEV ต้นฉบับหนึ่งครั้งในงาน BEV ห้ามวาดใหม่; ภาพอ้างอิงเก่าบอกสไตล์ ไม่ใช่แหล่งราคาหรือกิจกรรมปัจจุบัน
+- ส่งภาพที่แสดงในผลลัพธ์จริงพร้อมไฟล์ดาวน์โหลดที่บันทึกสำเร็จและ caption ของภาพนั้น เก็บไฟล์ให้ผู้ใช้เปิดภายหลังได้ตามความสามารถที่มี อย่าอ้างว่าบันทึก/ตรวจมือถือ/พร้อมใช้ถ้ายังไม่ได้ทำจริง ลิงก์ข้อความอย่างเดียวที่ไม่มีไฟล์ไม่ถือว่าส่งภาพ
+- ถ้าเป็นการแก้โพสต์เดิมให้รักษา Library ID/รายการ Notion เดิมเมื่อเข้าถึงได้ บันทึกเวอร์ชันแก้ไขและรักษาประวัติ แก้เฉพาะงานที่เกี่ยวข้อง ไม่สร้าง task ซ้ำหรือแก้เวลา/การเปิดปิด task เอง
+- หากยังผลิตภาพที่มีข้อความครบไม่ได้ ให้รายงานว่าภาพยังไม่เสร็จและจุดที่ติดขัด ส่งส่วนที่เสร็จได้โดยระบุสถานะจริง ห้ามรายงานภาพว่าง/ข้อความผิดเป็น Ready
+- สร้างไฟล์ให้ผู้ใช้ตรวจเท่านั้น การสร้างภาพสำเร็จไม่ใช่การเผยแพร่บน Facebook
+
+
+## Scheduled visual correction · 27 September 2026 (historical; text limit superseded above)
 
 The current user brief and the original calendar's 27 Sep correction govern this extension: warm colorful storybook, broad outdoor adventure garden in 4:5, foreground/middle/background, meaningful interaction, clearly cartoon families. No fabricated documentary children, peg-doll defaults, isolated objects, empty cream cards or imitation logos. Short Thai headline (1–2 lines), at most one support line; details in caption. Retrieve current original logo and inspect an approved reference. Use original logo once. Generate real artwork and inspect actual full/mobile render before advancing. New work is not automatically user-approved.
 
@@ -88,12 +105,27 @@ Future rows are proposed concepts only: no images, approval, scheduling, publica
 **Status:** Design — finished image and caption, checked; awaiting user approval.
 **Facebook:** NOT published. No available authorized Facebook page-publishing tool/action or live post URL.
 
-### On-image copy
+### On-image copy — revised 18 October 2026
 
-ขอยืมของเพื่อน  
+กิจกรรมภาษาอังกฤษ • วัย 3–8 ปี
+ขอยืมของเพื่อน
 ต้องรอคำตอบด้วย
+ขออย่างสุภาพ แล้วฟังคำตอบให้จบ
 
+1  ขอ ก่อนหยิบ
 Can I borrow the red pencil?
+ขอยืมดินสอสีแดงได้ไหม?
+
+2  รอคำตอบ
+Not yet. I’m using it.
+ยังไม่ได้ เรากำลังใช้อยู่
+
+3  ยอมรับ และรอ
+Okay. I’ll wait.
+ได้ เราจะรอ
+
+ขอได้ • รอได้ • ยังไม่ให้ก็ได้
+ภาพประกอบสถานการณ์ทั่วไป
 
 ### Caption
 
@@ -141,3 +173,8 @@ Can I borrow the red pencil?
 - Inspected full image and 360 × 450 px preview: story/action, Thai marks, English, illustrated anatomy, ratio, logo and mobile hierarchy.
 - Generated 12 candidate concepts for the six remaining evening dates. Scored against eight dated Pipeline rows from 9–17 Oct; additionally reviewed the prior full calendar and available broader Pipeline. Final mix has no scorer warnings. Scores are editorial heuristics, not engagement predictions.
 - Manual exclusions included rejoining a game (close to 26 Sep invitation), returning a borrowed item (too close to today's borrowing post), and transition preview (close to 8 Oct).
+
+
+### Visual repair — 18 October 2026
+
+User rejected the previous scheduled visual approach as lacking useful in-image text and inconsistent copy. Rebuilt the 17 October artwork around the same topic and unchanged caption with the complete three-step conversation above. Export and inspection are recorded on the existing Notion page and Library item. The old production evidence above is retained as historical evidence of v1, not approval of v2. No Facebook publication is implied.
