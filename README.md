@@ -22,6 +22,7 @@ Approved references define identity/state. Prompts direct what those approved as
 - `bev-parent-copywriter` — Warm, credible parent-facing Thai copy.
 - `bev-education-researcher` — Research-backed child-development / English-learning content.
 - `bev-campaign-qa` — Campaign accuracy, consistency and conversion QA.
+- `bev-3d-social-impact` — Social-value 3D content (Brave Helpers Island series): public-good topic gates, claim sheet, real BEV participation and the 3D render chain.
 
 ### Social
 - `social-viral-strategist` — Hooks, concepts and social retention.

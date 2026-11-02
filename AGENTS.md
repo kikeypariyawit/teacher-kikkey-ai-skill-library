@@ -28,6 +28,7 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - Research-backed content → `bev-education-researcher`
 - Visual campaign direction → `bev-creative-director`
 - Final campaign audit → `bev-campaign-qa`
+- Social-value / public-good 3D content (Brave Helpers Island series, child-safety rules, BEV participation) → `bev-3d-social-impact`
 
 ### Social
 - Viral concept / hooks / retention → `social-viral-strategist`
@@ -121,6 +122,9 @@ When the user changes one approved detail, rerun only the smallest affected down
 
 ### BEV campaign
 `workflow-router` (when needed) → `bev-content-strategist` → `bev-parent-copywriter` → `bev-creative-director` → `visual-qa` → `bev-campaign-qa`
+
+### BEV social-value 3D episode
+`bev-3d-social-impact` (topic gates, claim sheet, BEV participation) → `bev-education-researcher` (claims) → 3D render chain (`threejs-3d-studio` craft, `bangyai-3d-promo` reel format, `motion-design` export) → `bev-parent-copywriter` (caption) → `bev-campaign-qa`
 
 ### AI drama full vertical episode
 `ai-drama-episode-producer` → orchestrates `ai-drama-story-engine` → `vertical-drama-retention-director` → `character-architect` (when needed) → `dialogue-subtext-writer` → `reference-first-visual-production` → `performance-director` → `cinematic-director` → `ai-video-model-router` → `veo-shot-planner` → `continuity-supervisor` → `episode-qa`

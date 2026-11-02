@@ -1,3 +1,11 @@
+# 5.1.0 — BEV social-value 3D series — 2026-11-02
+
+- Added `bev-3d-social-impact` for public-good BEV 3D content: three topic gates (real Thai child problem, official/evidenced action, BEV fit), claim sheet first, BEV participation marked proposed/confirmed, child-safety framing gates and a probe→fix→render QA loop.
+- Added `docs/BEV_3D_SOCIAL_IMPACT_RESEARCH_2026-11-02.md` (child drowning, DDC “ตะโกน โยน ยื่น”, WHO under-5 activity/screen guidance, Thai activity report card) with evidence status per claim.
+- Added `docs/BEV_3D_BRAVE_HELPERS_SERIES.md` — series canon, five-episode backlog and the EP01 “Shout · Throw · Reach” package (beat sheet, VO script, sound map, caption, open items).
+- Added `examples/bev-3d-brave-helpers-ep01/` — deterministic three.js source and render scripts for the EP01 pilot.
+- Routed social-value 3D requests in `AGENTS.md` and `README.md`.
+
 # 5.0.0 — Cinematic AI Drama Set-piece Studio — 2026-09-22
 
 - Added `cinematic-setpiece-director` for emotionally necessary large-scale sequences, reveal hierarchy, geography, hero images, crowd/event zoning, complexity budgets and reduced-complexity fallbacks.
