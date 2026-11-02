@@ -11,7 +11,8 @@ Everything on screen is a pure function of `t` via `window.seek(t)`, so renders 
 npm i three@0.186.0 @fontsource/kanit @fontsource/fredoka   # Playwright + Chromium must already be available
 node render.js probe 0.6 4.3 11.3 16.5 19.4 21.8              # stills → probe/
 ./sheet.sh "$PWD/probe"                                       # contact sheet (5 per row)
-node render.js all                                            # 720 frames → frames/ (~4 s/frame on SwiftShader)
+node render.js all                                            # 720 frames → frames/ (~3.5 s/frame on SwiftShader)
+# faster on 4 CPUs (~25 min): PORT=8771 node render.js range 0 12 & PORT=8772 node render.js range 12 24
 ffmpeg -framerate 30 -i frames/f_%04d.jpg -c:v libx264 -preset veryfast -threads 2 -crf 17 \
   -pix_fmt yuv420p -colorspace bt709 -color_primaries bt709 -color_trc bt709 -movflags +faststart ep01_silent.mp4
 ```

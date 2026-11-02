@@ -7,14 +7,14 @@ const html = fs.readFileSync(path.join(ROOT, 'film.html'), 'utf8')
 fs.writeFileSync(path.join(ROOT, '_render.html'), html);
 const mime = { '.html': 'text/html', '.js': 'text/javascript', '.woff2': 'font/woff2' };
 const srv = http.createServer((q, r) => { const f = path.join(ROOT, decodeURIComponent(q.url.split('?')[0]));
-  fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); return; } r.writeHead(200, { 'Content-Type': mime[path.extname(f)] || 'application/octet-stream' }); r.end(d); }); }).listen(8766);
+  fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); return; } r.writeHead(200, { 'Content-Type': mime[path.extname(f)] || 'application/octet-stream' }); r.end(d); }); }).listen(+process.env.PORT || 8766);
 (async () => {
   const [mode, ...args] = process.argv.slice(2);
   const b = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
   const pg = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   pg.on('console', m => { if (m.type() !== 'log') console.log('[console]', m.type(), m.text()); });
   pg.on('pageerror', e => console.log('[pageerror]', e.message));
-  await pg.goto('http://localhost:8766/_render.html');
+  await pg.goto('http://localhost:' + (process.env.PORT || 8766) + '/_render.html');
   await pg.waitForFunction('window.__ready === true', null, { timeout: 300000 });
   const shot = async (t, file) => { await pg.evaluate(t => window.seek(t), t); await pg.screenshot({ path: file, type: 'jpeg', quality: 93 }); };
   if (mode === 'probe') { fs.mkdirSync(path.join(ROOT, process.env.PROBE || 'probe'), { recursive: true });

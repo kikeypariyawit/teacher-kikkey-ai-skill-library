@@ -1,6 +1,6 @@
 # Brave Helpers Island · เกาะเด็กกล้าช่วย — BEV 3D social-value series
 
-Status: **pilot EP01 rendered as a silent draft (2 Nov 2026) — not approved, not published.**
+Status: **EP01 rendered as a silent 24 s 1080×1920 draft (2 Nov 2026) — QA-scanned, not approved, not published.**
 Owner skill: `bev-3d-social-impact` · Research: `docs/BEV_3D_SOCIAL_IMPACT_RESEARCH_2026-11-02.md` · Pilot source: `examples/bev-3d-brave-helpers-ep01/`
 
 ## 1. Series promise
