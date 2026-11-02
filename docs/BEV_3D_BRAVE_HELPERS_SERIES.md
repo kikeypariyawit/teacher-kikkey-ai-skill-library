@@ -48,16 +48,21 @@ Short 3D clips (20–25 s, 9:16) in which two clay-toy kids on a Bang Yai garden
 | 18.5–20.5 | Bear safe on the grass, teacher kneeling beside; kids jump and cheer | ช่วยเพื่อนได้ / โดยไม่ต้องลงน้ำ | “We did it!” |
 | 20.5–24.0 | Wide hero of the island | End card + CTA chip “ชวนลูกท่องพร้อมท่าทาง 1 รอบวันนี้” | — |
 
-**VO script (Thai, cheerful-warm, ~20 s) — not yet generated; needs approval to spend ElevenLabs credits**
+**VO — generated 2 Nov 2026 (credit-saving route):** ElevenLabs `eleven_v4`, voice “Malee – Cheerful, Bright, Lively”, **1 take only, 300 credits**. No music/SFX/transcription credits spent: phrases were located with local silence detection and placed on each beat with ffmpeg (light 1.08–1.1× tempo on three lines), end card held +1.6 s → final 25.6 s, −14.7 LUFS integrated. Music and SFX: add free CapCut library tracks using the sound map below.
+
+**VO script (as generated)**
 
 > [excited] ถ้าเพื่อนตกน้ำ… หนูต้องทำยังไงนะ?
 > [warm] อย่ากระโดดลงไปช่วยนะ!
-> [cheerful] หนึ่ง — Shout! ตะโกนเรียกผู้ใหญ่ โทรหนึ่งหกหกเก้า
-> สอง — Throw! โยนของที่ลอยน้ำได้
-> สาม — Reach! ยื่นไม้ หรือผ้า ยืนบนฝั่งนะ
-> [warm] ตะโกน โยน ยื่น — Shout, Throw, Reach!
+> [cheerful] หนึ่ง… Shout! ตะโกนเรียกผู้ใหญ่ โทร หนึ่ง หก หก เก้า
+> สอง… Throw! โยนของที่ลอยน้ำได้
+> สาม… Reach! ยื่นไม้ หรือผ้า ยืนบนฝั่งนะ
+> [excited] เย้! ช่วยเพื่อนได้ โดยไม่ต้องลงน้ำ!
+> [warm] ตะโกน โยน ยื่น… Shout, Throw, Reach!
 
-**Sound map for CapCut** (if VO is generated, re-time cues to the transcript): splash 1.62 s · soft “no” blip 3.85 s · whoosh on throw 10.85 s · plop 11.9 s · cheer + sparkle 18.6 s · music lift into end card 20.5 s. Music bed: light ukulele/marimba ~110–120 BPM, ducked under VO.
+VO placement in the 25.6 s cut: hook 0.15 s · “อย่ากระโดด…” 3.75 s · SHOUT block 5.1 s · THROW block 9.7 s · REACH block 14.2 s · “เย้!” 18.6 s · closing chant 21.05 s.
+
+**Sound map for CapCut** (times match the VO cut): splash 1.62 s · soft “no” blip 3.85 s · whoosh on throw 10.85 s · plop 11.9 s · cheer + sparkle 18.6 s · music lift into end card 20.5 s. Music bed: light ukulele/marimba ~110–120 BPM, ducked under VO.
 
 **Parent caption (draft)**
 
@@ -75,6 +80,6 @@ Short 3D clips (20–25 s, 9:16) in which two clay-toy kids on a Bang Yai garden
 
 1. Owner confirms which BEV participation actions are real (briefing / safety spot / free download) — then edit the caption line marked in brackets.
 2. Open the DDC source page and paste the verified link into the caption.
-3. Approve ElevenLabs VO + music/SFX spend, or record VO in-house.
+3. ~~VO~~ done (1 take). Add music + SFX from the free CapCut library (sound map above) — no ElevenLabs music credits needed.
 4. Add the official BEV logo once in CapCut (end card, top-right clear space).
 5. Run `bev-campaign-qa` on the final cut with audio.
