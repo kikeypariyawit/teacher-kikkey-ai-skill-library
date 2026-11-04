@@ -48,7 +48,7 @@ Short 3D clips (20–25 s, 9:16) in which two clay-toy kids on a Bang Yai garden
 | 18.5–20.5 | Bear safe on the grass, teacher kneeling beside; kids jump and cheer | ช่วยเพื่อนได้ / โดยไม่ต้องลงน้ำ | “We did it!” |
 | 20.5–24.0 | Wide hero of the island | End card + CTA chip “ชวนลูกท่องพร้อมท่าทาง 1 รอบวันนี้” | — |
 
-**VO — generated 2 Nov 2026 (credit-saving route):** ElevenLabs `eleven_v4`, voice “Malee – Cheerful, Bright, Lively”, **1 take only, 300 credits**. No music/SFX/transcription credits spent: phrases were located with local silence detection and placed on each beat with ffmpeg (light 1.08–1.1× tempo on three lines), end card held +1.6 s → final 25.6 s, −14.7 LUFS integrated. Music and SFX: add free CapCut library tracks using the sound map below.
+**VO — generated 2 Nov 2026 (credit-saving route):** ElevenLabs `eleven_v4`, voice “Malee – Cheerful, Bright, Lively”, **1 take only, 300 credits**. No music/SFX/transcription credits spent: phrases were located with local silence detection and placed on each beat with ffmpeg (light 1.08–1.1× tempo on three lines), end card held +1.6 s → final 25.6 s, −14.7 LUFS integrated. Music (4 Nov 2026): ElevenLabs `eleven_music_v2_5`, 1 take, 30 s, **900 credits** — ukulele/marimba/claps, 112 BPM, prompted as instrumental (the run's setting reads “Instrumental: False”, so listen for vocals before use). Not yet mixed: the download host `elevenlabsusercontent.com` is blocked in this cloud environment. Mix in CapCut: music from 0:00, about −18 dB under the VO, fade out over the last 1.5 s. SFX: free CapCut library using the sound map below.
 
 **VO script (as generated)**
 
