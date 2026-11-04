@@ -64,21 +64,33 @@ VO placement in the 25.6 s cut: hook 0.15 s · “อย่ากระโดด
 
 **Sound map for CapCut** (times match the VO cut): splash 1.62 s · soft “no” blip 3.85 s · whoosh on throw 10.85 s · plop 11.9 s · cheer + sparkle 18.6 s · music lift into end card 20.5 s. Music bed: light ukulele/marimba ~110–120 BPM, ducked under VO.
 
-**Parent caption (draft)**
+**Facebook caption — final draft (4 Nov 2026)**
 
-> ถ้าเพื่อนตกน้ำ ลูกรู้ไหมว่าต้องทำอะไร?
-> ปฏิกิริยาแรกของเด็กหลายคนคือ “กระโดดลงไปช่วย” ซึ่งอันตรายมาก เพราะคนที่ตกน้ำอาจกอดรัดจนจมไปด้วยกัน
-> กรมควบคุมโรคแนะนำหลัก ตะโกน · โยน · ยื่น
-> 1) ตะโกน เรียกผู้ใหญ่ และโทร 1669
-> 2) โยน ของที่ลอยน้ำได้ เช่น ขวดน้ำเปล่า แกลลอนปิดฝา
-> 3) ยื่น ไม้ เชือก หรือผ้า โดยยืนบนฝั่งและย่อตัวต่ำ
-> ที่บางใหญ่ อิงลิช วิลเลจ เราชวนเด็กๆ ท่อง Shout · Throw · Reach พร้อมท่าทาง [ใส่เฉพาะเมื่อยืนยันว่าทำจริง]
-> ชวนลูกท่องพร้อมทำท่าด้วยกัน 1 รอบวันนี้ แล้วอย่าลืม เด็กเล่นน้ำต้องมีผู้ใหญ่ดูแลใกล้ชิดเสมอ
-> ที่มา: หลักการช่วยคนตกน้ำ กรมควบคุมโรค [ใส่ลิงก์หน้าที่ตรวจแล้ว]
+> ถ้าเพื่อนตกน้ำ… ลูกรู้ไหมว่าต้องทำอะไร? 🌊
+>
+> เด็กหลายคนใจดีมาก จนอยากกระโดดลงไปช่วยเพื่อนทันที
+> แต่นั่นคือสิ่งที่อันตรายที่สุด เพราะคนที่ตกน้ำมักตกใจและกอดรัดคนที่เข้าไปช่วย จนจมไปด้วยกันได้
+>
+> กรมควบคุมโรคแนะนำหลักช่วยคนตกน้ำโดยไม่ต้องลงน้ำ 3 ข้อ
+> 1️⃣ ตะโกน — Shout! เรียกผู้ใหญ่ให้มาช่วย และโทร 1669
+> 2️⃣ โยน — Throw! ของที่ลอยน้ำได้ เช่น ขวดน้ำเปล่า หรือแกลลอนปิดฝา
+> 3️⃣ ยื่น — Reach! ไม้ เชือก หรือผ้า โดยยืนบนฝั่งและย่อตัวต่ำ
+>
+> คำภาษาอังกฤษสั้นๆ 3 คำนี้ ท่องพร้อมทำท่าได้ จำง่าย และใช้ได้จริงทั้งชีวิต
+>
+> 👉 คืนนี้ลองชวนลูกท่อง “Shout · Throw · Reach” พร้อมทำท่าด้วยกันสัก 1 รอบนะคะ
+>
+> และที่สำคัญที่สุด เด็กเล่นน้ำต้องมีผู้ใหญ่ดูแลใกล้ชิดเสมอ 💛
+>
+> ที่มา: หลักการช่วยคนตกน้ำ “ตะโกน โยน ยื่น” กรมควบคุมโรค กระทรวงสาธารณสุข
+>
+> #ตะโกนโยนยื่น #ป้องกันเด็กจมน้ำ #BangyaiEnglishVillage
+
+Optional lines (add only after checking): a verified DDC link under “ที่มา”; one sentence about what BEV actually does (e.g. safety chant before water activities) once confirmed; a child-drowning statistic only with year + source opened and checked.
 
 ## 5. Open items before publishing EP01
 
-1. Owner confirms which BEV participation actions are real (briefing / safety spot / free download) — then edit the caption line marked in brackets.
+1. Owner confirms which BEV participation actions are real (briefing / safety spot / free download) — then optionally add one line about it to the caption.
 2. Open the DDC source page and paste the verified link into the caption.
 3. ~~VO~~ done (1 take). Add music + SFX from the free CapCut library (sound map above) — no ElevenLabs music credits needed.
 4. Add the official BEV logo once in CapCut (end card, top-right clear space).
