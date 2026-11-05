@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="th">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BEV Red Leaf · L17</title>
+<!-- Style: L17 蜡笔儿童绘本 Crayon Picture Book (code-animation-prompts). 12 s, 9:16, silent preview. -->
+<style>
+  @font-face { font-family: 'Mali'; src: url('fonts/Mali-Regular.ttf'); font-weight: 400; }
+  @font-face { font-family: 'Mali'; src: url('fonts/Mali-Bold.ttf'); font-weight: 700; }
+  html, body { margin: 0; background: #f4efe3; overflow: hidden; }
+  canvas { display: block; width: 100vw; height: 100vh; }
+</style>
+<canvas id="scene"></canvas>
+<script>
+// ---------- editable config ----------
+const CONFIG = {
+  duration: 12,
+  title: 'Bang Yai English Village',
+  titleTh: 'บางใหญ่ อิงลิช วิลเลจ',
+  word: 'red leaf',
+  wordTh: 'ใบไม้สีแดง',
+  line1: 'เรียนภาษาอังกฤษจากของจริงรอบตัว',
+  line2: 'Learn English from real life.',
+  // crayon box (outline is indigo, never black)
+  c: { line: '#2f2a6b', paper: '#f4efe3', grass: '#7cbf4a', leafG: '#3f9a45', sun: '#f6c431',
+       orange: '#f08a24', red: '#d8402b', blue: '#4f86c6', brown: '#8a5a2b', skin: '#f3c39b',
+       pink: '#ef8fa8', hair: '#4a2c1a' }
+};
+const W = 1080, H = 1920;
+
+// ---------- deterministic helpers ----------
+const hash = (...n) => { let s = 0; n.forEach((v, i) => s += v * (12.9898 + i * 78.233)); const x = Math.sin(s) * 43758.5453; return x - Math.floor(x); };
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const ease = x => x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
+function rng(seed) { let s = seed >>> 0; return () => (s = (s * 1664525 + 1013904223) >>> 0) / 4294967296; }
+
+// ---------- paper + tooth (anchored to the page) ----------
+const paper = document.createElement('canvas'), tooth = document.createElement('canvas');
+paper.width = tooth.width = W; paper.height = tooth.height = H;
+(function buildPaper() {
+  const r = rng(7), small = document.createElement('canvas'); small.width = 135; small.height = 240;
+  const sg = small.getContext('2d'), sd = sg.createImageData(135, 240);
+  for (let i = 0; i < sd.data.length; i += 4) { const v = r() * 255; sd.data[i] = sd.data[i + 1] = sd.data[i + 2] = v; sd.data[i + 3] = 255; }
+  sg.putImageData(sd, 0, 0);
+  const mid = document.createElement('canvas'); mid.width = W; mid.height = H;
+  const mg = mid.getContext('2d'); mg.imageSmoothingEnabled = true; mg.drawImage(small, 0, 0, W, H);
+  const md = mg.getImageData(0, 0, W, H).data;
+  const pg = paper.getContext('2d'), tg = tooth.getContext('2d');
+  const pd = pg.createImageData(W, H), td = tg.createImageData(W, H);
+  for (let y = 0, i = 0; y < H; y++) for (let x = 0; x < W; x++, i += 4) {
+    const fine = r(), m = md[i] / 255, fibre = 0.5 + 0.5 * Math.sin(y * 0.9 + Math.sin(x * 0.013) * 3);
+    const tv = 0.55 * fine + 0.3 * m + 0.15 * fibre;
+    const vx = (x / W - .5), vy = (y / H - .5), vig = 1 - 0.18 * (vx * vx + vy * vy) * 2;
+    const k = (0.98 + 0.04 * m - 0.03 * fine) * vig;
+    pd.data[i] = 244 * k; pd.data[i + 1] = 239 * k; pd.data[i + 2] = 227 * k; pd.data[i + 3] = 255;
+    td.data[i + 3] = 255 * clamp(0.4 + (tv - 0.32) * 1.9, 0.35, 1);  // wax sticks to tooth peaks
+  }
+  pg.putImageData(pd, 0, 0); tg.putImageData(td, 0, 0);
+})();
+
+// ---------- shapes ----------
+function circlePts(cx, cy, r, n = 56, wob = 0, seed = 1) {
+  const p = []; for (let i = 0; i <= n; i++) { const a = i / n * Math.PI * 2 - Math.PI / 2;
+    const rr = r * (1 + wob * (Math.sin(a * 5 + seed) * .6 + Math.sin(a * 9 + seed * 2) * .4)); p.push([cx + Math.cos(a) * rr, cy + Math.sin(a) * rr]); }
+  return p;
+}
+function leafPts(cx, cy, len, ang) {
+  const p = [], n = 30;
+  for (let i = 0; i <= n; i++) { const s = i / n; p.push([s * len, Math.sin(s * Math.PI) * len * .28]); }
+  for (let i = n; i >= 0; i--) { const s = i / n; p.push([s * len, -Math.sin(s * Math.PI) * len * .28]); }
+  const c = Math.cos(ang), sn = Math.sin(ang);
+  return p.map(([x, y]) => [cx + x * c - y * sn, cy + x * sn + y * c]);
+}
+function resample(pts, step = 6) {
+  const out = [pts[0]];
+  for (let i = 1; i < pts.length; i++) { const [ax, ay] = pts[i - 1], [bx, by] = pts[i];
+    const d = Math.hypot(bx - ax, by - ay), k = Math.max(1, Math.round(d / step));
+    for (let j = 1; j <= k; j++) out.push([ax + (bx - ax) * j / k, ay + (by - ay) * j / k]); }
+  return out;
+}
+
+// ---------- crayon primitives ----------
+function crayonLine(g, pts, p, col, w, seed, boil, amp = 1) {
+  if (p <= 0) return;
+  const P = resample(pts), n = Math.max(2, Math.floor(P.length * p));
+  const passes = [[1, w, 0], [.45, w * .35, w * .3], [.35, w * .3, -w * .3]];
+  passes.forEach(([a, lw, off], k) => {
+    g.strokeStyle = col; g.lineCap = 'round'; g.lineJoin = 'round'; g.globalAlpha = a;
+    for (let i = 1; i < n; i++) {
+      const s = i / P.length, taper = clamp(Math.min(s / .08, (1 - s) / .08, 1) * .6 + .4, .4, 1);
+      g.lineWidth = lw * taper * (0.85 + 0.3 * hash(seed, i >> 3));
+      const j = (q, idx) => [q[0] + (hash(seed, idx, boil, k) - .5) * 2 * amp + Math.sin(idx * .07 + seed) * 1.2 + off * .3,
+                             q[1] + (hash(seed + 3, idx, boil, k) - .5) * 2 * amp + off * .3];
+      const [x0, y0] = j(P[i - 1], i - 1), [x1, y1] = j(P[i], i);
+      g.beginPath(); g.moveTo(x0, y0); g.lineTo(x1, y1); g.stroke();
+    }
+  });
+  g.globalAlpha = 1;
+}
+function crayonFill(g, pts, p, col, pressure, seed, boil, ang = -0.45, gap = 11) {
+  if (p <= 0) return;
+  let cx = 0, cy = 0; pts.forEach(q => { cx += q[0]; cy += q[1]; }); cx /= pts.length; cy /= pts.length;
+  let R = 0; pts.forEach(q => R = Math.max(R, Math.hypot(q[0] - cx, q[1] - cy)));
+  const grow = 1 + 7 / Math.max(R, 20);   // overshoot the outline a few px
+  g.save(); g.beginPath();
+  pts.forEach((q, i) => { const x = cx + (q[0] - cx) * grow, y = cy + (q[1] - cy) * grow; i ? g.lineTo(x, y) : g.moveTo(x, y); });
+  g.closePath(); g.clip();
+  g.translate(cx, cy); g.rotate(ang);
+  const rows = Math.ceil(2 * R / gap), shown = rows * p;
+  g.strokeStyle = col; g.lineCap = 'round'; g.lineWidth = gap * .8;
+  for (let r = 0; r < shown; r++) {
+    const y = -R + r * gap + (hash(seed, r, boil) - .5) * 2, frac = Math.min(1, shown - r);
+    g.globalAlpha = pressure * (0.75 + 0.25 * hash(seed, r));
+    g.beginPath(); const x0 = -R, x1 = -R + 2 * R * frac;
+    if (r % 2) { g.moveTo(-x0, y); g.lineTo(-x1, y + gap * .4); } else { g.moveTo(x0, y); g.lineTo(x1, y + gap * .4); }
+    g.stroke();
+  }
+  if (p > .6) { g.rotate(1.1); g.lineWidth = gap * .45; g.globalAlpha = pressure * .35 * prog(p, .6, 1);
+    for (let r = 0; r < rows; r++) { const y = -R + r * gap * 1.6; g.beginPath(); g.moveTo(-R, y); g.lineTo(R, y); g.stroke(); } }
+  g.restore(); g.globalAlpha = 1;
+}
+const seg = new Intl.Segmenter('th', { granularity: 'grapheme' });
+function crayonText(g, str, x, y, size, weight, col, p, seed, boil) {
+  if (p <= 0) return;
+  g.font = `${weight} ${size}px Mali`; g.textBaseline = 'alphabetic'; g.fillStyle = col;
+  const cl = [...seg.segment(str)].map(s => s.segment);
+  const ws = cl.map(c => g.measureText(c).width), total = ws.reduce((a, b) => a + b, 0);
+  let cx = x - total / 2; const shown = Math.floor(cl.length * p + 1e-6);
+  for (let i = 0; i < shown; i++) {
+    g.save(); g.translate(cx + ws[i] / 2 + (hash(seed, i, boil) - .5) * 2, y + (hash(seed + 1, i, boil) - .5) * 3);
+    g.rotate((hash(seed + 2, i) - .5) * .1); g.textAlign = 'center'; g.fillText(cl[i], 0, 0); g.restore();
+    cx += ws[i];
+  }
+  return total;
+}
+
+// ---------- the page ----------
+const C = CONFIG.c;
+const ground = (() => { const p = []; for (let x = 60; x <= 1020; x += 20) p.push([x, 1300 + Math.sin(x * .012) * 10]); return p; })();
+const grassPoly = [...ground, [1020, 1385], [60, 1385]];
+const sun = circlePts(850, 560, 85, 48, .02, 3);
+const rays = Array.from({ length: 10 }, (_, i) => { const a = i / 10 * Math.PI * 2; return [[850 + Math.cos(a) * 110, 560 + Math.sin(a) * 110], [850 + Math.cos(a) * 160, 560 + Math.sin(a) * 160]]; });
+const crown = circlePts(300, 880, 190, 72, .07, 5);
+const trunk = [[272, 1302], [330, 1302], [318, 1050], [288, 1050], [272, 1302]];
+const head = circlePts(640, 1000, 72, 48, .015, 9);
+const hair = (() => { const p = []; for (let i = 0; i <= 24; i++) { const a = Math.PI + i / 24 * Math.PI; p.push([640 + Math.cos(a) * 80, 995 + Math.sin(a) * 82]); }
+  p.push([712, 1030], [690, 975], [600, 975], [568, 1030]); p.push(p[0]); return p; })();
+const shirt = [[592, 1075], [688, 1075], [716, 1215], [564, 1215], [592, 1075]];
+const leaf = leafPts(790, 990, 120, -0.75);
+const birds = [[[470, 470], [495, 452], [520, 470]], [[540, 420], [560, 406], [580, 420]]];
+const arrow = [[860, 880], [835, 915], [812, 940]];
+
+const canvas = document.getElementById('scene'), ctx = canvas.getContext('2d');
+const page = document.createElement('canvas'), wax = document.createElement('canvas');
+page.width = wax.width = W; page.height = wax.height = H;
+const pg = page.getContext('2d'), wg = wax.getContext('2d');
+
+function drawPage(t) {
+  const T = Math.floor(t * 12) / 12, b = Math.floor(t * 6), bg = Math.floor(t * 6 * .6);  // 12 fps drawing, boil on twos
+  pg.drawImage(paper, 0, 0);
+  wg.clearRect(0, 0, W, H);
+  // fills first (outline sits on top)
+  crayonFill(wg, grassPoly, prog(T, 2.0, 3.0), C.grass, .55, 11, 0, -.2);
+  crayonFill(wg, sun, prog(T, 2.5, 3.3), C.sun, .95, 12, 0);
+  crayonFill(wg, crown, prog(T, 3.3, 4.6), C.leafG, .85, 13, 0, -.6);
+  crayonFill(wg, trunk, prog(T, 3.6, 4.3), C.brown, .9, 14, 0, .3);
+  crayonFill(wg, head, prog(T, 5.2, 5.7), C.skin, .7, 15, b);
+  crayonFill(wg, hair, prog(T, 5.5, 6.0), C.hair, .95, 16, b);
+  crayonFill(wg, shirt, prog(T, 5.7, 6.5), C.orange, .95, 17, b, -.5, 10);   // colouring = putting the shirt on
+  crayonFill(wg, leaf, prog(T, 7.0, 7.7), C.red, 1, 18, b, .8, 8);          // the leaf turns red = the lesson
+  // outlines
+  crayonLine(wg, ground, prog(T, 1.0, 2.0), C.line, 9, 21, bg, .6);
+  crayonLine(wg, sun, prog(T, 1.6, 2.5), C.orange, 9, 22, bg, .6);
+  rays.forEach((r, i) => crayonLine(wg, r, prog(T, 2.2 + i * .04, 2.6 + i * .04), C.orange, 8, 30 + i, bg, .6));
+  birds.forEach((r, i) => crayonLine(wg, r, prog(T, 3.0 + i * .2, 3.4 + i * .2), C.line, 6, 40 + i, bg, .6));
+  crayonLine(wg, crown, prog(T, 2.3, 3.3), C.line, 10, 23, bg, .6);
+  crayonLine(wg, trunk, prog(T, 2.8, 3.4), C.line, 10, 24, bg, .6);
+  // the child: heaviest outline, full boil
+  crayonLine(wg, head, prog(T, 4.2, 4.8), C.line, 12, 25, b);
+  crayonLine(wg, shirt, prog(T, 4.6, 5.1), C.line, 12, 26, b);
+  crayonLine(wg, [[610, 1215], [605, 1300]], prog(T, 4.9, 5.1), C.blue, 18, 27, b);
+  crayonLine(wg, [[670, 1215], [676, 1300]], prog(T, 4.9, 5.1), C.blue, 18, 28, b);
+  crayonLine(wg, [[588, 1100], [540, 1185]], prog(T, 5.0, 5.2), C.line, 12, 29, b);
+  crayonLine(wg, [[694, 1098], [760, 1020]], prog(T, 5.0, 5.2), C.line, 12, 31, b);
+  if (T > 5.2) { [[536, 1192], [766, 1013]].forEach(([x, y], i) => crayonFill(wg, circlePts(x, y, 15, 20), 1, C.skin, .9, 50 + i, b));
+    [[536, 1192], [766, 1013]].forEach(([x, y], i) => crayonLine(wg, circlePts(x, y, 15, 20), 1, C.line, 7, 52 + i, b)); }
+  if (T > 4.8) {
+    wg.fillStyle = C.line; [[615, 995], [665, 995]].forEach(([x, y]) => { wg.beginPath(); wg.arc(x + (hash(x, b) - .5) * 1.5, y, 8, 0, 7); wg.fill(); });
+    wg.fillStyle = '#fff'; [[618, 991], [668, 991]].forEach(([x, y]) => { wg.beginPath(); wg.arc(x, y, 2.6, 0, 7); wg.fill(); });
+    crayonLine(wg, [[620, 1028], [640, 1040], [660, 1028]], 1, C.line, 6, 54, b);
+  }
+  if (T > 5.4) [[598, 1022], [682, 1022]].forEach(([x, y], i) => crayonFill(wg, circlePts(x, y, 13, 16), 1, C.pink, .7, 56 + i, b));
+  crayonLine(wg, leaf, prog(T, 6.4, 7.0), C.line, 9, 60, b);
+  crayonLine(wg, [[790, 990], [870, 905]], prog(T, 6.8, 7.0), C.line, 5, 61, b);
+  crayonLine(wg, arrow, prog(T, 8.2, 8.5), C.red, 7, 62, b);
+  // wax only sticks to the tooth
+  wg.globalCompositeOperation = 'destination-in'; wg.drawImage(tooth, 0, 0); wg.globalCompositeOperation = 'source-over';
+  pg.drawImage(wax, 0, 0);
+  // printed words of the book
+  crayonText(pg, CONFIG.title, 540, 250, 66, 700, C.line, prog(T, 0.2, 1.6), 70, b);
+  crayonText(pg, CONFIG.titleTh, 540, 330, 46, 700, C.orange, prog(T, 1.0, 2.0), 71, b);
+  crayonText(pg, CONFIG.word, 840, 810, 74, 700, C.red, prog(T, 7.6, 8.2), 72, b);
+  crayonText(pg, CONFIG.wordTh, 840, 862, 40, 700, C.line, prog(T, 8.0, 8.6), 73, b);
+  if (T > 9.2) {   // ragged knock-out patch of blank paper behind the subtitle
+    pg.save(); pg.beginPath();
+    for (let i = 0; i <= 40; i++) { const a = i / 40 * Math.PI * 2; pg.lineTo(540 + Math.cos(a) * (470 + hash(i, 1) * 18), 1590 + Math.sin(a) * (105 + hash(i, 2) * 10)); }
+    pg.closePath(); pg.clip(); pg.drawImage(paper, 0, 0); pg.restore();
+  }
+  crayonText(pg, CONFIG.line1, 540, 1575, 46, 700, C.line, prog(T, 9.3, 10.6), 74, b);
+  crayonText(pg, CONFIG.line2, 540, 1645, 42, 400, C.orange, prog(T, 10.4, 11.3), 75, b);
+}
+
+let fontsReady = null;
+function ensureFonts() { return fontsReady ||= Promise.all([document.fonts.load('700 40px Mali'), document.fonts.load('400 40px Mali')]); }
+function draw(t) {
+  canvas.width = innerWidth; canvas.height = innerHeight;
+  drawPage(t);
+  // camera: a slow push over the page (24 fps), toward the child mid-film
+  const tc = Math.floor(t * 24) / 24, z = 1.03 + .05 * ease(prog(tc, 0, CONFIG.duration));
+  const hw = W / 2 / z, hh = H / 2 / z;   // keep the page filling the frame (no edge showing)
+  const fx = clamp(540 + 40 * ease(prog(tc, 4, 9)), hw, W - hw), fy = clamp(960 + 30 * ease(prog(tc, 4, 9)), hh, H - hh);
+  const s = canvas.width / W;
+  ctx.setTransform(s * z, 0, 0, s * z, canvas.width / 2 - fx * s * z, canvas.height / 2 - fy * s * z);
+  ctx.fillStyle = C.paper; ctx.fillRect(-100, -100, W + 200, H + 200);
+  ctx.drawImage(page, 0, 0);
+}
+window.renderAt = async t => { await ensureFonts(); draw(t); };
+const q = new URLSearchParams(location.search);
+if (q.has('t')) window.renderAt(Number(q.get('t')) || 0);
+else if (!q.has('export')) ensureFonts().then(() => { const st = performance.now(); (function loop(now) { draw(((now - st) / 1000) % CONFIG.duration); requestAnimationFrame(loop); })(st); });
+</script>
+</html>
