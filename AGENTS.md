@@ -55,6 +55,10 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 - Full commercial-game system pass → retention director as lead, economy director only when purchase/economy scope is relevant
 - Current Roblox platform claims → verify official Creator Hub; use dated research notes rather than silently hard-coding volatile limits
 
+### Code animation (vendored project skill)
+- Code-rendered motion graphics / animated title cards / HTML-to-MP4 in a chosen style → `code-animation-prompts` (in `.claude/skills/`; free-share license, never resell). BEV and ghost-series style picks + Openjutsu notes: `docs/CODE_ANIMATION_AND_OPENJUTSU_GUIDE.md`
+- Never face/body-swap real children from BEV footage; character swaps only for approved fictional characters or consenting adults.
+
 ### Image
 - Concept + prompt + art direction → `image-art-director`
 - Final visual audit → `visual-qa`

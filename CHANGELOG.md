@@ -1,3 +1,9 @@
+# 5.1.0 — Code animation skill — 2026-11-05
+
+- Vendored `XiaoyeCodes/code-animation-prompts` (commit 103ac7e) as a project skill at `.claude/skills/code-animation-prompts/` (341 style prompts, 196 reference stills, picker, `styles.py`, `render_video.py`). Demo `.mp4` files omitted to keep the repo small; upstream free-share license kept as `UPSTREAM_LICENSE.md`.
+- Added `docs/CODE_ANIMATION_AND_OPENJUTSU_GUIDE.md` with install steps, BEV and ghost-series style picks, and Openjutsu requirements, cloud alternative and consent rules.
+- Added routing and a no-child-face-swap rule to `AGENTS.md`.
+
 # 5.0.0 — Cinematic AI Drama Set-piece Studio — 2026-09-22
 
 - Added `cinematic-setpiece-director` for emotionally necessary large-scale sequences, reveal hierarchy, geography, hero images, crowd/event zoning, complexity budgets and reduced-complexity fallbacks.
