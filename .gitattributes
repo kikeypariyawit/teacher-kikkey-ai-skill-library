@@ -1,0 +1,2 @@
+# Preserve the vendored code-animation-prompts library byte for byte.
+.claude/skills/code-animation-prompts/assets/library/** -text
