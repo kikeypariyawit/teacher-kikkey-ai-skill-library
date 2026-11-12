@@ -57,6 +57,7 @@ A reusable operating system for recurring creative, education, marketing, AI-fil
 
 ### Code animation (vendored project skill)
 - Code-rendered motion graphics / animated title cards / HTML-to-MP4 in a chosen style → `code-animation-prompts` (in `.claude/skills/`; free-share license, never resell). BEV and ghost-series style picks + Openjutsu notes: `docs/CODE_ANIMATION_AND_OPENJUTSU_GUIDE.md`
+- Full code-made short film (direct + draw + score + voice + mix) in a named film style, or "which film styles are there" → `lemo-opuscar` (in `.claude/skills/`; MIT, upstream `github.com/lemomo-ai/lemo-opuscar`; fetches its style library to `~/lemo-opuscar` on first use; needs Node 20+, ffmpeg 7+, Python 3.11+)
 - Never face/body-swap real children from BEV footage; character swaps only for approved fictional characters or consenting adults.
 
 ### Image
